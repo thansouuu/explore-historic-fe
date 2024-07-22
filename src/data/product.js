@@ -9,7 +9,7 @@ export default [
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Chị Út Tịch',
                 game: '',
-                view: 0,
+                view: 100,
                 description: 'Tên thật là Nguyễn Thị Út, sinh ngày 19/4/1931 tại xã Tam Ngãi, quận Cầu Kè, tỉnh Cần Thơ. Dưới thời...',
                 contents: [
                     {
@@ -30,6 +30,16 @@ export default [
                                 type: 'hightlight',
                                 value: `- Tên thật là Nguyễn Thị Út, sinh ngày 19/4/1931 tại xã Tam Ngãi, quận Cầu Kè, tỉnh Cần Thơ. Dưới thời Mỹ ngụy là xã Tam Ngãi, quận Cầu Kè, tỉnh Vĩnh Bình. Hiện nay là xã Tam Ngãi, huyện Cầu Kè, tỉnh Trà Vinh. Cha là Nguyễn Văn Lương, người làng Tích Thiện, quận Trà Ôn, tỉnh Cần Thơ. Mẹ là bà Lê Thị Mười quê xã Tam Ngãi, quận Cầu Kè. Chị em của Nguyễn Thị Út lần lượt là Nguyễn Thị Keo, tức chị Hai Keo và Nguyễn Thị Cao, tức chị Ba Cao. Cha và mẹ của chị út ở đợ cho địa chủ Hàm Giỏi. Vì thế, 3 chị em của chị được sinh ra và lớn lên trong nhà địa chủ Hàm Giỏi. Phận tôi tớ cứ gắn liền với gia đình của chị . Trong ba chị em, Út là đứa “rắn mắt”, cứng cỏi và gan dạ nhất. Năm 12 tuổi, Nguyễn Thị Út đã dám đánh trả lại địa chủ. Cụ thể là ném dao cau vào tay vợ Hàm Giỏi, ném ớt bột vào mắt vợ Hội đồng Thanh. Hành động ấy, khí chất ấy tuy rất hồn nhiên và tự phát của tuổi thơ ngây nhưng cũng dự báo một tính cách anh hùng quả cảm của chị Nguyễn Thị Út sau này.`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            id:'id3',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'Nguyễn Thị Keo',
                                         valueModal: {
@@ -57,6 +67,16 @@ export default [
                                 type: 'hightlight',
                                 value: `- Năm 1944, cha chị qua đời, khi ấy chị chỉ mới 13 tuổi. Sau đó, chị em út tịch được gia đình đồng chí Nguyễn Hòa Luông - cán bộ Việt Minh xã Tam Ngãi, theo yêu cầu của chi bộ Đảng địa phương, đã đem tiền chuộc lại tự do. Từ đây, cuộc đời ở đợ của bà đã chấm dứt. Đầu năm 1950, Nguyễn Thị Út xây dựng gia đình với Lâm Văn Tịch, ông là người Việt gốc Khmer, cũng là chiến sĩ trong lực lượng vũ trang địa phương và sau đó chị sinh được 9 người con kể cả trong thời gian chị hoạt động cách mạng. Người con đầu mất sớm chưa kịp đặt tên. Đứa con thứ hai của chị là Lâm Thị Bé sinh năm 1953, còn gọi là Bé Ba. Đứa con thứ ba là Lâm Thị Thanh, hay còn gọi là Lâm Thị Mỹ Thanh. Đứa con thứ tư là Lâm Thị Thơ.  Người con thứ năm là Lâm Thị Kim Anh (1959). Người con thứ sáu là Lâm Văn Hiển sinh năm 1961, còn gọi là Bảy Hiển. Người con thứ bảy là Lâm Văn Hùng sinh năm 1964, còn gọi là Lâm Thanh Hùng. Tiếp đó là bà Lâm Thị Đồng Xuân sinh năm 1965. Người con cuối cùng là Lâm Thị Hồng, sinh năm 1968, còn gọi là Lâm Thị Xuân Hồng, ra đời trước khi mẹ mất chỉ 14 ngày.`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'gốc Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            id:'id1',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'xây dựng gia đình',
                                         valueModal: {
@@ -139,6 +159,16 @@ export default [
                                 type: 'hightlight',
                                 value:`- Tháng 9 năm 1945, sau Cách mạng tháng Tám thành công, thực dân Pháp xâm lược nước ta lần thứ hai. Nguyễn Thị Út đã đến với cách mạng, với kháng chiến thật đơn giản, như câu nói của bà “Còn cái lai quần cũng đánh”. Nguyễn Thị Út tham gia công tác trinh sát, liên lạc cho đơn vị công an xung phong Cầu Kè, do đồng chí Nguyễn Hòa Luông làm Chỉ huy trưởng. Chị theo dõi, nắm vững tình hình địch, báo tin kịp thời với lực lượng quân sự địa phương và bộ đội chủ lực để phối hợp tác chiến đó là trận Rạch Cách, trận bót Bến Cát, gây nhiều tổn thất cho địch. Chị hoàn thành nhiệm vụ trao kế hoạch của chú Chín Luông cho cơ sở bí mật để tổ chức cứu một đồng chí lãnh đạo Ban binh vận tỉnh bị bắt, bí mật đưa vũ khí qua Cầu Kè cho anh em giết tên quận Hùm khét tiếng ác ôn lúc bấy giờ. `,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'Cách mạng tháng Tám',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/10/product/35',
+                                            id:'id2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'xâm lược',
                                         valueModal: {
@@ -415,8 +445,8 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `* Chị Út Tịch qua lời kể anh Thanh Hiển - người con thứ 5 của chị:`,
+                                type: 'bold',
+                                value: `Chị Út Tịch qua lời kể anh Thanh Hiển - người con thứ 5 của chị:`,
                             },
                             {
                                 type: 'text',
@@ -432,8 +462,8 @@ export default [
                             },
 
                             {
-                                type: 'text',
-                                value: `* Những câu nói nổi tiếng của chị:`,
+                                type: 'bold',
+                                value: `Những câu nói nổi tiếng của chị:`,
                             },
                             {
                                 type: 'text',
@@ -487,8 +517,18 @@ export default [
                     },
                     {
                         id: 2,
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Huyện Cầu Kè',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        id: 3,
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
+                    },
+                    {
+                        id: 4,
+                        title: 'Cách mạng Tháng Tám',
+                        link: '/tieng-viet/figure/10/product/35',
                     },
                 ],
             },
@@ -512,8 +552,20 @@ export default [
                                 ],
                             },
                             {
+                                type: 'hightlight',
                                 value: ` - Nhà cách mạng Dương Quang Đông sinh năm 1902, mất năm 2003. Ông còn có tên Dung Văn Phúc, và là người ấp Mỹ Cầm, xã Mỹ Hoà, huyện Cầu Ngang, tỉnh Trà Vinh. Năm 1916, ông học xong sơ học, sau đó lên bậc thành chung tại trường Huỳnh Khương Ninh (thuộc khu vực Đa Kao, Sài Gòn). Năm 1919, khi ông học lớp đệ tam thì bị đuổi học vì có biểu hiện chống đối chính quyền thống trị của thực dân Pháp trên đất nước ta. Ông kiếm sống bằng nhiều nghề như làm thợ máy, lái xe, kéo xe,..`,
-                                type: 'text',
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Ngang',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            id:'id1',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -696,8 +748,18 @@ export default [
                             },
                             {
                                 type: 'hightlight',
-                                value:`- Ngày 24/8/1945, tại Hội nghị Xứ ủy tổ chức tại tại Chợ Đêm, Xứ ủy Nam kỳ công bố lệnh Tổng khởi nghĩa, đồng chí Dương Quang Đông lên xe đạp thần tốc, bay về Trà Vinh cùng Đảng bộ và nhân dân tỉnh nhà giành lấy chính quyền. Trên cương vị là Bí thư Tỉnh ủy kiêm Chủ tịch Ủy ban Khởi nghĩa, ông có nhiều đóng góp quan trọng cho thắng lợi trọn vẹn mà không đổ máu của cuộc Tổng nghĩa Cách mạng Tháng Tám ở Trà Vinh.`,
+                                value:`- Ngày 24/8/1945, tại Hội nghị Xứ ủy tổ chức tại tại Chợ Đêm, Xứ ủy Nam kỳ công bố lệnh Tổng khởi nghĩa, đồng chí Dương Quang Đông lên xe đạp thần tốc, bay về Trà Vinh cùng Đảng bộ và nhân dân tỉnh nhà giành lấy chính quyền. Trên cương vị là Bí thư Tỉnh ủy kiêm Chủ tịch Ủy ban Khởi nghĩa, ông có nhiều đóng góp quan trọng cho thắng lợi trọn vẹn mà không đổ máu của cuộc Tổng khởi nghĩa Cách mạng Tháng Tám ở Trà Vinh.`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'Cách mạng Tháng Tám',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/10/product/35',
+                                            id:'id2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'công bố',
                                         valueModal: {
@@ -773,6 +835,16 @@ export default [
                                 value: '- Năm 1957, bị bắt giam tại bót Catinat, thừa cơ trốn thoát chạy về Cà Mau, được sự giúp đỡ của đồng chí Phạm Thái Bường lo giấy tờ trở về Sài Gòn và được đưa qua Phnôm Pênh cùng một số cán bộ cốt cán, bắt liên lạc tiếp tục công tác.',
                                 hightlightList: [
                                     {
+                                        hightlight: 'Phạm Thái Bường',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/1/product/3',
+                                            id:'id3',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
                                         hightlight: 'bót Catinat',
                                         valueModal: {
                                             type: 'image',
@@ -814,7 +886,7 @@ export default [
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Ngày 23/9/1977, nhân kỷ niệm ngày Nam bộ kháng chiến, Câu lạc bộ Hưu trí TP.HCM được thành lập. Đồng chí Dương Quang Đông được Thành ủy cử vào cương vị Chủ nhiệm Câu lạc bộ. Ông là chủ nhiệm của câu lạc bộ đến năm 2000`,
+                                value: `- Ngày 23/9/1977, nhân kỷ niệm ngày Nam bộ kháng chiến, Câu lạc bộ Hưu trí TP.HCM được thành lập. Đồng chí Dương Quang Đông được Thành ủy cử vào cương vị Chủ nhiệm Câu lạc bộ. Ông là chủ nhiệm của câu lạc bộ đến năm 2000.`,
                                 hightlightList: [
                                     {
                                         hightlight: 'Đồng chí Dương Quang Đông',
@@ -926,13 +998,24 @@ export default [
         
                 tags: [
                     {
-                        id: 1,
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 4,
+                        title: 'Nhân vật',
+                        link: '/tieng-viet/figure/1',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 1,
+                        title: 'Huyện Cầu Ngang',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        id: 2,
+                        title: 'Cách mạng tháng Tám',
+                        link: '/tieng-viet/figure/10/product/35',
+                    },
+                    {
+                        id: 3,
+                        title: 'Phạm Thái Bường',
+                        link: '/tieng-viet/figure/1/product/3',
                     },
                 ],
             },
@@ -955,8 +1038,20 @@ export default [
                                 ],
                             },
                             {
+                                type: 'hightlight',
                                 value: `- Nhà cách mạng Phạm Thái Bường sinh năm 1915, mất năm 1974,  bí danh Lê Thành Nhân. Ông sinh ra tại xã Mỹ Cẩm, huyện Càng Long, tỉnh Trà Vinh. Do hoàn cảnh kinh tế gia đình, nên năm 15 tuổi, chú bé Bường đã phải đi làm nghề phụ hồ để nuôi thân.`,
-                                type: 'text',
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Càng Long',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            id:'id1',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -1197,32 +1292,18 @@ export default [
                 tags: [
                     {
                         id: 1,
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Nhân vật',
+                        link: '/tieng-viet/figure/1',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 2,
+                        title: 'Huyện Càng Long',
+                        link: '/tieng-viet/map',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 1,
+                        title: 'Dương Quang Đông',
+                        link: '/tieng-viet/figure/1/product/2',
                     },
                 ],
             },
@@ -1252,6 +1333,26 @@ export default [
                                 type: 'hightlight',
                                 value: `- Sơn Thông sinh năm 1910, mất năm 1997. Tên thật là Sơn Thông bí danh là Mười Tăng, sinh ra trong một gia đình trung nông, tại ấp Giồng Tranh, xã Tập Ngãi, huyện Tiểu Cần, tỉnh Trà Vinh. Ông là người dân tộc Khmer, nên từ nhỏ đã hướng theo tu hành giáo lý nhà Phật. 14 tuổi ông đã bắt đầu đi tu. Vào chùa ông gặp thầy Mai Tấn Nhơn. Thấy ông có tư chất thông minh, ham học nên năm 1926 thầy Mai Tấn Nhơn đưa ông sang Thái Lan để học chữ Pa-Li. Ngót 10 năm theo học chữ Pa-Li và kinh sách Phật, khi tốt nghiệp, Sơn Thông được phong học vị Ma-Ha. Năm 1939, ông trở về Trà Vinh tiếp tục tu hành, dạy chữ Pa-li và Phật học tại chùa Kan-Snone (xã Nhị Trường, huyện Cầu Ngang). Ông là một trong những vị Ma-Ha yêu nước.Năm 1943, ông hoàn tục về lấy vợ, sống ở ấp Giồng Tranh, xã Tập Ngãi, huyện Tiểu Cần, tỉnh Trà Vinh.`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'huyện Tiểu Cần',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            id:'id1',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'dân tộc Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            id:'id2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'tu hành giáo lý',
                                         valueModal: {
@@ -1580,12 +1681,18 @@ export default [
                 tags: [
                     {
                         id: 1,
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Nhân vật',
+                        link: '/tieng-viet/figure/1',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 2,
+                        title: 'Huyện Tiểu Cần',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        id: 3,
+                        title: 'Dân tộc Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
                     },
                 ],
             },
@@ -1613,6 +1720,26 @@ export default [
                                 value: `- Thống chế Nguyễn Văn Tồn sinh năm 1763, mất năm 1820. Tên thật là Thạch Duyên (hay còn gọi là Thạch Duồn), tục danh Tà Duồn, gốc người Khmer, vì có công nên được Nhà Nguyễn ban cho tên họ là Nguyễn Văn Tồn.  Ông là người thôn Nguyệt Lãng, huyện Vĩnh Trị (nay thuộc xã Bình Phú, huyện Càng Long, tỉnh Trà Vinh). Theo Đại Nam liệt truyện, Thống chế Nguyễn Văn Tồn có một người con tên Yên Vy.  Sách ghi chép lại rằng ông có tướng mạo khôi ngô, võ nghệ cao cường, tính tình cương trực.`,
                                 hightlightList: [
                                     {
+                                        hightlight: 'huyện Càng Long',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            id:'id1',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'người Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            id:'id2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
                                         hightlight: 'thôn Nguyệt Lãng',
                                         valueModal: {
                                             type: 'image',
@@ -1620,40 +1747,6 @@ export default [
                                         }
                                     },
                                 ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `Câu chuyện bắt đầu từ những năm 1980, khi một bà mẹ có sáu người con mở một gánh bánh canh ngay bên
-                                cầu Bến Có. Với lòng đam mê và bí quyết gia truyền, họ đã từng bước phát triển kinh doanh của mình.
-                                Sau khi người mẹ qua đời, sáu người con đã tiếp tục nối nghiệp và phát triển thương hiệu bánh canh
-                                Bến Có. Hiện nay, thương hiệu bánh canh Bến Có đã trở nên nổi tiếng và mở rộng cả vào các tỉnh miền
-                                Tây ra đến Hồ Chí Minh và tham gia vào các sự kiện liên quan đến ẩm
-                                thực trên toàn quốc. Món bánh canh này đã trở thành biểu tượng của Trà Vinh và điểm dừng chân không
-                                thể bỏ lỡ cho du khách khi đến đây.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Hồ Chí Minh',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://buhkhkt.github.io/CHINH/b%C3%A1nh%20canh%20th%C6%B0%E1%BB%9Fng%20th%E1%BB%A9c%204.jpg',
-                                        }
-                                    },
-                                    {
-                                        hightlight: 'khi đến đây.',
-                                        valueModal: {
-                                            type: 'tooltip',
-                                            id: 'bunha',
-                                            value: 'tooltip'
-                                        }
-                                    },
-                                    {
-                                        hightlight: 'Câu chuyện bắt đầu từ những năm 1980',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:  'https://buhkhkt.github.io/CHINH/b%C3%A1nh%20canh%20th%C6%B0%E1%BB%9Fng%20th%E1%BB%A9c%204.jpg',
-                                        }
-                                    },
-                                ]
                             },
                         ],
                     },
@@ -1678,6 +1771,16 @@ export default [
                                 type: 'hightlight',
                                 value: `- Năm 1780, chúa Nguyễn là Nguyễn Ánh lánh nạn vào Nam. Ông hết lòng phò chúa Nguyễn, lập nhiều đạo quân gồm hàng nghìn người Kinh, Khmer, vừa dựng đồn trấn giữ ở Trà Vang, Cầu Chông, Cầu Kè, Trà Ôn, Mang Thít, vừa giúp dân khai hoang, mở rộng vùng đất Cầu Kè, Trà Ôn (thuộc đạo Trấn Giang).`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'người Kinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/25',
+                                            id:'id3',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'Nguyễn Ánh',
                                         valueModal: {
@@ -1919,23 +2022,23 @@ export default [
                 tags: [
                     {
                         id: '1',
-                        title: 'Mua ngay',
-                        link: '/tieng-viet/figure/2',
+                        title: 'Nhân vật',
+                        link: '/tieng-viet/figure/1',
                     },
                     {
                         id: '2',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Huyện Càng Long',
+                        link: '/tieng-viet/map',
                     },
                     {
                         id: '3',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
                     },
                     {
                         id: '4',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Kinh',
+                        link: '/tieng-viet/figure/8/product/25',
                     },
                 ],
             },
@@ -6659,16 +6762,387 @@ export default [
         figureId: 10,
         data: [
             {
-                id: '23',
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
+                id: '35',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
                 video: '',
-                title: 'Tục thờ cá Ông',
-                description: 'Thờ cúng cá Ông (cá Voi) là tín ngưỡng đặc thù của ngư dân miền biển nói chung và ngư dân ở Trà Vinh ...',
+                title: 'Cách mạng Tháng Tám năm 1945 ở Trà Vinh',
+                description: 'Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu...',
                 game: '',
                 view: 100,
                 contents: [
                     {
-                        title: 'Vai trò',
+                        title: 'Chiến Tranh Thế Giới Thứ Hai và Phong Trào Cách Mạng ở Việt Nam',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Bối Cảnh Quốc Tế và Quốc Nội:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu các quyền tự do dân chủ mà nhân dân ta giành được trong thời kỳ Mặt trận Dân chủ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Năm 1940, Nhật vào Đông Dương, nhân dân ta chịu cảnh “một cổ hai tròng”.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Các Hội Nghị Trung Ương Đảng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị Trung ương lần thứ 6 (11/1939) và lần thứ 7 (11/1940) của Đảng chủ trương đề cao nhiệm vụ giải phóng dân tộc.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Hội nghị Trung ương 8 (5/1941) họp tại Cao Bằng, chủ trương thành lập một mặt trận dân tộc thống nhất rộng rãi lấy tên là “Việt Nam Độc lập Đồng minh hội” (Mặt trận Việt Minh), tập hợp tất cả những người có tinh thần dân tộc chống Pháp, chuẩn bị cho khởi nghĩa vũ trang giành chính quyền.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `*  Nhật Đảo Chính Pháp và Chỉ Thị Của Trung Ương Đảng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 9 tháng 3 năm 1945, Nhật đảo chính Pháp, Trung ương Đảng ra Chỉ thị “Nhật - Pháp bắn nhau và hành động của chúng ta”, phát động cao trào đánh đuổi phát xít Nhật.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị toàn quốc của Đảng họp tại Tân Trào (Tuyên Quang) từ ngày 13 đến 15 tháng 8 năm 1945 kêu gọi toàn dân đứng lên tổng khởi nghĩa giành chính quyền trong cả nước.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `*  Cuộc Tổng Khởi Nghĩa Tháng 8/1945:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Dưới sự lãnh đạo của Đảng, 25 triệu đồng bào ta đã tiến hành tổng khởi nghĩa trong 15 ngày cuối tháng 8/1945, giành thắng lợi hoàn toàn.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 2/9/1945, tại Quảng trường Ba Đình lịch sử, Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, tuyên bố sự ra đời của nước Việt Nam Dân chủ Cộng hòa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Phong Trào Cách Mạng và Cuộc Tổng Khởi Nghĩa Tại Trà Vinh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Nhận Lệnh Khởi Nghĩa và Tổ Chức Hội Nghị Tỉnh Ủy:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Chiều ngày 24 tháng 8 năm 1945, Tỉnh ủy Trà Vinh nhận được lệnh khởi nghĩa của Xứ ủy Nam Kỳ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị Tỉnh ủy được triệu tập vào lúc 18 giờ tại nhà số 37, cơ quan giao liên, quyết định tiến hành Tổng khởi nghĩa giành chính quyền trên toàn tỉnh vào đúng thời điểm theo lệnh Tổng khởi nghĩa của Xứ ủy. Đồng chí Dương Quang Đông, Bí thư Tỉnh ủy, giữ chức vụ Chủ tịch Ủy ban khởi nghĩa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Triển Khai Kế Hoạch Khởi Nghĩa:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ủy ban khởi nghĩa gấp rút triển khai kế hoạch chỉ đạo và phân công nhiệm vụ cho từng thành viên, phát lệnh Tổng khởi nghĩa đến Trưởng ban khởi nghĩa các địa phương trong tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Kế hoạch khởi nghĩa được bí mật triển khai đến mọi nhà, đồng bào Kinh - Khmer - Hoa tại Trà Vinh nhất tề hưởng ứng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `* Diễn Biến Khởi Nghĩa Tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong đêm 24 rạng sáng ngày 25 tháng 8, khởi nghĩa nổ ra tại tỉnh lỵ, sau đó lan tỏa xuống các quận lỵ và xã trong tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tại tỉnh lỵ Trà Vinh, các mục tiêu quan trọng bị bao vây vào nửa đêm 24 tháng 8 bởi các lực lượng quần chúng cách mạng, lực lượng Thanh niên Tiền phong giữ vai trò nòng cốt.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Phần lớn lực lượng địch tại tỉnh lỵ chỉ chống cự yếu ớt rồi buông súng đầu hàng, ngoại trừ một số tốp lính ngoan cố phải buông súng vào rạng sáng 25 tháng 8.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `* Kết Quả Khởi Nghĩa Tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Rạng sáng ngày 25/8/1945, toàn bộ các cứ điểm của địch ở tỉnh lỵ Trà Vinh đã thuộc quyền kiểm soát của lực lượng cách mạng, chính quyền thân Nhật tại Trà Vinh bị đập tan.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Các lực lượng khởi nghĩa tại các quận Càng Long, Cầu Ngang, Trà Cú, Cầu Kè cũng giành thắng lợi vào chiều ngày 25/8.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Quần chúng cách mạng dưới sự lãnh đạo của Đảng Cộng sản đã tổ chức ra các hình thức chính quyền dân chủ nhân dân.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Sáng ngày 28 tháng 8, một cuộc mít-tinh lớn diễn ra tại sân vận động tỉnh Trà Vinh, Ủy ban nhân dân tỉnh Trà Vinh chính thức ra mắt đồng bào các dân tộc trong tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `* Ý Nghĩa của Cách Mạng Tháng Tám 1945 tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Cách mạng Tháng Tám năm 1945 tại Trà Vinh giành thắng lợi nhờ thời cơ chiến lược "ngàn năm có một", đường lối chủ trương tài tình của Trung ương Đảng và Chủ tịch Hồ Chí Minh, và sự cổ vũ mạnh mẽ của cuộc tổng khởi nghĩa cả nước.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Nhân dân Trà Vinh có truyền thống chống thực dân và phong kiến kiên cường, với tinh thần "Đem sức ta mà giải phóng cho ta", toàn dân Trà Vinh đã nhất tề nổi dậy trong thời cơ thuận lợi nhất.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                ],
+            },
+            {
+                id: '36',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
+                video: '',
+                title: 'Sự hình thành của tỉnh Trà Vinh đầu thế kỉ XVIII - cuối thế kỉ XIX',
+                description: 'Trong thời kỳ phong kiến, người dân Trà Vinh phải đối mặt với nhiều khó khăn do sự áp bức từ chính quyền...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Thời kì phong kiến và sự hình thành Trà Vinh',
                         data: [
                             {
                                 type: 'grid-image',
@@ -6678,13 +7152,48 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Thờ cúng cá Ông (cá Voi) là tín ngưỡng đặc thù của ngư dân miền biển nói chung và ngư dân ở Trà Vinh nói riêng. Cá Ông đóng một vai trò hết sức quan trọng trong đời sống tâm linh của cư dân vùng biển Nam bộ.`,
+                                type: 'hightlight',
+                                value: `- Trong thời kỳ phong kiến, người dân Trà Vinh phải đối mặt với nhiều khó khăn do sự áp bức từ chính quyền. Họ phải nộp nhiều vật phẩm sản xuất, thuế ruộng đất, và thuế thủy lợi. Cuộc chiến khốc liệt giữa quân Tây Sơn và quân Nguyễn Ánh đã gián đoạn các hoạt động kinh tế, gây nạn mất mùa và khiến đời sống người dân ngày càng đói khổ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Vùng đất và tên gọi “Trà Vang”, tiền thân của tỉnh Trà Vinh, đã xuất hiện trước khi Chúa Nguyễn lập Châu Định Viễn và dựng Dinh Long Hồ vào năm 1732. Lúc bấy giờ, Trà Vinh thuộc Châu Định Viễn. Trong thế kỷ XVIII, vùng đất này trở thành chiến trường trong cuộc chiến giữa quân Xiêm và nghĩa quân Tây Sơn. Vào năm 1802, khi Vua Gia Long lên ngôi, vùng đất này thuộc Dinh Vĩnh Trấn. Sau đó, vào năm 1808, Gia Long đổi tên Gia Định Trấn thành Gia Định Thành, và vùng đất Trà Vinh thuộc Trấn Vĩnh Thanh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Năm 1825, Vua Minh Mạng lập Phủ Lạc Hóa, trực thuộc Gia Định Thành, gồm hai huyện Trà Vinh và Tuân Mỹ. Đến năm 1832, Trấn Vĩnh Thanh được đổi tên thành Trấn Vĩnh Long. Sau đó, Vua Minh Mạng chia các trấn thành tỉnh, và vùng đất Nam Bộ được chia thành sáu tỉnh gọi là “Nam Kỳ lục tỉnh”. Trà Vinh là một huyện thuộc Phủ Lạc Hóa, tỉnh Vĩnh Long.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
                     {
-                        title: 'Truyền thuyết',
+                        title: 'Phong trào đấu tranh chống Thực Dân Pháp',
                         data: [
                             {
                                 type: 'grid-image',
@@ -6698,45 +7207,69 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Có rất nhiều truyền thuyết, giai thoại, truyện kể trong dân gian liên quan đến tục lệ thờ cá Voi. “Tục  truyền rằng cá Voi là hóa thân từ chiếc áo cà sa của Phật Bà Quan  m. Một hôm, trên tòa sen nhìn lướt qua sóng gió đại dương Nam Hải, ngài không khỏi đau lòng khi thấy những ngư dân gặp cơn phong ba bão táp, phải bỏ mình vì giông tố. Trước cảnh tượng đó, Bồ Tát liền cởi chiếc cà sa, xé tan thành từng mảnh nhỏ ném xuống mặt biển. Mỗi mảnh vụn theo nguyện ý của Bồ Tát đã biến thành một con cá Voi với nhiệm vụ cứu nguy các ngư dân lâm nạn trước bão tố trên đại dương. Kể từ đó, cá voi là ân nhân của dân thuyền chài sống trên biển cả. Tuy nhiên, hình vóc cá voi lúc đó tương đối nhỏ, không đủ sức chống chọi với sóng to gió lớn, do vậy đức Quan Thế  m liền mượn bộ xương của ông Tượng (voi) trên rừng cho đàn cá, nhờ thế đàn cá mới đủ sức mạnh chống lại sức mạnh của đại dương. Cũng vì thế, đàn cá mang tên là cá voi (vì mượn xương voi và cũng to lớn như voi). Với cơ thể to lớn, cá voi mặc sức vẫy vùng giữa biển cả và đương đầu với sóng gió, kèm giữ cho tàu thuyền thăng bằng, không bị tan vỡ trong bão tố, sau đó còn dìu tàu thuyền vào tận bờ biển. Do to lớn nên chậm chạp, nhiều trường hợp biết có thuyền chài lâm nạn ở quá xa, cá voi cố sức bơi tới mà không cứu nổi nạn nhân. Để giúp cho cá voi làm tròn nhiệm vụ cứu nạn của mình, Bồ Tát liền ban cho chúng phép thâu đường (tức là rút ngắn con đường lại), dù ở bất cứ nơi nào cần đến đều có thể cứu kịp thời”.`,
-                            },
-                            {
-                                type: 'text',
-                                value: `- Một câu chuyện khác kể lại rằng: “Trong một lần bị quân tướng nhà Tây Sơn truy đuổi ráo riết, chúa Nguyễn Ánh lâm vào thế đường cùng, phía trước là cửa biển mênh mông, phía sau là tiếng vó ngựa mỗi lúc một gần thêm. Tính mệnh nhà Chúa chỉ còn như chỉ mành treo chuông thì bỗng đâu cá voi nổi lên, phun ba vòi nước lên trời tỏ lòng quy phục. Chúa mừng rỡ cùng đám binh lính yên vị trên lưng cá voi, rẽ sóng vượt cửa biển sang cù lao Cổ Chiên (nay là xã Long Hòa, huyện Châu Thành) trước khi quân Tây Sơn đuổi kịp”.`,
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Lễ hội cúng biển',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/III-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/III-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/III-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/III-4.jpg',
+                                type: 'hightlight',
+                                value: `- Năm 1833, nhân dân vùng đất Trà Vinh cùng nhân dân các tỉnh Nam Kỳ tham gia cuộc khởi nghĩa Lê Văn Khôi chống lại triều đình nhà Nguyễn. Cuộc khởi nghĩa đã khiến vua Minh Mạng phải điều động lực lượng lớn đến để đàn áp mới dập tắt được cuộc khởi nghĩa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Hàng năm Trà Vinh tổ chức lễ hội Cúng biển ở Mỹ Long - huyện Cầu Ngang (diễn ra 3 ngày 10, 11 và 12 tháng 5 âm lịch) và ở Động Cao – xã Đông Hải - huyện Duyên Hải (diễn ra 2 ngày 20 và 21 tháng 2 âm lịch). Lễ hội Cúng Biển Trà Vinh có nhiều nghi lễ liên tiếp diễn ra trình tự. Đó là trình tự: Lễ Túc Yết, Lễ nghinh Nam Hải, Lễ cúng giỗ Tiền vãng, Lễ cúng Thần Nông và Chiến sĩ, Lễ cúng Chánh tế Bà Chúa Xứ, Thầy cúng tế lễ, Lễ nghinh Ngũ phương, Lễ Tống quái (Tống tàu).`,
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Ý nghĩa',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/IV-1.jpg',
+                                type: 'hightlight',
+                                value: `- Khi thực dân Pháp chiếm Vĩnh Long vào năm 1867, người dân Trà Vinh đã tích cực giúp đỡ và tham gia các cuộc khởi nghĩa chống Pháp. Trong những năm 1868 – 1869, nhiều cuộc khởi nghĩa ở Trà Vinh có liên hệ với cuộc khởi nghĩa do Nguyễn Trung Trực lãnh đạo ở vùng Rạch Giá.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Tục thờ cá Ông của ngư dân miền biển là một đạo lý cổ truyền, thấm đượm tính nhân văn của dân tộc, thể hiện lòng biết ơn, đáp nghĩa của cư dân vùng biển đối với đấng cứu nhân độ thế.`,
+                                type: 'hightlight',
+                                value: `- Từ 1867 đến 1872 nhiều cuộc nổi dậy, khởi nghĩa diễn ra sôi nổi như: cuộc nổi dậy do Phan Tôn, Phan Liêm khởi xướng (1867); cuộc khởi nghĩa do Phó Soái chỉ huy (1867); cuộc khởi nghĩa Ba Động do Tán Lí Lê Văn Quân, Đề đốc Triều và Đốc binh Say lãnh đạo (1868); Khởi nghĩa Vĩnh Trị, Bình Khánh do Đốc binh Lê Cẩn, Phó Mai cùng Nguyễn Giao gây dựng và khởi xướng (1871); Khởi nghĩa ở Bàn Đa do Trần Văn Đề lãnh đạo (1872). Trong đó nổi bật nhất là khởi nghĩa Vĩnh Trị - Bình Khánh và khởi nghĩa Bàn Đa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Năm 1873, đồng bào Kinh, Khmer, Hoa ở Trà Vinh tham gia cuộc khởi nghĩa của Đề Triệu ở Cồn Cù, Ba Động, nhưng đến năm 1874, cuộc khởi nghĩa thất bại do bị thực dân Pháp đàn áp. Năm 1876, Thống đốc Nam Kỳ ra nghị định phân chia toàn bộ Nam Kỳ thành 4 khu vực hành chính lớn. Khu vực hành chính lớn Vĩnh Long gồm 4 tiểu khu: Vĩnh Long, Trà Vinh, Bến Tre, và Sa Đéc. Tiểu khu Trà Vinh là tiền thân của tỉnh Trà Vinh sau này.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 20/12/1899, Toàn quyền Đông Dương Doumer ký nghị định đổi tên tiểu khu thành tỉnh. Từ đây, Nam Kỳ lục tỉnh cũ được phân chia lại thành 10 tỉnh mới, trong đó tỉnh Vĩnh Long cũ được tách ra thành 3 tỉnh mới: Vĩnh Long, Bến Tre, và Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6761,123 +7294,19 @@ export default [
                     },
                 ],
             },
+            
             {
-                id: '22',
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
-                video: '',
-                title: 'Tục thờ Quan Thánh đế',
-                description: 'Quan Thánh đế chính là Quan Công, tức Quan Vũ hay Quan Vân Trường – viên tướng văn võ song toàn,...',
-                game: '',
-                view: 100,
-                contents: [
-                    {
-                        title: 'Tổng quát',
-                        data: [
-                            {
-                                type: 'text',
-                                value: `* Tiểu sử:`,
-                            },
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
-                                ],
-                            },
-                            {
-                                type: 'text',
-                                value: `- Quan Thánh đế chính là Quan Công, tức Quan Vũ hay Quan Vân Trường – viên tướng văn võ song toàn, người đất Giải Lương, tỉnh Hà Đông. Quan Thánh Đế Quân là bậc thánh nhân trượng nghĩa, dũng, liêm, có tài thao lược, lập nhiều công lớn theo hệ giá trị Nho giáo. Ông nổi tiếng trung hiếu của lịch sử Trung Hoa. Sau khi ông mất, việc thờ cúng Quan Thánh đế trở thành tín ngưỡng phổ biến như một giá trị văn hoá truyền thống khắp đất nước Trung Hoa. Trước những biến động của đất nước, nhiều thế hệ người Hoa di cư ra nước ngoài, trong đó có bộ phận đến Trà Vinh và mang theo tín ngưỡng thờ Quan Thánh đế. Quan Thánh đế biểu trưng cho danh dự, lòng chung thủy, sự hi sinh, độ lượng, can đảm, có lòng nhân hậu, công minh, thẳng thắn, dũng cảm, gan dạ, trung hiếu tiết nghĩa, nhân ái và độ lượng.`,
-                            },
-
-                            {
-                                type: 'text',
-                                value: `* Nơi thờ cúng:`,
-                            },
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-2-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-2-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-2-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-2-4.jpg',
-                                ],
-                            },
-                            {
-                                type: 'text',
-                                value: `- Quan Thánh đế được thờ tại Phước Minh Cung ở số 44 đường Điện Biên Phủ, Phường 2, thành phố Trà Vinh. Chùa Phước Minh Cung còn gọi là chùa Ông. Chân dung Quan Thánh đế là hình ảnh một người mặt đỏ, râu dài 5 chòm, mặc triều phục màu xanh lá cây. Quan Thánh đế có nhiều hình tượng khác nhau như ngồi đọc binh pháp, ngồi cầm Thanh long đao, lưng ngồi thẳng mặt hướng nhìn ra cửa giống một ông quan đang giải quyết việc quân cơ.`,
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Nghi thức cúng tế',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/II-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/II-2.jpg',
-                                ],
-                            },
-                            {
-                                type : 'text',
-                                value: `- Nghi thức cúng tế Ông hằng năm được tổ chức long trọng và nghiêm túc. Vía Quan Thánh đế, hay còn gọi là cúng Ông, thường vào ngày 26/6 âm lịch, vía tử ngày 9/9 âm lịch, vía hiển thánh ngày 04/1 âm lịch, riêng ở ấp Truôn, xã Hòa Lợi, huyện Châu Thành vía Ông được tổ chức vào ngày 13/5 âm lịch. Lễ vật cúng tế thường có heo quay, cháo và có cả một nồi bún nước lèo, hoa quả, trái cây,... `,
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Ý nghĩa',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/III-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/III-2.jpg',
-                                ],
-                            },
-                            {
-                                type: 'text',
-                                value: `- Việc thờ Quan Thánh đế tại cộng đồng người Hoa Trà Vinh để nhớ ơn Ông đã phù trợ người Hoa trong quá trình di dân được an toàn, để giáo dục cho thế hệ mai sau về tinh thần thượng võ, trung nghĩa; là điểm tựa tinh thần của người Hoa trong hoạt động sản xuất, kinh doanh, buôn bán`,
-                            },
-                        ],
-                    },
-                ],
-        
-                tags: [
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                ],
-            },
-            {
-                id: '24',
+                id: '37',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
                 video: '',
-                title: 'Tục tu trả hiếu',
-                description: 'Tục đi tu báo hiếu của người Khmer ở Trà Vinh là một truyền thống lâu đời, mang đậm nét văn hóa và giá ...',
+                title: 'Sự hình thành của tỉnh Trà Vinh trong thế kỉ XX',
+                description: 'Đầu thế kỉ XX, Phan Bội Châu khởi xướng phong trào Đông Du, ở Trà Vinh có hàng chục thanh niên tại tỉnh...',
                 game: '',
                 view: 100,
                 contents: [
                     {
-                        title: 'Địa chỉ',
+                        title: 'Các phong trào yêu nước đầu thế kỷ XX tại Trà Vinh',
                         data: [
-                            {
-                                type: 'text',
-                                value: `* Giá trị văn hóa:`,
-                            },
                             {
                                 type: 'grid-image',
                                 value: [
@@ -6888,37 +7317,61 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Tục đi tu báo hiếu của người Khmer ở Trà Vinh là một truyền thống lâu đời, mang đậm nét văn hóa và giá trị giáo dục sâu sắc trong cộng đồng dân tộc Khmer. Hành trình tu tập này không chỉ là một hành động báo hiếu mà còn là cách để rèn luyện đạo đức, tâm hồn và gắn kết tinh thần cộng đồng. Thời gian tu tập thường kéo dài tối thiểu 3 tháng, nhưng có thể thay đổi tùy theo duyên lành và ý nguyện cá nhân của từng người. Sau một thời gian tu hành, người con trai Khmer sẽ được xuất tu. Từ đây, họ chính thức được cộng đồng thừa nhận là người trưởng thành, có đạo, có thể gánh vác được những trọng trách lớn lao. Ý nghĩa đặc biệt của việc xuất gia báo hiếu của đồng bào Khmer là đi tu không phải để trở thành Phật mà để thành người. Bởi lẽ, việc tu là bước chuẩn bị cho người thanh niên có đủ đạo đức, kiến thức, lòng nhân ái để sau khi rời chùa sẽ biết cách xây dựng một cuộc sống tốt đẹp, ý nghĩa.`,
-                            },
-
-                            {
-                                type: 'text',
-                                value: `* Quá trình tổ chức và thực hiện:`,
-                            },
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-4.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-5.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-2-6.jpg',
+                                type: 'hightlight',
+                                value: `- Đầu thế kỉ XX, Phan Bội Châu khởi xướng phong trào Đông Du, ở Trà Vinh có hàng chục thanh niên tại tỉnh lị và các huyện Càng Long, Cầu Ngang đã hăng hái tham gia sang Nhật Bản để học quân sự, đi đầu là Nguyễn Thành Phương, Nguyễn Viên Kiều, Trương Gia Mô, Lương Khắc Minh...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Tục đi tu thường được tổ chức vào ngày đầu Tết Chôl Chnam Thmây. Người đi tu phải được cha mẹ đồng ý thì chùa mới nhận và tổ chức lễ nhập tu. Sau khi Sư cả đã thống nhất với gia đình ngày nhập tu, gia đình phải chuẩn bị áo cà sa, bình bát và một số vật dụng khác cho con mình. Gia đình sẽ rước Sư ở chùa về xuống tóc cho con và tụng kinh cầu phúc tại gia đình. Ngày hôm sau, nam thanh niên nhập tu sẽ bưng mâm áo cà sa đi trình khắp bà con dòng họ để thông báo. Sáng ngày thứ ba, gia đình chuẩn bị một số món ăn đem vào chùa cúng.  Trưa cùng ngày, tại chánh điện, các sư ở chùa sẽ tiến hành lễ mặc áo cà sa cho các tăng mới vừa nhập tu. Từ đây các tăng sẽ ở lại chùa để tu.`,
+                                type: 'hightlight',
+                                value: `- Phong trào Thiên Địa Hội có nơi gọi là "Hội Kín", có nơi gọi là "Hội Tam Hợp" du nhập vào Việt Nam và đến Trà Vinh từ năm 1911.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `- Các tăng mới nhập tu gọi là các Sa Di. Trong thời gian tu, các Sa Di chủ yếu là học kinh, giáo lí nhà Phật bằng tiếng Pali, đồng thời học chữ Khmer. Trong thời gian các Sa Di tu trong chùa, gia đình được tới thăm bình thường, nhưng các Sa Di và người thân trong gia đình khi gặp nhau phải giữ một khoảng cách để thể hiện sự kính trọng đối với người tu hành. Ngoài ra, mỗi tháng các Sa Di được về thăm nhà một lần trong ngày.`,
+                                type: 'hightlight',
+                                value: `- Nhiều đình, chùa là nơi Thiên Địa Hội họp bàn và tổ chức nhiều hoạt động yêu nước chống Pháp. Phong trào thu hút đông đảo nông dân địa phương, dân lưu tán, dân nghèo, thành thị, tiểu thương, thợ thủ công chuyên nghiệp và bán chuyên nghiệp như cắt tóc, sửa xe, phu khuân vác, người chạy hàng, công nhân trong các xí nghiệp, cả những người làm nghề bói toán, cúng bái... là người Kinh, người Khmer, người Hoa. Tuy nhiên, do nhiều nguyên nhân khách quan và chủ quan, phong trào đấu tranh của nhân dân Trà Vinh chưa giành được thắng lợi.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Vào những năm 1925 - 1926, cả nước dấy lên phong trào đòi thả nhà yêu nước Phan Bội Châu, phong trào để tang Phan Chu Trinh, nhân dân trà vinh cũng tích cực tham gia hưởng ứng. Từ sau năm 1926, các phong trào yêu nước chống Pháp mang tính chất nông dân và tiểu tư sản ngày càng giảm dần.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
                     {
-                        title: 'Nguồn gốc tục đi tu báo hiếu',
+                        title: 'Sự hình thành và phát triển của Đảng Cộng sản Việt Nam',
                         data: [
                             {
                                 type: 'grid-image',
@@ -6930,24 +7383,30 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Theo phong tục của người Khmer, vào khoảng 12 tuổi, con trai được cha mẹ gửi vào chùa tu một thời gian để trau dồi đức hạnh và kiến thức. Nguồn gốc tục đi tu báo hiếu xuất phát từ câu chuyện cảm động về hai mẹ con người dân tộc Khmer: “Cha mất sớm nên người mẹ phải thay người cha làm nghề săn bắt để nuôi con. Là đứa trẻ nhân từ, thấy mẹ sát sinh, nên Socpenh Kokma trốn mẹ đi tu để hóa giải tội lỗi. Khi người mẹ mất, oan hồn của bà đã không bị quỷ dữ hành hạ là nhờ đức độ tu hành của con”.`,
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Mục đích và ý nghĩa',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/III-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/III-2.jpg',
+                                type: 'hightlight',
+                                value: `-  Tại Trà Vinh vào 1930, ba Chi bộ Cộng sản đầu tiên cũng được thành lập. Sự ra đời của các Chi bộ Cộng sản đánh dấu bước phát triển mới của cách mạng Trà Vinh. Từ đây cách mạng Trà Vinh đã có sự lãnh đạo, dìu dắt của Đảng. Sự ra đời của các tổ chức cộng sản cũng đánh dấu sự phát triển về chất của các phong trào yêu nước tại Trà Vinh lúc bấy giờ, đi từ tự phát chuyển lên tự giác, phong trào cách mạng trong tỉnh gắn liền với các phong trào cách mạng Nam Bộ nói riêng và cả nước nói chung.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Tục đi tu của người nam thanh niên Khmer là để báo hiếu trả ơn cha mẹ, học tập ngôn ngữ, chữ viết và các phong tục, lễ nghi của dân tộc. Ý nghĩa đặc biệt nữa của việc đi tu là chuẩn bị cho họ có đủ đạo đức, kiến thức, lòng nhân ái để sau khi rời chùa sẽ biết cách xây dựng một cuộc sống tốt đẹp. Luật tu hành của người con trai Khmer hiện nay cũng không quá khắt khe như xưa nữa.`,
+                                type: 'hightlight',
+                                value: `- Với tình yêu quê hương đất nước và tài năng sáng tạo cách mạng của tuổi trẻ, Dương Quang Đông về Trà Vinh xúc tiến việc thành lập tổ chức “Thanh niên đỏ”. Tổ chức này lần lượt ra đời tại Cầu Ngang, tỉnh lỵ Trà Vinh và Càng Long, đây cũng chính là những chiếc nôi hình thành các Chi bộ Đảng Cộng sản Việt Nam đầu tiên của tỉnh Trà Vinh vào năm 1930. Mùa xuân năm 1930, Tỉnh ủy Trà Vinh ra đời, và đến năm 1945, dưới sự chỉ đạo trực tiếp của Tỉnh ủy và các Huyện ủy, nhân dân Trà Vinh đã vùng lên tiến hành cuộc Tổng khởi nghĩa giành thắng lợi vào ngày 25/8/1945.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },

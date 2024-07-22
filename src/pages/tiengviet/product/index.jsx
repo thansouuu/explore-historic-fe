@@ -575,7 +575,7 @@ const Product = memo(() => {
                         ))}
                     </FoodContent>
                 ))}
-                <FoodContent title="Thẻ">
+                <FoodContent title="Liên quan">
                     <div className="flex items-center gap-2 flex-wrap">
                         {product?.tags?.map((tag, index) => (
                             <button key={index} className="py-2 px-4 bg-slate-200 hover:bg-slate-300">
@@ -924,7 +924,7 @@ const Product = memo(() => {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="/public/images/mess.png"
+                                src="/images/mess.png"
                                 alt="Share on Messenger"
                                 style={{ width: 32, height: 32, borderRadius: '50%' }}
                             />
