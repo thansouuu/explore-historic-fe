@@ -96,10 +96,8 @@ const HighlightText = ({ text, highlights }) => {
                         <FacebookShareButton url={valueModal} quote={''}>
                             <FacebookIcon size={32} round />
                         </FacebookShareButton>
-                        {/* <TwitterShareButton url={valueModal} title={""}>
-                            <TwitterIcon size={32} round />
-                        </TwitterShareButton>
-                        <WhatsappShareButton url={valueModal} title={""}>
+                        
+                        {/* <WhatsappShareButton url={valueModal} title={""}>
                             <WhatsappIcon size={32} round />
                         </WhatsappShareButton>
                         <EmailShareButton url={valueModal} subject={""}>
@@ -111,11 +109,14 @@ const HighlightText = ({ text, highlights }) => {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="/public/images/mess.png"
+                                src="/images/mess.png"
                                 alt="Share on Messenger"
                                 style={{ width: 32, height: 32, borderRadius: '50%' }}
                             />
                         </a>
+                        {/* <TwitterShareButton url={valueModal} title={""}>
+                            <TwitterIcon size={32} round />
+                        </TwitterShareButton> */}
                         {/* <a href={`https://zalo.me/share/?url=${encodeURIComponent(window.location.href)}&title=${encodeURIComponent(product?.title)}`} target="_blank" rel="noopener noreferrer">
                             <img src="/public/images/zalo.png" alt="Share on Zalo" style={{ width: 32, height: 32, borderRadius: '50%' }} />
                         </a> */}

@@ -80,12 +80,12 @@ const Find = () => {
                             <input
                                 type="text"
                                 className="w-full px-4 py-2 text-black rounded-md"
-                                placeholder="Search..."
+                                placeholder="Tìm kiếm..."
                                 value={searchTerm}
                                 onChange={handleSearchChange}
                             />
                             <button type="submit" className="px-4 py-2 text-white bg-blue-500 rounded-md">
-                                Search
+                                Tìm
                             </button>
                             <button
                                 type="button"

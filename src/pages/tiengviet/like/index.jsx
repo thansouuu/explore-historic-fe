@@ -121,7 +121,7 @@ const LikedPosts = () => {
 
     return (
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
-            <h2 className="text-3xl text-center pb-4 border-b border-slate-800">Liked Posts</h2>
+            <h2 className="text-3xl text-center pb-4 border-b border-slate-800">Bài viết đã yêu thích</h2>
             <div className="flex flex-col gap-4">
                 
                 {likedPosts.map((postTitle, index) => (
@@ -143,9 +143,7 @@ const LikedPosts = () => {
                                 <FacebookShareButton url={window.location.href} quote={postTitle}>
                                     <FacebookIcon size={32} round />
                                 </FacebookShareButton>
-                                <TwitterShareButton url={window.location.href} title={postTitle}>
-                                    <TwitterIcon size={32} round />
-                                </TwitterShareButton>
+                                
                                 {/* <WhatsappShareButton url={window.location.href} title={postTitle}>
                                     <WhatsappIcon size={32} round />
                                 </WhatsappShareButton>
@@ -155,6 +153,9 @@ const LikedPosts = () => {
                                 <a href={`https://www.messenger.com/t/?link=${encodeURIComponent(window.location.href)}`} target="_blank" rel="noopener noreferrer">
                                 <img src="/images/mess.png" alt="Share on Messenger" style={{ width: 32, height: 32, borderRadius: '50%' }} />
                                 </a>
+                                <TwitterShareButton url={window.location.href} title={postTitle}>
+                                    <TwitterIcon size={32} round />
+                                </TwitterShareButton>
                                 {/* <a href={`https://zalo.me/share/?url=${encodeURIComponent(window.location.href)}&title=${encodeURIComponent(product?.title)}`} target="_blank" rel="noopener noreferrer">
                                     <img src="/public/images/zalo.png" alt="Share on Zalo" style={{ width: 32, height: 32, borderRadius: '50%' }} />
                                 </a> */}

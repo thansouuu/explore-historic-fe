@@ -761,10 +761,8 @@ const Product = memo(() => {
                         <FacebookShareButton hashtag={'#dscsdvsfvf'} url={window.location.href} quote={product?.title}>
                             <FacebookIcon size={32} round />
                         </FacebookShareButton>
-                        {/* <TwitterShareButton url={window.location.href} title={product?.title}>
-                            <TwitterIcon size={32} round />
-                        </TwitterShareButton>
-                        <WhatsappShareButton url={window.location.href} title={product?.title}>
+                        
+                        {/* <WhatsappShareButton url={window.location.href} title={product?.title}>
                             <WhatsappIcon size={32} round />
                         </WhatsappShareButton> */}
                         {/* <EmailShareButton url={window.location.href} subject={product?.title}>
@@ -782,7 +780,7 @@ const Product = memo(() => {
                                 style={{ width: 32, height: 32, borderRadius: '50%' }}
                             />
                         </a>
-                        <a
+                        {/* <a
                             href={`https://zalo.me/share/?url=${encodeURIComponent(
                                 window.location.href,
                             )}&title=${encodeURIComponent(product?.title)}`}
@@ -794,7 +792,10 @@ const Product = memo(() => {
                                 alt="Share on Zalo"
                                 style={{ width: 32, height: 32, borderRadius: '50%' }}
                             />
-                        </a>
+                        </a> */}
+                        <TwitterShareButton url={window.location.href} title={product?.title}>
+                            <TwitterIcon size={32} round />
+                        </TwitterShareButton>
                         <button onClick={handleCopyLink} className="flex items-center gap-2">
                             <img
                                 src="/images/link.png"
@@ -870,13 +871,13 @@ const Product = memo(() => {
                             } */}
                         </div>
                     )}
-                    {isLoggedIn && (
+                    {isLoggedIn && product?.game!='' &&  (
                         <>
                             <div className="mt-4">
                                 <div className="flex justify-center mb-4">
                                     <iframe
                                         className="w-full h-auto aspect-video border-4 border-gray-600 rounded-xl overflow-hidden"
-                                        src={product?.video}
+                                        src={product?.game}
                                         title="Thuyết trình về món Bánh canh Bến Có"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
