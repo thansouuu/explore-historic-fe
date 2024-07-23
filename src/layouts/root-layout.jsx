@@ -17,7 +17,8 @@ const RootLayout = () => {
     const toggleSidebar = () => {
         setSidebarOpen(!isSidebarOpen);
     };
-
+    
+    
     return (
         <>
             <div className="h-screen flex flex-col">

@@ -15,6 +15,8 @@ import {
 import { Link } from 'react-router-dom';
 
 import clsx from 'clsx';
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
 
 const HighlightText = ({ text, highlights }) => {
     const [isModal, setIsModal] = useState(false);
@@ -47,14 +49,34 @@ const HighlightText = ({ text, highlights }) => {
                 >
                     {highlight?.valueModal?.type == 'tooltip' ? (
                         <>
-                            <a id={highlight?.valueModal?.id}>{part} </a>
+                            {/* <a id={highlight?.valueModal?.id}>{part} </a>
                             <Tooltip anchorSelect={`#${highlight?.valueModal?.id}`} clickable>
                                 {highlight?.valueModal?.ref ? <a href={highlight?.valueModal?.link} target="_blank">{highlight?.valueModal?.value}</a> : highlight?.valueModal?.value}
-                            </Tooltip>
+                            </Tooltip> */}
+                            {highlight?.valueModal?.ref ? (
+                                <Tippy 
+                                    interactive={true} interactiveBorder={20}
+                                    content={
+                                        <div className='min-w-[200px]'>
+                                            <Link to={highlight?.valueModal?.link}>
+                                                {highlight?.valueModal?.value}
+                                            </Link>
+                                            {/* <a href={highlight?.valueModal?.link} target="_blank" rel="noreferrer">
+                                                {highlight?.valueModal?.value}
+                                            </a> */}
+                                        </div>
+                                    }
+                                >
+                                   <span className={'text-green-400'}> {part} </span>
+                                </Tippy>
+                            ) : (
+                                <Tippy content={highlight?.valueModal?.value}><span>{part}</span></Tippy>
+                            )}
                         </>
                     ) : (
                         part
                     )}
+
                 </span>
             ) : (
                 part

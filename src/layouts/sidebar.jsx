@@ -18,9 +18,12 @@ import Like from '@/components/utils/Like';
 import Home from '@/components/utils/Home';
 import Bot from '@/components/utils/Bot';
 import Manual from '@/components/utils/Manual';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
+    const navigate = useNavigate()
     const location = useLocation()
     return (
         <div
@@ -44,10 +47,11 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 </Link>
                 <Link to="/tieng-viet/account"
                     className={location.pathname.includes('account') ? 'bg-gray-700' : ''}
+                    onClick={() => {navigate(`/tieng-viet/account`),window.location.reload()}}
                 >
                     <li className="p-4 hover:bg-gray-700 flex items-center gap-4">
                     <Login/>
-                    Đăng nhập / Đăng ký
+                    Đăng ký / Đăng nhập
                     </li>
                 </Link>
                 <Link to="/tieng-viet/figure">

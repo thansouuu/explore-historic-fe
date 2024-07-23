@@ -424,6 +424,7 @@ const Product = memo(() => {
     const [borderBackground, setBorderBackground] = useState('');
     const role = data?.data?.role;
     useEffect(() => {
+        // window.location.reload()
         if (data && role && isLoggedIn) {
             if (role === 'good') {
                 setMainBackground('/background/background3.png');
@@ -473,8 +474,10 @@ const Product = memo(() => {
         link.download = filename;
         link.click();
     };
+    // window.location.reload()
 
     return (
+        
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
             {product?.video!='' && 
             <iframe

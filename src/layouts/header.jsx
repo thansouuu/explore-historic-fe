@@ -15,6 +15,10 @@ import Home from '@/components/utils/Home';
 import Bot from '@/components/utils/Bot';
 import Manual from '@/components/utils/Manual';
 
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 const HeaderRoot = ({ toggleSidebar }) => {
     const location = useLocation();
@@ -138,8 +142,10 @@ const HeaderRoot = ({ toggleSidebar }) => {
         setSearchResult([]);
     };
 
+    const navigate = useNavigate()
+
     return (
-        <nav className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
+        <nav style={{backgroundImage: 'url("https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg")'}} className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
             <div className="flex items-center mx-auto py-4 max-w-[992px] z-214783646">
                 {!searchOpen && (
                     <>
@@ -218,7 +224,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                 )} */}
             </div>
             {!searchOpen && (
-                <div
+                <div 
                     className={classNames(
                         'items-center justify-between w-[75%] md:flex md:w-auto md:order-1 absolute top-full left-0 transition-transform duration-300 ease-in-out',
                         {
@@ -227,6 +233,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                         },
                     )}
                     id="navbar-user"
+                    
                 >
                     <ul className="flex h-screen flex-col font-medium p-4 md:p-0 border border-gray-100 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
@@ -246,7 +253,8 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/account"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {  window.Location.reload(),setNavbarOpen(false)}}
+
                             >
                                 <Login />
                                 <div>Đăng ký / Đăng nhập</div>
@@ -257,7 +265,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/figure"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Category />
                                 <div>Danh mục</div>
