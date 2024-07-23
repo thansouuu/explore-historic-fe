@@ -426,15 +426,15 @@ const Product = memo(() => {
     useEffect(() => {
         if (data && role && isLoggedIn) {
             if (role === 'good') {
-                setMainBackground('/src/assets/background/background3.png');
+                setMainBackground('/background/background3.png');
                 setBorderBackground('/border/top3.svg');
             }
             if (role === 'best') {
-                setMainBackground('/src/assets/background/background1.png');
+                setMainBackground('/background/background1.png');
                 setBorderBackground('/border/top1.svg');
             }
             if (role === 'top-good') {
-                setMainBackground('/src/assets/background/background2.png');
+                setMainBackground('/background/background2.png');
                 setBorderBackground('/border/top2.svg');
             }
         }
