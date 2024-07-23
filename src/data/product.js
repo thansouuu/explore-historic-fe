@@ -1122,6 +1122,15 @@ export default [
                                 value:`- Khi Tổng khởi nghĩa tháng Tám 1945 thắng lợi, chính quyền cách mạng cử ngay một phái đoàn đưa phương tiện ra Côn Đảo rước các đồng chí bị giam giữ về đất liền. Phạm Thái Bường về trong chuyến tàu đầu tiên.`,
                                 hightlightList: [
                                     {
+                                        hightlight: 'rước các',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
                                         hightlight: 'thắng lợi',
                                         valueModal: {
                                             type: 'image',
@@ -2088,8 +2097,19 @@ export default [
                                 value: `- Dừng chân với Ao Bà Om, mỗi chúng ta sẽ thấy yêu thiên nhiên, yêu cuộc sống hơn như câu ca dao nổi tiếng từng khẳng định:`,
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: ` “Biển Ba Động nước xanh cát trắng,`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Biển Ba Động',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/main',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -2119,8 +2139,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `- Có nhiều truyền thuyết, chuyện kể khác nhau tồn tại song song nhau lý giải tên gọi Ao Bà Om. Trong đó, truyền thuyết của đồng bào dân tộc Khmer có nhiều chi tiết thú vị và được phổ biến rộng rãi. Truyền thuyết này kể rằng.`,
+                                type: 'hightlight',
+                                value: `- Có nhiều truyền thuyết, chuyện kể khác nhau tồn tại song song nhau lý giải tên gọi Ao Bà Om. Trong đó, truyền thuyết của đồng bào dân tộc người Khmer có nhiều chi tiết thú vị và được phổ biến rộng rãi. Truyền thuyết này kể rằng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'người Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -2131,8 +2162,19 @@ export default [
                                 value: `- Nhóm nam nghĩ mình có sức khỏe nên vừa làm vừa chơi. Bên nhóm nữ dưới sự chỉ đạo của bà Om nên đã đào ao tích cực. Đến nữa đêm công việc của bên phái nữ sắp xong, bà Om dùng mẹo lấy đèn cột trên ngọn cây giả làm sao Mai. Phái nam tưởng trời đã sáng bèn về, khi hiểu ra thì đã muộn. Bên nam đành chịu thua. Từ đó mới có tục lệ, nam đi hỏi cưới nữ. Nhóm nữ giành chiến thắng và để ghi nhận công lao của người phụ nữ. Vì thế đã lấy tên Om của bà đặt tên cho ao. Từ đó cái tên Ao Bà Om ra đời tên vẫn được giữ cho đến ngày nay.`,
                             },
                             {
-                                type: 'text',
-                                value: `- Cũng có truyền thuyết cho rằng trên những chân rộc thấp, đất cát pha đất thịt vùng phía tây nam thị xã Trà Vinh, cứ mỗi mùa sa mưa thì rau ngò om mọc đầy. Người dân địa phương cùng nhau thu hoạch mang ra chợ đổi gạo, như một nguồn lợi trời cho. Một thời, thịt bò vùng Lương Hòa – Nguyệt Hóa (huyện Châu Thành) ngon nổi tiếng gần xa vì bò vùng này chỉ ăn toàn rau ngò om. Thời Pháp thuộc, thịt bò Ba Se được xếp vào hàng “tam bửu Trà Vinh” (cùng với dưa hấu Ba Động và gạo Đầu Bờ) và được chính quyền thực dân đưa sang “đấu xảo” (tương tự như dự hội chợ giới thiệu sản phẩm ngày nay) tại Marseille (Pháp). Ao Ngò Om dần biến âm thành Ao Bà Om…`,
+                                type: 'hightlight',
+                                value: `- Cũng có truyền thuyết cho rằng trên những chân rộc thấp, đất cát pha đất thịt vùng phía tây nam thuộc địa phận thị xã Trà Vinh, cứ mỗi mùa sa mưa thì rau ngò om mọc đầy. Người dân địa phương cùng nhau thu hoạch mang ra chợ đổi gạo, như một nguồn lợi trời cho. Một thời, thịt bò vùng Lương Hòa – Nguyệt Hóa (huyện Châu Thành) ngon nổi tiếng gần xa vì bò vùng này chỉ ăn toàn rau ngò om. Thời Pháp thuộc, thịt bò Ba Se được xếp vào hàng “tam bửu Trà Vinh” (cùng với dưa hấu Ba Động và gạo Đầu Bờ) và được chính quyền thực dân đưa sang “đấu xảo” (tương tự như dự hội chợ giới thiệu sản phẩm ngày nay) tại Marseille (Pháp). Ao Ngò Om dần biến âm thành Ao Bà Om…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'thị xã Trà Vinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -2227,12 +2269,24 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
+                        id: 1,
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
+                    },
+                    {
+                        id: 2,
+                        title: 'Biển Ba Động',
                         link: 'https://www.facebook.com/Chinhhocvietnam',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 3,
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
+                    },
+                    {
+                        id: 4,
+                        title: 'Thị xã Trà Vinh',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -2259,8 +2313,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: ` - Được bao bọc và bồi đắp bởi dòng sông Hậu hiền hòa, cù lao Tân Quy là dải đất màu mỡ thuộc xã An Phú Tân, huyện Cầu Kè, cách thành phố Trà Vinh khoảng hơn 45 km về phía Tây Bắc – nơi đây được mệnh danh là cù lao xanh chuyên canh vườn cây ăn trái lớn nhất tỉnh. Có thể nói, cù lao Tân Quy chính là nơi hội ngộ của hàng loạt các loại trái cây nức tiếng miền Tây.  Để đến với cù lao Tân Quy, chúng ta chỉ mất khoảng 15 phút để đi đò ngang từ vàm Bến Đình.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -2397,10 +2462,20 @@ export default [
                                     },
                                 ],
                             },
+                            
                             {
                                 type: 'hightlight',
                                 value: `- Ẩm thực Trà Vinh nói chung và ẩm thực miền Tây nói riêng luôn có một vị trí đặc biệt trong lòng du khách. Nó không chỉ mang hương vị đặc trưng của vùng miền. Mà còn phản ánh chân thật nhất đời sống của người dân nơi đây. Đến cù lao Tân Quy du khách sẽ được thưởng thức vô vàng món ngon. Hứa hẹn sẽ làm hài lòng những tính đồ ẩm thực. Gợi ý một số món ngon như: bún suông, chù ụ rang me, loi choi sả ớt, dừa sáp,...`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'Ẩm thực',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/3',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'vô vàng món ngon',
                                         valueModal: {
@@ -2416,12 +2491,19 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 1,
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id: 2,
+                        title: 'Cầu Kè',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        id: 3,
+                        title: 'Ẩm thực',
+                        link: '/tieng-viet/figure/3',
                     },
                 ],
             }, 
@@ -2448,8 +2530,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: ` - Di tích khảo cổ Lưu Cừ II ở ấp Lưu Cừ II, xã Lưu Nghiệp Anh, huyện Trà Cú, tỉnh Trà Vinh.`,
+                                type: 'hightlight',
+                                value: ` - Di tích khảo cổ Lưu Cừ II ở ấp Lưu Cừ II, xã Lưu Nghiệp Anh, thuộc huyện Trà Cú, tỉnh Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Trà Cú',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -2633,12 +2726,14 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:1,
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:2,
+                        title: 'Trà Cú',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -2662,8 +2757,28 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: ` - Khu di tích Bến tiếp nhận vũ khí Cồn Tàu thuộc ấp Cồn Trứng, xã Trường Long Hòa, huyện Duyên Hải, tỉnh Trà Vinh, cách trung tâm thành phố Trà Vinh 60km về hướng Đông Nam. Đây không chỉ là địa chỉ giáo dục truyền thống cho thế hệ trẻ mà còn là điểm tham quan du lịch tiềm năng cho thị xã Duyên Hải, cùng với Khu du lịch Ba Động, điện gió làm nên cụm văn hóa – du lịch liên hoàn của vùng biển Duyên Hải – Trà Vinh.`,
+                                type: 'hightlight',
+                                value: ` - Khu di tích Bến tiếp nhận vũ khí Cồn Tàu ở ấp Cồn Trứng, xã Trường Long Hòa, huyện Duyên Hải, tỉnh Trà Vinh, cách trung tâm thành phố Trà Vinh 60km về hướng Đông Nam. Đây không chỉ là địa chỉ giáo dục truyền thống cho thế hệ trẻ mà còn là điểm tham quan du lịch tiềm năng cho thị xã Duyên Hải, cùng với Khu du lịch Ba Động, điện gió làm nên cụm văn hóa – du lịch liên hoàn của vùng biển Duyên Hải – Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Duyên Hải',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Ba Động',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -2826,12 +2941,19 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:1,
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:2,
+                        title: 'Duyên hải',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        id:3,
+                        title:'Ba Động',
+                        link: '/tieng-viet/figure/3',
                     },
                 ],
             }, 
@@ -3087,14 +3209,14 @@ export default [
                                         }
                                     },
                                     {
-                                        hightlight: 'cho mọi người.',
+                                        hightlight: 'đủ dinh',
                                         valueModal: {
                                             type: 'tooltip',
                                             ref: false,
-                                            id:'id2',
                                             value: 'Thay đổi cho mọi người',
                                         }
                                     },
+
                                 ],
                             },
                             {
@@ -5641,7 +5763,7 @@ export default [
                             },
                             {
                                 type: 'text',
-                                value: `- Có rất nhiều truyền thuyết, giai thoại, truyện kể trong dân gian liên quan đến tục lệ thờ cá Voi. “Tục  truyền rằng cá Voi là hóa thân từ chiếc áo cà sa của Phật Bà Quan  m. Một hôm, trên tòa sen nhìn lướt qua sóng gió đại dương Nam Hải, ngài không khỏi đau lòng khi thấy những ngư dân gặp cơn phong ba bão táp, phải bỏ mình vì giông tố. Trước cảnh tượng đó, Bồ Tát liền cởi chiếc cà sa, xé tan thành từng mảnh nhỏ ném xuống mặt biển. Mỗi mảnh vụn theo nguyện ý của Bồ Tát đã biến thành một con cá Voi với nhiệm vụ cứu nguy các ngư dân lâm nạn trước bão tố trên đại dương. Kể từ đó, cá voi là ân nhân của dân thuyền chài sống trên biển cả. Tuy nhiên, hình vóc cá voi lúc đó tương đối nhỏ, không đủ sức chống chọi với sóng to gió lớn, do vậy đức Quan Thế  m liền mượn bộ xương của ông Tượng (voi) trên rừng cho đàn cá, nhờ thế đàn cá mới đủ sức mạnh chống lại sức mạnh của đại dương. Cũng vì thế, đàn cá mang tên là cá voi (vì mượn xương voi và cũng to lớn như voi). Với cơ thể to lớn, cá voi mặc sức vẫy vùng giữa biển cả và đương đầu với sóng gió, kèm giữ cho tàu thuyền thăng bằng, không bị tan vỡ trong bão tố, sau đó còn dìu tàu thuyền vào tận bờ biển. Do to lớn nên chậm chạp, nhiều trường hợp biết có thuyền chài lâm nạn ở quá xa, cá voi cố sức bơi tới mà không cứu nổi nạn nhân. Để giúp cho cá voi làm tròn nhiệm vụ cứu nạn của mình, Bồ Tát liền ban cho chúng phép thâu đường (tức là rút ngắn con đường lại), dù ở bất cứ nơi nào cần đến đều có thể cứu kịp thời”.`,
+                                value: `- Có rất nhiều truyền thuyết, giai thoại, truyện kể trong dân gian liên quan đến tục lệ thờ cá Voi. “Tục  truyền rằng cá Voi là hóa thân từ chiếc áo cà sa của Phật Bà Quan Âm. Một hôm, trên tòa sen nhìn lướt qua sóng gió đại dương Nam Hải, ngài không khỏi đau lòng khi thấy những ngư dân gặp cơn phong ba bão táp, phải bỏ mình vì giông tố. Trước cảnh tượng đó, Bồ Tát liền cởi chiếc cà sa, xé tan thành từng mảnh nhỏ ném xuống mặt biển. Mỗi mảnh vụn theo nguyện ý của Bồ Tát đã biến thành một con cá Voi với nhiệm vụ cứu nguy các ngư dân lâm nạn trước bão tố trên đại dương. Kể từ đó, cá voi là ân nhân của dân thuyền chài sống trên biển cả. Tuy nhiên, hình vóc cá voi lúc đó tương đối nhỏ, không đủ sức chống chọi với sóng to gió lớn, do vậy đức Quan Thế  Âm liền mượn bộ xương của ông Tượng (voi) trên rừng cho đàn cá, nhờ thế đàn cá mới đủ sức mạnh chống lại sức mạnh của đại dương. Cũng vì thế, đàn cá mang tên là cá voi (vì mượn xương voi và cũng to lớn như voi). Với cơ thể to lớn, cá voi mặc sức vẫy vùng giữa biển cả và đương đầu với sóng gió, kèm giữ cho tàu thuyền thăng bằng, không bị tan vỡ trong bão tố, sau đó còn dìu tàu thuyền vào tận bờ biển. Do to lớn nên chậm chạp, nhiều trường hợp biết có thuyền chài lâm nạn ở quá xa, cá voi cố sức bơi tới mà không cứu nổi nạn nhân. Để giúp cho cá voi làm tròn nhiệm vụ cứu nạn của mình, Bồ Tát liền ban cho chúng phép thâu đường (tức là rút ngắn con đường lại), dù ở bất cứ nơi nào cần đến đều có thể cứu kịp thời”.`,
                             },
                             {
                                 type: 'text',
@@ -5662,8 +5784,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Hàng năm Trà Vinh tổ chức lễ hội Cúng biển ở Mỹ Long - huyện Cầu Ngang (diễn ra 3 ngày 10, 11 và 12 tháng 5 âm lịch) và ở Động Cao – xã Đông Hải - huyện Duyên Hải (diễn ra 2 ngày 20 và 21 tháng 2 âm lịch). Lễ hội Cúng Biển Trà Vinh có nhiều nghi lễ liên tiếp diễn ra trình tự. Đó là trình tự: Lễ Túc Yết, Lễ nghinh Nam Hải, Lễ cúng giỗ Tiền vãng, Lễ cúng Thần Nông và Chiến sĩ, Lễ cúng Chánh tế Bà Chúa Xứ, Thầy cúng tế lễ, Lễ nghinh Ngũ phương, Lễ Tống quái (Tống tàu).`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Ngang',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -5686,20 +5819,14 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:1,
+                        title: 'Phong tục tập quán',
+                        link: '/tieng-viet/figure/7',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        id:2,
+                        title: 'Cầu Ngang',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -5716,7 +5843,7 @@ export default [
                         title: 'Tổng quát',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Tiểu sử:`,
                             },
                             {
@@ -5729,12 +5856,22 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Quan Thánh đế chính là Quan Công, tức Quan Vũ hay Quan Vân Trường – viên tướng văn võ song toàn, người đất Giải Lương, tỉnh Hà Đông. Quan Thánh Đế Quân là bậc thánh nhân trượng nghĩa, dũng, liêm, có tài thao lược, lập nhiều công lớn theo hệ giá trị Nho giáo. Ông nổi tiếng trung hiếu của lịch sử Trung Hoa. Sau khi ông mất, việc thờ cúng Quan Thánh đế trở thành tín ngưỡng phổ biến như một giá trị văn hoá truyền thống khắp đất nước Trung Hoa. Trước những biến động của đất nước, nhiều thế hệ người Hoa di cư ra nước ngoài, trong đó có bộ phận đến Trà Vinh và mang theo tín ngưỡng thờ Quan Thánh đế. Quan Thánh đế biểu trưng cho danh dự, lòng chung thủy, sự hi sinh, độ lượng, can đảm, có lòng nhân hậu, công minh, thẳng thắn, dũng cảm, gan dạ, trung hiếu tiết nghĩa, nhân ái và độ lượng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'người Hoa',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/27',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
-
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Nơi thờ cúng:`,
                             },
                             {
@@ -5747,8 +5884,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Quan Thánh đế được thờ tại Phước Minh Cung ở số 44 đường Điện Biên Phủ, Phường 2, thành phố Trà Vinh. Chùa Phước Minh Cung còn gọi là chùa Ông. Chân dung Quan Thánh đế là hình ảnh một người mặt đỏ, râu dài 5 chòm, mặc triều phục màu xanh lá cây. Quan Thánh đế có nhiều hình tượng khác nhau như ngồi đọc binh pháp, ngồi cầm Thanh long đao, lưng ngồi thẳng mặt hướng nhìn ra cửa giống một ông quan đang giải quyết việc quân cơ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Trà Vinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -5763,8 +5911,19 @@ export default [
                                 ],
                             },
                             {
-                                type : 'text',
+                                type: 'hightlight',
                                 value: `- Nghi thức cúng tế Ông hằng năm được tổ chức long trọng và nghiêm túc. Vía Quan Thánh đế, hay còn gọi là cúng Ông, thường vào ngày 26/6 âm lịch, vía tử ngày 9/9 âm lịch, vía hiển thánh ngày 04/1 âm lịch, riêng ở ấp Truôn, xã Hòa Lợi, huyện Châu Thành vía Ông được tổ chức vào ngày 13/5 âm lịch. Lễ vật cúng tế thường có heo quay, cháo và có cả một nồi bún nước lèo, hoa quả, trái cây,... `,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'bún nước lèo',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/3/product/9',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -5788,19 +5947,20 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Phong tục tập quán',
+                        link: '/tieng-viet/figure/7',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Hoa',
+                        link: '/tieng-viet/figure/8/product/27',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trà Vinh',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        title: 'Bún nước lèo',
+                        link: '/tieng-viet/figure/3/product/9',
                     },
                 ],
             },
@@ -5817,7 +5977,7 @@ export default [
                         title: 'Địa chỉ',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Giá trị văn hóa:`,
                             },
                             {
@@ -5830,12 +5990,23 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Tục đi tu báo hiếu của người Khmer ở Trà Vinh là một truyền thống lâu đời, mang đậm nét văn hóa và giá trị giáo dục sâu sắc trong cộng đồng dân tộc Khmer. Hành trình tu tập này không chỉ là một hành động báo hiếu mà còn là cách để rèn luyện đạo đức, tâm hồn và gắn kết tinh thần cộng đồng. Thời gian tu tập thường kéo dài tối thiểu 3 tháng, nhưng có thể thay đổi tùy theo duyên lành và ý nguyện cá nhân của từng người. Sau một thời gian tu hành, người con trai Khmer sẽ được xuất tu. Từ đây, họ chính thức được cộng đồng thừa nhận là người trưởng thành, có đạo, có thể gánh vác được những trọng trách lớn lao. Ý nghĩa đặc biệt của việc xuất gia báo hiếu của đồng bào Khmer là đi tu không phải để trở thành Phật mà để thành người. Bởi lẽ, việc tu là bước chuẩn bị cho người thanh niên có đủ đạo đức, kiến thức, lòng nhân ái để sau khi rời chùa sẽ biết cách xây dựng một cuộc sống tốt đẹp, ý nghĩa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'người Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Quá trình tổ chức và thực hiện:`,
                             },
                             {
@@ -5897,13 +6068,14 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Phong tục tập quán',
+                        link: '/tieng-viet/figure/7',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
                     },
+                    
                 ],
             },
         ]
@@ -5925,7 +6097,7 @@ export default [
                         data: [
                             {
                                 type: 'bold',
-                                value: `Dân cư:`,
+                                value: `* Dân cư:`,
                             },
                             {
                                 type: 'grid-image',
@@ -5934,8 +6106,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Dân tộc Hoa có 6 632 người, chiếm 0,66% dân số toàn tỉnh. Người Hoa sống tập trung nhiều nhất ở thành phố Trà Vinh và một số thị trấn. Hoạt động kinh tế chủ yếu của người Hoa là thương mại, dịch vụ và tiểu thủ công nghiệp.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Trà Vinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
 
                             {
@@ -6026,8 +6209,19 @@ export default [
                                 ],
                             },
                             {
-                                type : 'text',
-                                value: `- Nổi bật trong các tín ngưỡng dân gian là thờ cúng tổ tiên, gia tộc, dòng họ, thờ cúng các vị thần phù hộ (thần bếp, thổ địa, thần tài...) và một số vị thánh và bồ tát (Quan Công, bà Thiên Hậu, ông Bổn, Nam Hải Quan Âm...)`,
+                                type: 'hightlight',
+                                value: `- Nổi bật trong các tín ngưỡng dân gian là thờ cúng tổ tiên, gia tộc, dòng họ, thờ cúng các vị thần phù hộ (thần bếp, thổ địa, thần tài...) và một số vị thánh, bồ tát (Quan Công, bà Thiên Hậu, ông Bổn, Nam Hải Quan Âm...)`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Quan Công',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/7/product/22',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type : 'text',
@@ -6077,19 +6271,16 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Dân tộc',
+                        link: '/tieng-viet/figure/8',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trà Vinh',
+                        link: '/tieng-viet/map',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Quan Công',
+                        link: '/tieng-viet/figure/7/product/22',
                     },
                 ],
             },
@@ -6106,7 +6297,7 @@ export default [
                         title: 'Dân cư và nhà ở',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Dân cư:`,
                             },
                             {
@@ -6119,12 +6310,23 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Dân tộc Khmer có 318 231 người, chiếm hơn 31,5% dân số toàn tỉnh. Người Khmer sống tập trung tại các phum, sóc trên các giồng cao, ven các sông rạch hoặc ven các đường giao thông, xen kẽ với các làng xóm của người Kinh. Địa bàn tập trung nhiều người Khmer nhất là ở các huyện Trà Cú, Châu Thành, Cầu Kè, Tiểu Cần, Cầu Ngang.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Trà Cú',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Giáo dục:`,
                             },
                             {
@@ -6140,7 +6342,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Nhà ở:`,
                             },
                             {
@@ -6153,7 +6355,7 @@ export default [
                         title: 'Văn hóa, tín ngưỡng và lễ hội',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Ẩm thực:`,
                             },
                             {
@@ -6166,16 +6368,27 @@ export default [
                                 ],
                             },
                             {
-                                type : 'text',
+                                type: 'hightlight',
                                 value: `- Hàng ngày, người Khmer ở Trà Vinh thường dùng các món ăn được chế biến từ các nguyên liệu như rau, đậu, bầu, bí, tôm, cá, thịt,… cùng một số loại gia vị và nước cốt dừa để nấu, luộc, xào, kho, làm mắm,… Các món ăn mang hương vị đặc trưng và thường được người Khmer sử dụng là mắm bò hóc (prahok), canh bồi, mắm chua, bún nước lèo,…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'bún nước lèo',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/3/product/9',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type : 'text',
-                                value: `- Vào các dịp lễ, Tết, người Khmer thường làm bánh tét, bánh tét cốm dẹp, bánh gừng,bánh chuối, bánh in,… bún nước lèo để dâng cúng ở chùa, ở nhà và tiếp khách. Về thức uống, hàng ngày người Khmer thường dùng các loại thức uống được nấu từ lá cây, nước thốt nốt,… hoặc nước đun sôi để nguội.`,
+                                value: `- Vào các dịp lễ, Tết, người Khmer thường làm bánh tét, bánh tét cốm dẹp, bánh gừng, bánh chuối, bánh in,… bún nước lèo để dâng cúng ở chùa, ở nhà và tiếp khách. Về thức uống, hàng ngày người Khmer thường dùng các loại thức uống được nấu từ lá cây, nước thốt nốt,… hoặc nước đun sôi để nguội.`,
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Trang phục`,
                             },
                             {
@@ -6193,7 +6406,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Tôn giáo, tín ngưỡng:`,
                             },
                             {
@@ -6206,7 +6419,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Lễ hội:`,
                             },
                             {
@@ -6233,8 +6446,19 @@ export default [
                                 value: `- Lễ nghi nông nghiệp: lễ cúng lúa mới, lễ xuống đồng,…`,
                             },
                             {
-                                type : 'text',
+                                type: 'hightlight',
                                 value: `- Nghi lễ vòng đời: Lễ mở mắt, tục cột chỉ tay con, tục đi tu ở nam giới, hôn lễ, tang lễ. Mỗi lễ hội được tổ chức long trọng, có lễ kéo dài nhiều ngày, quy mô tổ chức ngày càng lớn, thu hút du khách trong và ngoài tỉnh đến tham dự.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'tục đi tu',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/7/product/24',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6260,19 +6484,20 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Dân tộc',
+                        link: '/tieng-viet/figure/8',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Huyện Trà Cú',
+                        link: '/tieng-viet/map',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Bún nước lèo',
+                        link: '/tieng-viet/figure/3/product/9',
+                    },
+                    {
+                        title: 'Tục đi tu',
+                        link: '/tieng-viet/figure/7/product/24',
                     },
                 ],
             },
@@ -6299,12 +6524,23 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Dân tộc Kinh có 683 803 người, chiếm 67,76% dân số toàn tỉnh. Người Kinh sống tập trung nhiều nhất tại thành phố Trà Vinh, các thị trấn và vùng đất ven các sông rạch.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Trà Vinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Nhà ở:`,
                             },
                             {
@@ -6326,7 +6562,7 @@ export default [
                         title: 'Văn hóa, tín ngưỡng và lễ hội',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Ẩm thực:`,
                             },
                             {
@@ -6345,8 +6581,19 @@ export default [
                                 value: `- Món ăn được chế biến để giảm vị cay của người miền Trung, bớt vị mặn của người miền Bắc và mang vị ngọt ngọt của người miền Nam.`,
                             },
                             {
-                                type : 'text',
+                                type: 'hightlight',
                                 value: `- Trong các dịp lễ, tết, giỗ chạp người Kinh thường chuẩn bị các món ăn sử dụng nguyên liệu  địa phương như: canh khổ qua dồn, gà hoặc vịt nấu cà ri, các món gỏi trộn như: ngó sen, bắp cải, củ cải trắng, củ cà rốt,… Đặc biệt, trong mâm cơm ngày tết của người Kinh thường có các món bánh tét, bánh ít, gà kho gừng, các món kiệu, đu đủ ngâm chua ngọt,…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'bánh tét',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/3/product/11',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type : 'text',
@@ -6354,7 +6601,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Trang phục`,
                             },
                             {
@@ -6372,7 +6619,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Tôn giáo, tín ngưỡng:`,
                             },
                             {
@@ -6388,7 +6635,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Lễ hội:`,
                             },
                             {
@@ -6401,8 +6648,19 @@ export default [
                                 ],
                             },
                             {
-                                type : 'text',
+                                type: 'hightlight',
                                 value: `- Trong một năm, người Kinh ở Trà Vinh có nhiều lễ, Tết như: Tết Nguyên đán, Tết Đoan ngọ, lễ Vu lan, Tết Trung thu,… trong đó, tết Nguyên đán có quy mô lớn và thời gian kéo dài nhất. Ngoài ra, cộng đồng người Kinh ở Trà Vinh hàng năm còn tổ chức nhiều lễ hội liên quan đến tín ngưỡng của nhân dân như lễ hội Nghinh Ông, lễ Hạ Điền, lễ Thượng Điền, lễ giỗ Bác Hồ,… để tưởng nhớ công ơn của các bậc tiền nhân và cầu mong cho mọi người một năm mưa thuận, gió hoà, mùa màng bội thu, gia đình hoà thuận, yên ấm, hạnh phúc,…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nghinh Ông',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/4/product/12',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6410,7 +6668,7 @@ export default [
                         title: 'Kinh tế và xã hội',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Hôn nhân:`,
                             },
                             {
@@ -6426,7 +6684,7 @@ export default [
                             },
 
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Điều kiện kinh tế:`,
                             },
                             {
@@ -6448,19 +6706,20 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Dân tộc',
+                        link: '/tieng-viet/figure/8',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trà Vinh',
+                        link: '/tieng-viet/map',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Bánh tét',
+                        link: '/tieng-viet/figure/3/product/11',
+                    },
+                    {
+                        title: 'Nghinh Ông',
+                        link: '/tieng-viet/figure/4/product/12',
                     },
                 ],
             }, 

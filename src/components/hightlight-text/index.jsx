@@ -57,7 +57,7 @@ const HighlightText = ({ text, highlights }) => {
                                 <Tippy 
                                     interactive={true} interactiveBorder={20}
                                     content={
-                                        <div className='min-w-[200px]'>
+                                        <div className='min-w-[95px]'>
                                             <Link to={highlight?.valueModal?.link}>
                                                 {highlight?.valueModal?.value}
                                             </Link>
@@ -72,7 +72,7 @@ const HighlightText = ({ text, highlights }) => {
                             ) : (
                                 <>
                                     {highlight?.type == 'out' ? ( 
-                                        <Tippy content={highlight?.valueModal?.value}>< span className={'text-green-400'}>{part}</span></Tippy>
+                                        <Tippy content={highlight?.valueModal?.value}>< span className={'text-gray-800'}>{part}</span></Tippy>
                                     ) : (
                                         <> <Tippy  content={highlight?.valueModal?.value}><span>{part}</span></Tippy></>
                                     )}
