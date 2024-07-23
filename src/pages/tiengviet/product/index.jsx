@@ -535,8 +535,8 @@ const Product = memo(() => {
                                 {item.type === 'text' && <CardContentText value={item.value} />}
                                 {item.type === 'bold' && (
                                     <>
-                                        <p className="text-[20px]">
-                                            <b>{item.value}</b>
+                                        <p className="my-2 text-[18px]">
+                                            <i><b>{item.value}</b></i>
                                         </p>
                                     </>
                                 )}

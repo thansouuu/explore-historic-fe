@@ -36,7 +36,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/map',
-                                            id:'id3',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -73,7 +72,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/8/product/26',
-                                            id:'id1',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -165,7 +163,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/10/product/35',
-                                            id:'id2',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -561,7 +558,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/map',
-                                            id:'id1',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -756,7 +752,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/10/product/35',
-                                            id:'id2',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -840,7 +835,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/1/product/3',
-                                            id:'id3',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -1047,7 +1041,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/map',
-                                            id:'id1',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -1339,7 +1332,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/map',
-                                            id:'id1',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -1349,7 +1341,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/8/product/26',
-                                            id:'id2',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -1777,7 +1768,6 @@ export default [
                                             type: 'tooltip',
                                             ref: true,
                                             link: '/tieng-viet/figure/8/product/25',
-                                            id:'id3',
                                             value: 'Tìm hiểu thêm',
                                         }
                                     },
@@ -5935,7 +5925,7 @@ export default [
                         data: [
                             {
                                 type: 'bold',
-                                value: `* Dân cư:`,
+                                value: `Dân cư:`,
                             },
                             {
                                 type: 'grid-image',

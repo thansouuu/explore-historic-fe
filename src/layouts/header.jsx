@@ -145,7 +145,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
     const navigate = useNavigate()
 
     return (
-        <nav style={{backgroundImage: 'url("https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg")'}} className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
+        <nav style={{backgroundImage: 'url("https://raw.githubusercontent.com/thansouuu/data-image/main/testing.jpg")'}} className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
             <div className="flex items-center mx-auto py-4 max-w-[992px] z-214783646">
                 {!searchOpen && (
                     <>
@@ -241,7 +241,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/main"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 {/* <Login /> */}
                                 <Home/>
@@ -253,7 +253,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/account"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => {  window.Location.reload(),setNavbarOpen(false)}}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
 
                             >
                                 <Login />
@@ -276,7 +276,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/like"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Like />
                                 <div>Yêu thích</div>
@@ -287,7 +287,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/map"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Map />
                                 <div>Bản đồ</div>
@@ -298,7 +298,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/chatbot"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Bot />
                                 <div>Chatbot</div>
@@ -309,7 +309,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/find"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Magnify />
                                 <div>Tìm kiếm</div>
@@ -320,7 +320,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 to="/tieng-viet/hdsd"
                                 className={cn('flex items-center gap-2 py-2 px-3 rounded hover:bg-slate-200 md:hidden')}
                                 aria-current="page"
-                                onClick={() => setNavbarOpen(false)}
+                                onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
                                 <Manual />
                                 <div>Hướng dẫn sử dụng</div>

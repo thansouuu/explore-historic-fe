@@ -3,6 +3,22 @@ export default [
         id: 1,
         image: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
         name: 'Nhân vật lịch sử',
+        description:[
+            {
+                value: `Nhân vật lịch sử là những người có những việc to lớn...`,
+                hightlightList: [
+                    {
+                        type: 'out',
+                        hightlight: 'Nhân vật lịch sử là những người có những việc to lớn...',
+                        valueModal: {
+                            type: 'tooltip',
+                            ref: false,
+                            value: 'Nhân vật lịch sử là những người có những việc to lớnNhân vật lịch sử là những người có những việc to lớnNhân vật lịch sử là những người có những việc to lớnNhân vật lịch sử là những người có những việc to lớnNhân vật lịch sử là những người có những việc to lớnNhân vật lịch sử là những người có',
+                        },
+                    },
+                ],
+            },
+        ],
     },
     {
         id: 2,

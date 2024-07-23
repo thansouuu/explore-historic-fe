@@ -39,6 +39,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <ul className="mt-16">
                 
                 <Link to="/tieng-viet/main"
+                    onClick={() => {navigate(`/tieng-viet/main`),window.location.reload()}}
                 >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Home/>
@@ -54,37 +55,49 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                     Đăng ký / Đăng nhập
                     </li>
                 </Link>
-                <Link to="/tieng-viet/figure">
+                <Link to="/tieng-viet/figure"
+                    onClick={() => {navigate(`/tieng-viet/figure`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Category />
                     Danh mục
                     </li>
                 </Link>
-                <Link to="/tieng-viet/like">
+                <Link to="/tieng-viet/like"
+                    onClick={() => {navigate(`/tieng-viet/like`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Like/>
                     Yêu thích
                     </li>
                 </Link>
-                <Link to="/tieng-viet/map">
+                <Link to="/tieng-viet/map"
+                    onClick={() => {navigate(`/tieng-viet/map`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Map/>
                     Bản đồ
                     </li>
                 </Link>
-                <Link to="/tieng-viet/chatbot">
+                <Link to="/tieng-viet/chatbot"
+                    onClick={() => {navigate(`/tieng-viet/chatbot`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Bot/>
                     Chatbot
                     </li>
                 </Link>
-                <Link to="/tieng-viet/find">
+                <Link to="/tieng-viet/find"
+                    onClick={() => {navigate(`/tieng-viet/find`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Magnify/>
                     Tìm kiếm
                     </li>
                 </Link>
-                <Link to="/tieng-viet/hdsd">
+                <Link to="/tieng-viet/hdsd"
+                    onClick={() => {navigate(`/tieng-viet/hdsd`),window.location.reload()}}
+                >
                     <li className={`p-4 hover:bg-gray-700 flex items-center gap-4 ${location.pathname.includes('categories') ? 'bg-gray-900' : ''}`}>
                     <Manual/>
                     Hướng dẫn sử dụng
