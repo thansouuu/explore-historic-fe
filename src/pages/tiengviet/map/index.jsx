@@ -83,6 +83,12 @@ const Map = () => {
     }
   };
 
+  const handleTour=()=>{
+    if (selectedLocation.tourUrl!=''){
+      window.location.assign(selectedLocation.tourUrl)
+    }
+  }
+
   return (
     <div className="relative h-full w-full flex flex-col">
       <div className="flex justify-center items-center space-x-2 py-4">
@@ -166,7 +172,12 @@ const Map = () => {
                   Thuyết minh
                 </button>
                
-                <button className="bg-blue-500 text-white px-4 py-2 rounded">3D - VR Tour</button>
+                <button 
+                  className="bg-blue-500 text-white px-4 py-2 rounded"
+                  onClick={handleTour}
+                >
+                  3D - VR Tour
+                </button>
               </div>
             </>
           )}

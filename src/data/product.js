@@ -2957,6 +2957,308 @@ export default [
                     },
                 ],
             }, 
+            {
+                id: '38',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
+                title: 'Biển ba động',
+                description: 'Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Giới thiệu chung',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: ` - Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh. Cách thành phố Trà Vinh hơn 60km về hướng đông nam.  Đây là một trong những bãi biển đẹp của Đồng bằng sông Cửu Long với vẻ đẹp hoang sơ và triền cát dài.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Duyên Hải',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Đặc điểm tự nhiên',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Bãi biển có độ dốc thoai thoải, nước biển trong và sóng yên biển lặng. Là một trong những khu vực hiếm hoi ở miền Tây Nam Bộ có bãi cát dài hơn 10km từ ấp Nhà Mát tới ấp Cồn Trứng. Khi thủy triều xuống, bãi cát phơi ra hàng trăm mét từ bờ xuống mép nước.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'thủy triều xuống',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-4.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Lịch sử và phát triển',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ đầu thế kỷ XX, khu vực này đã hình thành khu tắm biển và nghỉ dưỡng. Biển Ba Động vừa có bãi tắm đẹp vừa có các món ăn đặc sản hấp dẫn như: chù ụ rang me, tôm sú Cồn Cù, nghêu Nhà Mát, ốc cà na hấp sả.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'chù ụ rang me',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-3.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'tôm sú Cồn Cù',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'nghêu Nhà Mát',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-5.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'ốc cà na hấp sả',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-6.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Lịch sử văn hóa và chiến tranh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2a.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-6.png',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-7.jpg',
+
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Dừng chân tại khu du lịch Biển Ba Động, du khách sẽ có dịp tìm hiểu bề dày lịch sử, chiều sâu văn hóa của vùng đất ven biển Trường Long Hòa, Duyên Hải, Trà Vinh. `,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Gần 3 thế kỷ trước, những ngư dân vùng Bình Thuận vào định cư tại đây đã mở ra nghề đi biển tạo cơm ăn áo mặc và cũng chính họ đã mang theo địa danh Ba Động, tín ngưỡng thờ Bà Cố Hỷ cho vùng đất mới.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Bà Cố Hỷ',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2b.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Vào cuối thế kỷ XVIII, trong những năm tháng quân tướng chúa Nguyễn Ánh trốn chạy sự truy đuổi của nghĩa quân Tây Sơn,  các tên làng có từ tố “Long” như Trường Long Hòa, Long Vĩnh, Long Hữu, Long Toàn xuất hiện.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'quân tướng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-3.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Cuối thế kỷ XIX, khi thực dân Pháp nổ súng xâm chiếm Nam bộ, tuyến rừng ven biển Duyên Hải là căn cứ của nghĩa binh Đề Triệu, Phan Tôn – Phan Liêm, Lê Tấn Kế – Trần Bình…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nổ súng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'tuyến rừng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-5.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong hai cuộc kháng chiến chống thực dân Pháp và đế quốc Mỹ trường kỳ của dân tộc, Trường Long Hòa nói riêng, Duyên Hải nói chung là căn cứ vững chắc của các cơ quan lãnh đạo, lực lượng vũ trang cách mạng tỉnh Trà Vinh, Khu Tây Nam bộ và cả Đặc khu Sài Gòn – Gia Định. Chính địa bàn này là một trong những mắc xích quan trọng của tuyến đường Hồ Chí Minh trên biển huyền thoại vận chuyển vũ khí từ miền Bắc xã hội chủ nghĩa vào chi viện cho chiến trường Tây Nam bộ, với những kình ngư lẫy lừng tên tuổi là những người con ưu tú của vùng đất này như Lê Thanh Lòng, Hồ Đức Thắng…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'vận chuyển',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-8.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Hoạt động du lịch và tiềm năng kinh tế',
+                        data: [
+                            {
+                                type: 'bold',
+                                value: `* Hoạt động du lịch`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Du khách nên nghỉ lại qua đêm để ngắm ánh bình minh hoặc hoàng hôn trên biển. Các hoạt động như tắm biển, cưỡi mô tô nước, thư giãn tại nhà hàng hoặc ghế bố dọc theo bờ kè.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tham quan các lối mòn quanh co, khúc khuỷu theo chân các động cát và hàng phi lao uốn lượn theo chiều gió.`,
+                                hightlightList: [
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `* Tiềm năng và thế mạnh`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trường Long Hòa, Duyên Hải là vùng kinh tế trọng điểm của tỉnh Trà Vinh với nhiều công trình trọng điểm quốc gia.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Khu du lịch Biển Ba Động là trọng tâm của chuỗi các địa chỉ du lịch tiềm năng ven biển Trà Vinh như Trúc Lâm Thiền viện, khu Di tích Bến Tiếp nhận vũ khí Cồn Tàu, Đình miếu Cồn Trứng, Hải đăng Vàm Láng Nước, Lầu Bà Thượng động Cố hỷ nương nương, mộ cổ Ba Động.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Cồn Tàu',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/33',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Hải đăng Vàm Láng Nước',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-5.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'Lầu Bà',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-6.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'mộ cổ Ba Động',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-7.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
+                    },
+                    {
+                        title: 'Duyên hải',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        title:'Cồn Tàu',
+                        link: '/tieng-viet/figure/2/product/33',
+                    },
+                ],
+            },
         ]
     },
     {
@@ -3114,20 +3416,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ẩm thực',
+                        link: '/tieng-viet/figure/3',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Châu Thành',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -3136,7 +3430,7 @@ export default [
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%A1nh%20t%C3%A9t%20Tr%C3%A0%20Cu%C3%B4n/I-10.jpg',
                 video: '',
                 title: 'Bánh tét Trà Cuôn',
-                description: 'Bánh tét- là một loại bánh có từ lâu đời của người dân Việt Nam chúng ta. Từ xưa món bánh tét  ...',
+                description: 'Bánh tét- là một loại bánh có từ lâu đời của người dân Việt Nam chúng ta. Từ xưa món bánh tét ...',
                 game: '',
                 view: 100,
                 contents: [
@@ -3157,6 +3451,15 @@ export default [
                                 type: 'hightlight',
                                 value: `- Bánh tét- là một loại bánh có từ lâu đời của người dân Việt Nam chúng ta. Từ xưa món bánh tét thường có mặt trong các ngày lễ tết ở Việt Nam. Mỗi địa phương ở đồng bằng sông Cửu Long thường sẽ tạo ra loại bánh tét phù hợp với từng khu vực của mình. Bánh tét hiện nay đã trở thành đặc sản của nhiều địa phương ở miền Nam, mỗi nơi đều mang trong mình một câu chuyện về hương vị riêng biệt. Bình Dương và Tây Ninh nổi tiếng với bánh tét hấp dẫn từ nếp trộn đậu phộng, Đồng Nai gây ấn tượng với bánh tét hạt điều, Cần Thơ thì là món bánh tét lá cẩm độc đáo, và Sóc Trăng có bánh tét cốm dẹp thì ở Trà Vinh có bánh tét Trà Cuôn. Theo lưu truyền của người dân Trà Vinh, món bánh tét này do một người Khmer là bà Thạch Thị Lết ở huyện Cầu Ngang, gói bán để mưu sinh. Đến nay, món bánh này đã có lịch sử đến 80 năm, trở thành đặc sản miền Tây được cư dân địa phương và du khách khắp nơi yêu thích. Món bánh này mang trong nó một hương vị đặc biệt, cuốn hút và độc đáo, đủ để khiến    bất kỳ ai nếm thử đều phải mê mẩn. Bánh tét Trà Cuôn không chỉ là một món ngon, mà nó còn đại diện cho sự tự hào và truyền thống ẩm thực của Trà Vinh.`,
                                 hightlightList: [
+                                    {
+                                        hightlight: 'Cầu Ngang',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
                                     {
                                         hightlight: 'nếp trộn đậu phộng',
                                         valueModal: {
@@ -3200,23 +3503,14 @@ export default [
                                     },
                                     {
                                         hightlight: '"chắc nịch"',
-                                        valueModal: {
-                                            type: 'tooltip',
-                                            ref: true,
-                                            link: '/tieng-viet/figure/3/product/10',
-                                            id:'id1',
-                                            value: 'Rắn chắc đến mức như được dồn nén chặt',
-                                        }
-                                    },
-                                    {
-                                        hightlight: 'đủ dinh',
+                                        type: 'in',
                                         valueModal: {
                                             type: 'tooltip',
                                             ref: false,
-                                            value: 'Thay đổi cho mọi người',
+                                            link: '/tieng-viet/figure/3/product/10',
+                                            value: 'Rắn chắc đến mức như được dồn nén chặt',
                                         }
                                     },
-
                                 ],
                             },
                             {
@@ -3556,12 +3850,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ẩm thực',
+                        link: '/tieng-viet/figure/3',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Cầu Ngang',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -3591,6 +3885,15 @@ export default [
                                 value: `- Món bún nước lèo ngon và đặc biệt, luôn là sự lựa chọn hàng đầu của những người yêu thực phẩm tinh túy. Đây là một món đặc sản của người Khmer, món bún nước lèo đã thăng hoa thành một tác phẩm nghệ thuật đỉnh cao, được ưa chuộng rộng rãi tại nhiều địa phương. Tuy nhiên, bún nước lèo Trà Vinh với sự đậm đà và độc đáo, khiến người thưởng thức không thể quên. Bí quyết thành công của món ăn này bắt đầu từ việc chọn lựa mắm bò hóc, một loại mắm tinh tế được tạo ra có thể bằng nhiều loại cá khác nhau. Mắm bò hóc là linh hồn của bún nước lèo, mang hương vị đặc trưng và tan chảy ngay khi tiếp xúc với nước sôi. Thợ làm mắm phải tuân theo các tiêu chuẩn khắt khe, và thường sử dụng nồi đất để nấu mắm, giữ nguyên hương vị đặc biệt. Nhiều người còn thêm vào nước lèo dừa tươi và sả đập dập để tạo ra một lớp hương thơm tinh tế.`,
                                 hightlightList: [
                                     {
+                                        hightlight: 'người Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
                                         hightlight: 'dừa tươi',
                                         valueModal: {
                                             type: 'image',
@@ -3616,7 +3919,7 @@ export default [
                         title: 'Cách làm bún nước lèo',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Nguyên liệu:`,
                             },
                             {
@@ -3733,7 +4036,7 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Các bước thực hiện`,
                             },
                             {
@@ -3767,7 +4070,7 @@ export default [
                         title: 'Cách pha nước chấm',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Giấm ớt:`,
                             },
                             {
@@ -3775,7 +4078,7 @@ export default [
                                 value: `- Ta bắc nước cho vào ½ muỗng canh muối sau đó cho ớt vào luộc khoảng 2 phút. Cho vào 100ml giấm 1 muỗng canh đường, 1 muỗng cà phê bột ngọt khuấy cho tan đều ra. Phần ớt sau khi luộc ta đem cho vào máy xay cùng với tỏi. Xay nhuyễn sau đó cho vào cùng với hỗn hợp nước giấm vừa pha là chúng ta đã có cho mình 1 hỗn hợp giấm ớt tươi ngon để làm món ăn thêm ngon bùng nổ vị giác.`,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Muối ớt:`,
                             },
                             {
@@ -3874,19 +4177,16 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ẩm thực',
+                        link: '/tieng-viet/figure/3',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26m',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trà Vinh',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -3914,10 +4214,20 @@ export default [
                                     'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20bi%E1%BB%83n%20M%E1%BB%B9%20Long/I-2.jpg',
                                 ],
                             },
-                            
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Lễ hội cúng biển Mỹ Long (hay còn gọi là lễ hội Nghinh Ông) là một nét văn hoá đặc trưng của ngư dân vùng biển thị trấn Mỹ Long, huyện Cầu Ngang, tỉnh Trà Vinh. Lễ hội được tổ chức hàng năm từ ngày mùng 10-12/5 âm lịch.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Ngang',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -3925,7 +4235,7 @@ export default [
                         title: 'Lịch sử và ý nghĩa',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Vị trí nguồn gốc:`,
                             },
                             {
@@ -3940,7 +4250,7 @@ export default [
                                 value: `- Mỹ Long, còn có tên gọi dân gian là Bến Đáy, vốn là ngôi làng nhỏ ven cửa biển Cung Hầu - một trong 9 cửa của sông Cửu Long. Nhờ vị trí địa lý thuận lợi, vùng biển Mỹ Long là một trong những địa điểm sớm hội tụ cư dân nhiều nơi đến định cư, lập nghiệp. Khoảng thế kỷ XVI – XVII, các thế hệ ngư dân từ các tỉnh ven biển Nam Trung bộ di cư vào, trên bước đường Nam tiến họ mang theo hành trang văn hóa bản địa, trong đó có tín ngưỡng thờ cúng cá voi, còn gọi là Đức ông Nam Hải. `,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Truyền thuyết:`,
                             },
                             {
@@ -3957,7 +4267,7 @@ export default [
                                 value: `- Đối với người đi biển, Cá voi là vị phúc thần hóa thân từ chiếc áo cà sa của đức Phật, được đức Phật giao sứ mạng tuần tra và sẵn sàng ra tay cứu giúp khi có tàu thuyền không may lâm nạn giữa gió to sóng dữ. Tương truyền, khi chúa Nguyễn Ánh bị nghĩa quân Tây Sơn truy đuổi đến bờ nam cửa biển Cung Hầu thì Cá voi nổi lên, đưa ngài cùng đám tàn quân vượt sóng sang bờ cù lao Cổ Chiên an toàn. Sau khi lên ngôi, vua Gia Long đã ban sắc phong cho Cá voi là Quốc gia Nam Hải Cự tộc Ngọc lân chi thần hay còn gọi là Nam Hải Đại tướng quân, được ngư dân các làng ven biển tôn thờ. Khi đức Ông lỵ (tức Cá voi chết) và dạt vào bờ, ngư dân sở tại có nhiệm vụ phải tổ chức tang lễ, sau đó dựng lăng đưa di cốt vào thờ. Ngày giỗ đức Ông trở thành ngày hội của làng.`,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Lễ cúng biển:`,
                             },
                             {
@@ -3984,7 +4294,7 @@ export default [
                         title: 'Các nghi thức chính',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Các nghi thức chính:`,
                             },
                             {
@@ -4000,7 +4310,7 @@ export default [
                                 value: `- Lễ cúng biển được chia ra làm 6 nghi thức chính gồm: Đi nghinh Nam Hải bằng ghe biển, chánh tế, giỗ tiên chức, chánh tế bà Chúa, tống tàu ra khơi, đi nghinh ngũ phương. Cùng với những nghi thức được tiến hành theo truyền thống, lễ cúng biển Mỹ Long còn có rất nhiều trò chơi phục vụ cho nhu cầu giải trí của ngư dân như biểu diễn văn nghệ, đi cà kheo, thi đấu thể thao,... tạo nên một không khí vui tươi trong những ngày lễ hội. Mỗi nghi thức đều có tầm quan trọng riêng, song nghinh ngũ phương và tống tàu ra khơi là một trong những nghi thức thu hút sự quan tâm của nhiều du khách nhất.`,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Đi nghinh ngũ phương:`,
                             },
                             {
@@ -4016,7 +4326,7 @@ export default [
                                 value: `- Nghi thức Nghinh ngũ phương được tiến hành vào buổi sáng ngày 12 tháng Năm âm lịch. Từ trung tâm ngôi miếu Bà Chúa Xứ, đoàn người hóa trang giống như khi Nghinh ông chiều hôm trước cùng đoàn lân, dàn nhạc và nhiều dân làng bổn hội hình thành đám rước qua các xóm dân cư vòng quanh thị trấn. Trên đường đi, đám rước sẽ nhận gạo muối, giấy tiền vàng bạc của người dân từ các bàn hương án cho vào bàn nghinh, hàm ý gom hết bao điều xui rủi, tai ương, dịch bệnh để làng xóm được bình an, sức khỏe dồi dào cho mùa đi biển mới.`,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Nghi thức sống tàu:`,
                             },
                             {
@@ -4039,7 +4349,7 @@ export default [
                             },
                             {
                                 type: 'text',
-                                value: `- Tống tàu cũng nghi thức cuối cùng khép lại lễ hội cúng biển, lễ tống tàu thường bắt đầu diễn ra vào khoảng 9h - 12h ngày 12/05  m lịch. Nhiều lễ vật, trong đó phải có con heo trắng, cùng hương đăng, trà rượu, hoa quả, gạo muối, vàng mã, có những hình nhân tài công, ngư phủ được đặt lên một chiếc tàu nhỏ, trang trí rực rỡ. Sau đó, chiếc tàu này được người dân kéo ra khơi, khi ra đến vị trí đã Nghinh Ông hôm qua, chiếc thuyền chở lễ vật này được cắt dây thả trôi trên biển, mang theo bao ước vọng của ngư dân gửi gắm vào biển cả.`,
+                                value: `- Tống tàu cũng nghi thức cuối cùng khép lại lễ hội cúng biển, lễ tống tàu thường bắt đầu diễn ra vào khoảng 9h - 12h ngày 12/05 âm lịch. Nhiều lễ vật, trong đó phải có con heo trắng, cùng hương đăng, trà rượu, hoa quả, gạo muối, vàng mã, có những hình nhân tài công, ngư phủ được đặt lên một chiếc tàu nhỏ, trang trí rực rỡ. Sau đó, chiếc tàu này được người dân kéo ra khơi, khi ra đến vị trí đã Nghinh Ông hôm qua, chiếc thuyền chở lễ vật này được cắt dây thả trôi trên biển, mang theo bao ước vọng của ngư dân gửi gắm vào biển cả.`,
                             },
                         ],
                     },
@@ -4063,19 +4373,12 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Lễ hội',
+                        link: 'tieng-viet/figure/4',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Cầu Ngang',
+                        link: 'tieng-viet/map',
                     },
                 ],
             },
@@ -4100,16 +4403,36 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: ` - Lễ hội cúng Ông Bổn huyện Cầu Kè diễn ra từ ngày 25-28/7 âm lịch, tại thị trấn Cầu Kè, địa điểm chính là Vạn Niên Phong Cung hay còn gọi là 29 Chùa Chợ (vì gần chợ Cầu Kè) tọa lạc tại khóm 1. Đây là lễ hội truyền thống của cộng đồng người Hoa ở Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'người Hoa',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/27',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
                     {
-                        title: 'Cách làm Bánh canh Bến Có',
+                        title: 'Nguồn gốc',
                         data: [
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Ông Bổn và các chùa thờ:`,
                             },
                             {
@@ -4129,7 +4452,7 @@ export default [
                                 value: `- Ông Bổn mà đồng bào người Hoa ở Cầu Kè tôn thờ là bốn anh em kết nghĩa, tương truyền có công đưa thế hệ Triều Châu đầu tiên di cư đến vùng đất ven sông Hậu, giúp họ lập nghiệp, ổn định cuộc sống ở vùng đất mới và dạy họ giữ gìn thuần phong mỹ tục. Trong đó, Minh Ðức Cung (Chùa Giồng Lớn, xã Hoà Ân) thờ ông Nhất; Vạn Ứng Phong Cung (Chùa Giữa, xã Hoà Ân) thờ ông Nhì; Vạn Niên Phong Cung (Chùa Chợ, thị trấn Cầu Kè) thờ ông Ba và Niên Phong Cung (Chùa Cây Sanh, xã Tam Ngãi) thờ ông Tư. Ngoài ra, trên địa bàn Cầu Kè còn có hai ngôi chùa thờ Ông Bổn nữa là Vạn Đức Phong Cung (Tam Ngãi) và Thiên Đức Cung (Hoà Ân).`,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Vạn Niên Phong Cung:`,
                             },
                             {
@@ -4146,7 +4469,7 @@ export default [
                                 value: `- Vạn Niên Phong Cung với lợi thế nằm ở trung tâm thị trấn, giao thông thuận tiện, đời sống người dân sung túc nên được chọn là lễ hội chính. Đây là nơi được dân chúng trong vùng lui tới cúng vái, thỉnh cầu nhiều nhất, cũng là nơi tổ chức lễ Vu Lan Thắng Hội (dân gian thường gọi lễ hội Ông Bổn) lớn nhất trong 04 miếu thờ ông Bổn của huyện, thu hút đông nhất lượt du khách viếng thăm, tạo tiếng vang trong và ngoài tỉnh. Tín ngưỡng Ông Bổn, cụ thể thờ quan thái giám Trịnh Hòa, tại Vạn Niên Phong Cung thể hiện một khát vọng rất thật về sự phò hộ, ban phúc của vị nhân thần vốn đã có công đức với dân chúng khi còn tại thế. `,
                             },
                             {
-                                type: 'text',
+                                type: 'bold',
                                 value: `* Thời gian diễn ra lễ hội:`,
                             },
                             {
@@ -4214,20 +4537,16 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Lễ hội',
+                        link: '/tieng-viet/figure/4',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Cầu Kè',
+                        link: '/tieng-viet/map',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Người Hoa',
+                        link: '/tieng-viet/figure/8/product/27',
                     },
                 ],
             },
@@ -4260,8 +4579,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: ` - Làng nghề dệt chiếu Cà Hom – Bến Bạ xã Hàm Tân, huyện Trà Cú, tỉnh Trà Vinh hình thành từ những thập niên cuối thế kỉ XIX. Từ chỗ tự sản xuất, tự tiêu thụ hoặc làm quà biếu và sản phẩm đạt chất lượng vượt hẳn các sản phẩm cùng loại nên chiếu Cà Hom – Bến Bạ dần dần nổi tiếng và trở thành hàng hóa từ những năm 1940 và được nhiều người biết đến trong những năm 1960 cho đến nay.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Trà Cú',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -4409,20 +4739,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Làng nghề',
+                        link: '/tieng-viet/figure/5',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trà Cú',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -4445,10 +4767,20 @@ export default [
                                     'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20s%E1%BA%A3n%20xu%E1%BA%A5t%20r%C6%B0%E1%BB%A3u%20Xu%C3%A2n%20Th%E1%BA%A1nh/I-2.jpg',
                                 ],
                             },
-                            
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Làng nghề sản xuất rượu Xuân Thạnh, xã Hòa Thuận, huyện Châu Thành, được công nhận theo Quyết định số 1671/QĐ-UBND ngày 18/10/2011 của UBND tỉnh Trà Vinh. `,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Châu Thành',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -4565,19 +4897,12 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Làng nghề',
+                        link: '/tieng-viet/figure/5',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Châu Thành',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -4601,8 +4926,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Làng nghề tiểu thủ công nghiệp xã Hưng Mỹ, huyện Châu Thành, được công nhận theo Quyết định số 1814/QĐ-UBND ngày 29/11/2007 của UBND tỉnh Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Châu Thành',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -4667,12 +5003,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Làng nghề',
+                        link: '/tieng-viet/figure/5',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Châu Thành',
+                        link: '/tieng-viet/map',
                     },
                 ],
             },
@@ -6748,8 +7084,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Trò chơi dân gian là một phần quan trọng và độc đáo của văn hóa Việt Nam, với nhiều trò chơi vẫn được ưa chuộng cho đến ngày nay. Để chào mừng lễ hội Ok Om Bok tại Trà Vinh, Sở Văn hóa, Thể thao và Du lịch tổ chức các môn thể thao và trò chơi dân gian tại Khu Du lịch Ao Bà Om. Một trong những trò chơi dân gian hấp dẫn và thu hút nhiều thí sinh cũng như khán giả tham gia chính là trò đẩy gậy nam, nữ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Ao Bà Om',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/8',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6765,7 +7112,7 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: `Cách chơi:`,
+                                value: `* Cách chơi:`,
                             },
                             {
                                 type: 'text',
@@ -6773,7 +7120,7 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: `Luật chơi:`,
+                                value: `* Luật chơi:`,
                             },
                             {
                                 type: 'text',
@@ -6785,12 +7132,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trò chơi dân gian',
+                        link: '/tieng-viet/figure/9',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ao Bà Om',
+                        link: '/tieng-viet/figure/2/product/8',
                     },
                 ],
             },
@@ -6814,8 +7161,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Trò chơi dân gian là một phần quan trọng và độc đáo của văn hóa Việt Nam, với nhiều trò chơi vẫn được ưa chuộng cho đến ngày nay. Để chào mừng lễ hội Ok Om Bok tại Trà Vinh, Sở Văn hóa, Thể thao và Du lịch tổ chức các môn thể thao và trò chơi dân gian tại Khu Du lịch Ao Bà Om. Một trong những trò chơi dân gian hấp dẫn và thu hút nhiều thí sinh cũng như khán giả tham gia chính là trò đi cầu tre.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Ao Bà Om',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/8',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
                                 type: 'text',
@@ -6842,19 +7200,12 @@ export default [
         
                 tags: [
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trò chơi dân gian',
+                        link: '/tieng-viet/figure/9',
                     },
                     {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ao bà om',
+                        link: '/tieng-viet/figure/2/product/8',
                     },
                 ],
             },
@@ -6878,8 +7229,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Trò chơi dân gian là một phần quan trọng và độc đáo của văn hóa Việt Nam, với nhiều trò chơi vẫn được ưa chuộng cho đến ngày nay. Để chào mừng lễ hội Ok Om Bok tại Trà Vinh, Sở Văn hóa, Thể thao và Du lịch tổ chức các môn thể thao và trò chơi dân gian tại Khu Du lịch Ao Bà Om. Một trong những trò chơi dân gian hấp dẫn và thu hút nhiều thí sinh cũng như khán giả tham gia chính là trò kéo co.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Ao Bà Om',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/8',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6894,7 +7256,7 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: `Cách chơi:`,
+                                value: `* Cách chơi:`,
                             },
                             {
                                 type: 'text',
@@ -6902,7 +7264,7 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: `Luật chơi:`,
+                                value: `* Luật chơi:`,
                             },
                             {
                                 type: 'text',
@@ -6918,12 +7280,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trò chơi dân gian',
+                        link: '/tieng-viet/figure/9',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ao Bà Om',
+                        link: '/tieng-viet/figure/2/product/8',
                     },
                 ],
             },
@@ -6947,8 +7309,19 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Trò chơi dân gian là một phần quan trọng và độc đáo của văn hóa Việt Nam, với nhiều trò chơi vẫn được ưa chuộng cho đến ngày nay. Để chào mừng lễ hội Ok Om Bok tại Trà Vinh, Sở Văn hóa, Thể thao và Du lịch tổ chức các môn thể thao và trò chơi dân gian tại Khu Du lịch Ao Bà Om. Một trong những trò chơi dân gian hấp dẫn và thu hút nhiều thí sinh cũng như khán giả tham gia chính là trò nhảy bao bố.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Ao Bà Om',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/8',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -6964,11 +7337,11 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: 'Cách chơi',
+                                value: '* Cách chơi',
                             },
                             {
                                 type: 'text',
-                                value: `- Người chơi chia làm hai đội trở lên thông thường thì từ hai đến ba đội, mỗi đội phải có số người bằng nhau.Mỗi đội có một ô hàng dọc để nhảy và có hai lằn mức một xuất phát và một mức đích. Mỗi đội sếp thành một hàng dọc.`,
+                                value: `- Người chơi chia làm hai đội trở lên thông thường thì từ hai đến ba đội, mỗi đội phải có số người bằng nhau. Mỗi đội có một ô hàng dọc để nhảy và có hai lằn mức một xuất phát và một mức đích. Mỗi đội sếp thành một hàng dọc.`,
                             },
                             {
                                 type: 'text',
@@ -6976,7 +7349,7 @@ export default [
                             },
                             {
                                 type: 'bold',
-                                value: 'Luật chơi',
+                                value: '* Luật chơi',
                             },
                             {
                                 type: 'text',
@@ -6988,20 +7361,12 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Trò chơi dân gian',
+                        link: '/tieng-viet/figure/9',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Ao Bà Om',
+                        link: '/tieng-viet/figure/2/product/8',
                     },
                 ],
             },

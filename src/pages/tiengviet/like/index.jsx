@@ -178,7 +178,7 @@ const LikedPosts = () => {
                         </FoodContent>
                     </div>
                 ))}
-                {likedPosts.length === 0 && <div className="text-center">No liked posts</div>}
+                {likedPosts.length === 0 && <div className="text-center">Không có bài viết yêu thích</div>}
             </div>
         </div>
     );

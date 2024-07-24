@@ -554,9 +554,7 @@ const Product = memo(() => {
                                                             onClick={() => handleModalImageCarousel(image)}
                                                             src={image}
                                                             alt={`Slide ${idx}`}
-                                                            // style={{ width: '100%', height: '300px', objectFit: 'cover' }}
                                                         />
-                                                        sdfsdfsdfsdfsdf
                                                     </Carousel.Item>
                                                 ))}
                                             </Carousel>

@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import { useForm } from 'react-hook-form';
 import InputField from '../form/input-field';
 import { useAuth } from '@/hooks/use-auth';
@@ -86,10 +87,7 @@ const Detail = ({ onUpdate }) => {
       
 
     const onSubmit = async (values) => {
-        
-
-        if(!isObjectEmpty(cloudinaryFiles)) {
-            
+        if(!isObjectEmpty(cloudinaryFiles)) {  
             if(!imageDefaults.includes(images[0])){
                 console.log('render')
                 const result = await uploadToCloudinary(cloudinaryFiles)
@@ -110,6 +108,8 @@ const Detail = ({ onUpdate }) => {
         }
         onUpdate?.(update_data)
     }
+    
+
     const logoutHandler = () => {
         localStorage.removeItem('accessToken');
         mutate();

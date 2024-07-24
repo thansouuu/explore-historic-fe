@@ -72,7 +72,7 @@ const HighlightText = ({ text, highlights }) => {
                             ) : (
                                 <>
                                     {highlight?.type == 'out' ? ( 
-                                        <Tippy content={highlight?.valueModal?.value}>< span className={'text-gray-800'}>{part}</span></Tippy>
+                                        <Tippy className={' text-justify text-[16px]'} content={highlight?.valueModal?.value}>< span className={'text-[17px] text-gray-800 text-justify'}>{part}</span></Tippy>
                                     ) : (
                                         <> <Tippy  content={highlight?.valueModal?.value}><span>{part}</span></Tippy></>
                                     )}
