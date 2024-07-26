@@ -19,6 +19,7 @@ import Home from '@/components/utils/Home';
 import Bot from '@/components/utils/Bot';
 import Manual from '@/components/utils/Manual';
 import { useNavigate } from 'react-router-dom';
+import Dropdown from '@/components/dropdown';
 
 
 
@@ -29,7 +30,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <div
             className={`hidden md:block z-20 fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform ${
                 isOpen ? 'translate-x-0' : '-translate-x-full'
-            } transition-transform duration-300 ease-in-out`}
+            } transition-transform duration-300 ease-in-out overflow-auto`}
         >
             <div className="flex justify-end p-4" onClick={toggleSidebar}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
@@ -105,7 +106,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 </Link>
                 
                 
-                {/* <li>
+                <li>
                     <Dropdown title="Danh mục" items={[
                         {
                             label: 'Danh mục 1',
@@ -120,7 +121,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             href: '/tieng-viet/tin-tuc/1',
                         }
                     ]}/>
-                </li> */}
+                </li>
+                {/* <div style={{ height: '300px' }}></div> */}
             </ul>
         </div>
     );

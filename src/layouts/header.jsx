@@ -78,8 +78,9 @@ const HeaderRoot = ({ toggleSidebar }) => {
 
     const handleZoomToggle = () => {
         setZoomEnabled(!zoomEnabled);
-        document.body.style.touchAction = zoomEnabled ? 'auto' : 'none';
+        // document.body.style.touchAction = zoomEnabled ? 'auto' : 'none';
     };
+   
 
     // useEffect(() => {
     //     const addGoogleTranslateScript = () => {
@@ -93,7 +94,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
     //                     {
     //                         pageLanguage: 'vi',
     //                         includedLanguages: 'en,ja,vi',
-    //                         layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    //                         layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
     //                     },
     //                     'google_translate_element',
     //                 );
@@ -138,8 +139,6 @@ const HeaderRoot = ({ toggleSidebar }) => {
     //     }
     // }, []);
     
-    
-
     const handleSelectProduct = (product) => {
         setSearchTerm(product.title);
         setSearchResult([]);
@@ -356,8 +355,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 {zoomEnabled ? 'Disable Zoom' : 'Enable Zoom'}
                             </button>
                             
-                        </li>
-                       
+                        </li>                    
                         
                     </ul>
                 </div>
