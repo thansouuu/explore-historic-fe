@@ -30,7 +30,3 @@ export const withHighlighter = (content, highlights, callback) => {
     )
 }
 
-// anh tham khảo cách này thử xem
-// mình đánh dấu cái word có hinh anh lai bang div hoac j do 
-// xong xu li voi no if else , cach do khong toi uu code em oi, anh dang tim giai phap toi uu mot xiu
-// tai so kho a, 1 doan van cai word trung nhieu lam

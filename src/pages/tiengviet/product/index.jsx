@@ -22,6 +22,7 @@ import productData from '@/data/product';
 import { uploadToCloudinary } from '@/hooks/use-upload-cloudinary';
 import CardContentHightlight from '@/components/card-content/card-content-hightlight';
 import CardContentText from '@/components/card-content/card-content-text';
+import { Helmet } from 'react-helmet';
 
 import good_icon1 from '@/assets/good/good1.png'
 import good_icon2 from '@/assets/good/good2.png'
@@ -44,6 +45,7 @@ import best_icon4 from '@/assets/best/best4.png'
 import best_icon5 from '@/assets/best/best5.png'
 import best_icon6 from '@/assets/best/best6.png'
 
+// import { Helmet } from 'react-helmet';
 
 // import 'react-tooltip/dist/react-tooltip.css';
 // import { Tooltip } from 'react-tooltip';
@@ -479,6 +481,12 @@ const Product = memo(() => {
     return (
         
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
+            <Helmet>
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
+            </Helmet>
+            {/* <MetaTags>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
+            </MetaTags> */}
             {product?.video!='' && 
             <iframe
                 className="w-full h-auto aspect-video border-4 border-gray-600 rounded-xl overflow-hidden"

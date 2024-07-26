@@ -13,7 +13,7 @@ import Figure from '@/pages/tiengviet/figure';
 import Map from '@/pages/tiengviet/map';
 import LikedPosts from '@/pages/tiengviet/like';
 import Main from '@/pages/tiengviet/main';
-import Thinklink from '@/pages/tiengviet/thinklink';
+import Thinglink from '@/pages/tiengviet/thinglink';
 import Find from '@/pages/tiengviet/find';
 import Bot from '@/pages/tiengviet/chatbot';
 
@@ -23,14 +23,15 @@ export const routes = [
         path: '/download',
         element: <Download />,
     },
-    {
-        path: 'thinklink',
-        element: <Thinklink />,
-    },
+    
     {
         path: '/tieng-viet',
         element: <RootLayout />,
         children: [
+            {
+                path: 'thinglink/:id',
+                element: <Thinglink />,
+            },
             {
                 path: 'account',
                 element: <Account />,

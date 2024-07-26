@@ -4,6 +4,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Link} from 'react-router-dom';
 import productData from '@/data/product';
+import Thinklink from '../thinglink';
+
 
 const containerStyle = {
   width: '100%',
@@ -20,6 +22,9 @@ function get_toado(e){
   if (e=='cau-ke') return { lat: 9.870940, lng: 106.076089 };
   if (e=='tra-cu') return { lat: 9.693124, lng: 106.289475 }; 
 }
+
+
+
 
 const Map = () => {
   const [selectedCountry, setSelectedCountry] = useState('tra-vinh');
@@ -71,6 +76,7 @@ const Map = () => {
                 return {
                     figue_id: element.figureId,
                     product_id: child.id,
+                    tour_id: child.tour,
                 }
             }
         }
@@ -84,9 +90,19 @@ const Map = () => {
   };
 
   const handleTour=()=>{
-    if (selectedLocation.tourUrl!=''){
-      window.location.assign(selectedLocation.tourUrl)
-    }
+    // if (selectedLocation.tourUrl!=''){
+    //   window.location.assign(selectedLocation.tourUrl)
+    // }
+    // else {
+    //     const e=getIdAddress(selectedLocation.name).tour_id
+    //     Thinklink(e)
+    // }
+    const link=getIdAddress(selectedLocation.name).tour_id
+    navigate(`/tieng-viet/thinglink/${getIdAddress(selectedLocation.name).tour_id}`)
+    // <Thinklink e={link}/>
+    // navigate(`/thinklink`)
+    // Thinklink(1);
+    
   }
 
   return (

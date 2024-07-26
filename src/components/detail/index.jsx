@@ -101,14 +101,58 @@ const Detail = ({ onUpdate }) => {
                 return
             }    
         }
+        {console.log(values)}
         const update_data = {
             ...values,
             avatar: images[0],
-            imageIcon: imageIcon
+            imageIcon: imageIcon,
+            
         }
         onUpdate?.(update_data)
     }
-    
+    // const onSubmit = async (values) => {
+    //     if (!isObjectEmpty(cloudinaryFiles)) {
+    //       if (!imageDefaults.includes(images[0])) {
+    //         console.log('render')
+    //         const result = await uploadToCloudinary(cloudinaryFiles)
+      
+    //         const imageUrlList = result.map((file) => file.secure_url)
+      
+    //         let update_data = {
+    //           id: values.id,
+    //           fullname: values.fullname,
+    //           email: values.email,
+    //           avatar: imageUrlList[0],
+    //           imageIcon: imageIcon,
+      
+    //         }
+    //         if (!isDisablePassword) {
+    //           update_data = {
+    //             ...update_data,
+    //             password: values.password
+    //           }
+    //         }
+      
+    //         onUpdate?.(update_data)
+    //         return
+    //       }
+    //     }
+    //     let update_data = {
+    //       id: values.id,
+    //       fullname: values.fullname,
+    //       email: values.email,
+    //       avatar: images[0],
+    //       imageIcon: imageIcon,
+      
+    //     }
+    //     if (!isDisablePassword) {
+    //       update_data = {
+    //         ...update_data,
+    //         password: values.password
+    //       }
+    //     }
+    //     onUpdate?.(update_data)
+    //   }
 
     const logoutHandler = () => {
         localStorage.removeItem('accessToken');
@@ -254,6 +298,7 @@ const Detail = ({ onUpdate }) => {
                         >
                             {isDisablePassword ? <FaLock/> : <FaLockOpen/>}
                         </button>
+                        
                     </div>
                     <button
                         className="outline-none w-full py-2.5 rounded-xl text-white bg-cyan-700 transition-colors hover:bg-cyan-800"

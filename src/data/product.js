@@ -8,6 +8,7 @@ export default [
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Chị Út Tịch',
+                tour:'1',
                 game: '',
                 view: 100,
                 description: 'Tên thật là Nguyễn Thị Út, sinh ngày 19/4/1931 tại xã Tam Ngãi, quận Cầu Kè, tỉnh Cần Thơ. Dưới thời...',
@@ -3259,7 +3260,549 @@ export default [
                     },
                 ],
             },
-        ]
+            {
+                id: '40',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
+                title: 'Thiền viện Trúc Lâm',
+                description: 'Thiền viện Trúc Lâm Trà Vinh tọa lạc tại ấp Khoán Tiều, xã Trường Long Hòa, thị xã Duyên Hải...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Tổng quan ',
+                        data: [
+                            {
+                                type: 'bold',
+                                value: `* Vị trí địa lí:`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền viện Trúc Lâm Trà Vinh tọa lạc tại ấp Khoán Tiều, xã Trường Long Hòa, thị xã Duyên Hải. Cách trung tâm thành phố Trà Vinh 50 km, về hướng đông nam và cách Duyên Hải 12 km về hướng đông. Đây là ngôi thiền viện thuộc Thiền phái Trúc Lâm duy nhất trên địa bàn tỉnh Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'thị xã Duyên Hải',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Lịch sử và quá trình xây dựng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền viện Trúc Lâm Trà Vinh được xây dựng trên khuôn viên rộng 7 ha, trong khu du lịch sinh thái rừng ngập mặn ven biển, mặt tiền nhìn ra biển Đông bao la. Ngôi Thiền viện được thi công trong hai năm và khánh thành vào ngày 31/01/2016.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Duyên Hải',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Nguồn gốc',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền phái Trúc Lâm là một dòng thiền Việt Nam hình thành từ thời nhà Trần, do Vua Trần Nhân Tông sáng lập. Thiền phái Trúc Lâm có ba Thiền sư kiệt xuất là Nhân Tông (Trúc Lâm Đầu Đà), Pháp Loa và Huyền Quang, gọi chung là Trúc Lâm Tam tổ. Thiền phái này được xem là tiếp nối nhưng là sự hợp nhất của ba dòng thiền Việt Nam của thế kỉ thứ 12. Với việc lập ra phái Trúc Lâm, Trần Nhân Tông đã thống nhất các Thiền phái tồn tại trước đó và toàn bộ Giáo hội Phật giáo đời Trần về một mối.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền phái Trúc Lâm mang đậm tinh thần nhập thế, không phải từ bỏ thế gian này mới giác ngộ được. Trên tinh thần đó, Đức Phật hoàng Trần Nhân Tông chọn núi Yên Tử là vùng hiểm địa phía đông bắc đất nước làm nơi xuất gia. Tuy đã rời bỏ ngai vàng, chuyên tâm việc tu hành nhưng ngài vẫn đau đáu lo toan vận nước, sẵn sàng trở về lãnh đạo triều đình và nhân dân đánh giặc. Sau khi đánh đuổi quân xâm lược, đất nước thái bình, Đức Phật hoàng quay lại với việc tu hành và nghiên cứu để đưa hiểu biết của mình đến với người dân.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong suốt thế kỷ XIII và XIV, Phật giáo phát triển đạt tới đỉnh cao trong lịch sử Việt Nam. Từ đó, ở Thiền phái Trúc Lâm Yên Tử chúng ta thấy nổi bật những nét đặc trưng của tôn giáo mang đậm đà bản sắc của nền văn hoá dân tộc Việt Nam, không bị phụ thuộc, lai căng từ bên ngoài.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền phái Trúc Lâm trong lịch sử đã trải qua nhiều giai đoạn thăng trầm. Đến cuối thế kỷ XX, đầu thế kỷ XXI, Thiền sư Thích Thanh Từ các các vị Thiền sư đạo cao đức trọng khác đã chung tay dốc sức phục hồi và phát triển thiền phái dấn thân nhập thế, gắn liền đạo pháp với dân tộc này. Nhiều ngôi thiền viện lần được ra đời trên phạm vi cả nước làm nơi tu hành, nghiên cứu và phát triển thiền phái thuần Việt, có nhiều đóng góp cho lịch sử dân tộc này.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Kiến trúc tại Thiền viện Trúc Lâm',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Toàn bộ các kiến trúc tại Thiền viện Trúc Lâm Trà Vinh được thiết kế và xây dựng theo mô hình các ngôi chùa Phật giáo Việt Nam thời Lý – Trần (thế kỷ XII đến thế kỷ XIV), mà điển hình là các mái ngói dạng hai tầng. Các đầu đao cuối mái được vuốt cong nhẹ nhàng, thể hiện tính khiêm cung, hài hòa với tự nhiên của dân tộc.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Bước qua cổng tam quan, để vào đến Chánh điện, là khoảng sân rộng, dài 150 m và được kết cấu thành hai bậc, là nơi để vị sư trụ trì thuyết pháp hay nhà chùa, địa phương tổ chức các sự kiện văn hóa Phật giáo.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngôi Chánh điện Thiền viện Trúc Lâm có diện tích 27 x 45 m, cao 11 m, trên nền đá cao 1,4 m, là ngôi Chánh điện lớn nhất trong tất cả các tự viện Phật giáo trên địa bàn tỉnh Trà Vinh hiện nay. Toàn bộ khung sườn ngôi Chánh điện làm bằng gỗ lim nhập từ nước ngoài, được chạm khắc công phu bởi những nghệ nhân lành nghề đến từ Bắc Ninh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tượng Phật Tổ ở Chánh điện Thiền viện Trúc Lâm Trà Vinh ở tư thế “Niêm hoa vi tiếu”, theo điển tích Phật Tổ cầm đóa sen đưa lên và Anan Hành giả mỉm cười. Đây là tượng Phật bằng đồng lớn nhất Trà Vinh, cao 3,5 m, nặng hơn 3 tấn được cung thỉnh từ làng nghề đúc đồng nổi tiếng cố đô Huế.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tượng Phật mẫu Quán Thế âm Bồ tát cao 25m được an vị trên bệ tượng cao 6 m, tạo ra chiều cao chung đến 31 m, cũng là tượng Phật mẫu cao nhất trên địa bàn tỉnh Trà Vinh. Tượng Phật mẫu hiền từ mà uy nghiêm nhìn ra muôn trùng biển Đông bao la, giúp người dân đi biển Trà Vinh an tâm hơn khi đối đầu với bao hiểm nguy từ gió to sóng dữ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Kỷ lục của Thiền viện Trúc Lâm',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2a.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-6.png',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-7.jpg',
+
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thiền viện Trúc Lâm đang giữ nhiều kỷ lục trong số các tự viện Phật giáo trên địa bàn Trà Vinh như ngôi chùa gần biển Đông nhất, toàn bộ các kiến trúc gần với kiến trúc truyền thống dân tộc nhất, ngôi Chánh điện to nhất, tượng Phật tổ to nhất, tượng Quán Thế âm to nhất, đại hồng chung lớn nhất, giảng đường có sức chứa lớn nhất, khoảng sân phía trước Chánh điện rộng lớn nhất…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Bà Cố Hỷ',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2b.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
+                    },
+                    {
+                        title: 'Duyên hải',
+                        link: '/tieng-viet/map',
+                    },
+                ],
+            },
+            {
+                id: '41',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
+                title: 'Biển ba động',
+                description: 'Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Giới thiệu chung',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: ` - Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh. Cách thành phố Trà Vinh hơn 60km về hướng đông nam.  Đây là một trong những bãi biển đẹp của Đồng bằng sông Cửu Long với vẻ đẹp hoang sơ và triền cát dài.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Duyên Hải',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Đặc điểm tự nhiên',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Bãi biển có độ dốc thoai thoải, nước biển trong và sóng yên biển lặng. Là một trong những khu vực hiếm hoi ở miền Tây Nam Bộ có bãi cát dài hơn 10km từ ấp Nhà Mát tới ấp Cồn Trứng. Khi thủy triều xuống, bãi cát phơi ra hàng trăm mét từ bờ xuống mép nước.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'sóng yên biển lặng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'thủy triều xuống',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-4.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Lịch sử và phát triển',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ đầu thế kỷ XX, khu vực này đã hình thành khu tắm biển và nghỉ dưỡng. Biển Ba Động vừa có bãi tắm đẹp vừa có các món ăn đặc sản hấp dẫn như: chù ụ rang me, tôm sú Cồn Cù, nghêu Nhà Mát, ốc cà na hấp sả.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nghỉ dưỡng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'chù ụ rang me',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-3.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'tôm sú Cồn Cù',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'nghêu Nhà Mát',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-5.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'ốc cà na hấp sả',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-6.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Lịch sử văn hóa và chiến tranh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2a.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-6.png',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-7.jpg',
+
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Dừng chân tại khu du lịch Biển Ba Động, du khách sẽ có dịp tìm hiểu bề dày lịch sử, chiều sâu văn hóa của vùng đất ven biển Trường Long Hòa, Duyên Hải, Trà Vinh. `,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Gần 3 thế kỷ trước, những ngư dân vùng Bình Thuận vào định cư tại đây đã mở ra nghề đi biển tạo cơm ăn áo mặc và cũng chính họ đã mang theo địa danh Ba Động, tín ngưỡng thờ Bà Cố Hỷ cho vùng đất mới.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Bà Cố Hỷ',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2b.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Vào cuối thế kỷ XVIII, trong những năm tháng quân tướng chúa Nguyễn Ánh trốn chạy sự truy đuổi của nghĩa quân Tây Sơn,  các tên làng có từ tố “Long” như Trường Long Hòa, Long Vĩnh, Long Hữu, Long Toàn xuất hiện.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'quân tướng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-3.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Cuối thế kỷ XIX, khi thực dân Pháp nổ súng xâm chiếm Nam bộ, tuyến rừng ven biển Duyên Hải là căn cứ của nghĩa binh Đề Triệu, Phan Tôn – Phan Liêm, Lê Tấn Kế – Trần Bình…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nổ súng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'tuyến rừng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-5.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong hai cuộc kháng chiến chống thực dân Pháp và đế quốc Mỹ trường kỳ của dân tộc, Trường Long Hòa nói riêng, Duyên Hải nói chung là căn cứ vững chắc của các cơ quan lãnh đạo, lực lượng vũ trang cách mạng tỉnh Trà Vinh, Khu Tây Nam bộ và cả Đặc khu Sài Gòn – Gia Định. Chính địa bàn này là một trong những mắc xích quan trọng của tuyến đường Hồ Chí Minh trên biển huyền thoại vận chuyển vũ khí từ miền Bắc xã hội chủ nghĩa vào chi viện cho chiến trường Tây Nam bộ, với những kình ngư lẫy lừng tên tuổi là những người con ưu tú của vùng đất này như Lê Thanh Lòng, Hồ Đức Thắng…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'vận chuyển',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-8.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Hoạt động du lịch và tiềm năng kinh tế',
+                        data: [
+                            {
+                                type: 'bold',
+                                value: `* Hoạt động du lịch`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Du khách nên nghỉ lại qua đêm để ngắm ánh bình minh hoặc hoàng hôn trên biển. Các hoạt động như tắm biển, cưỡi mô tô nước, thư giãn tại nhà hàng hoặc ghế bố dọc theo bờ kè.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tham quan các lối mòn quanh co, khúc khuỷu theo chân các động cát và hàng phi lao uốn lượn theo chiều gió.`,
+                                hightlightList: [
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value: `* Tiềm năng và thế mạnh`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trường Long Hòa, Duyên Hải là vùng kinh tế trọng điểm của tỉnh Trà Vinh với nhiều công trình trọng điểm quốc gia.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Khu du lịch Biển Ba Động là trọng tâm của chuỗi các địa chỉ du lịch tiềm năng ven biển Trà Vinh như Trúc Lâm Thiền viện, khu Di tích Bến Tiếp nhận vũ khí Cồn Tàu, Đình miếu Cồn Trứng, Hải đăng Vàm Láng Nước, Lầu Bà Thượng động Cố hỷ nương nương, mộ cổ Ba Động.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Cồn Tàu',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/33',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Hải đăng Vàm Láng Nước',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-5.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'Lầu Bà',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-6.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'mộ cổ Ba Động',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-7.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Địa điểm',
+                        link: '/tieng-viet/figure/2',
+                    },
+                    {
+                        title: 'Duyên hải',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        title:'Cồn Tàu',
+                        link: '/tieng-viet/figure/2/product/33',
+                    },
+                ],
+            },
+        ],
     },
     {
         figureId: 3,
@@ -4550,7 +5093,197 @@ export default [
                     },
                 ],
             },
-        ]
+            {
+                id: '39',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-1.jpg',
+                video: '',
+                title: 'Lễ hội Ok Om Bok',
+                description: 'Lễ hội Ok Om Bok còn có tên khác là lễ hội Cúng Trăng, được tiến hành vào ngày 14 và 15 tháng Kadar ...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Giới thiệu về lễ hội',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: ` - Lễ hội Ok Om Bok còn có tên khác là lễ hội Cúng Trăng, được tiến hành vào ngày 14 và 15 tháng Kadar theo Phật lịch, tức là Mười bốn và Rằm tháng Mười âm lịch. Theo quan niệm của người Khmer, Mặt Trăng là vị Thần có quyền năng chi phối mùa màng trong canh tác nông nghiệp. Sau khi thu hoạch những sản phẩm đầu tiên của mùa vụ, người ta tiến hành nghi thức cúng tế để tạ ơn Thần Mặt Trăng đã ban cho mùa màng tươi tốt. Theo nghĩa đó, Lễ hội Ok Om Bok của dân tộc Khmer có sự tương đồng với lễ hội Thượng điền của người Việt.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'người Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Các hoạt động của lễ hội',
+                        data: [
+                            {
+                                type: 'text',
+                                value: `- Lễ hội thường được tổ chức tại chùa, tại gia đình, ở các nơi sinh hoạt cộng đồng rộng rãi, được tổ chức với nhiều hoạt động văn hóa bao gồm:`,
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Phần hội (Ban ngày):`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-a-6.jpg',
+                                ],
+                            },
+                            {
+                                type: 'text',
+                                value: `- Phần hội diễn ra vào ban ngày với nhiều hoạt động văn hóa bao gồm:`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Đua ghe ngo: Đây là phần hội chính.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Các trò chơi dân gian khác như: đánh bóng chuyền, nhảy bao, đi cà kheo…`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `+ Diễn ra tại hai địa điểm chính là sông Long Bình chảy qua trung tâm thành phố và Ao Bà Om thuộc Phường 8, thành phố Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Ao Bà Om',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/2/product/8',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Trà Vinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Phần nghi thức lễ (Ban đêm):`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-6.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-8.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-9.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/2-b-10.jpg',
+                                ],
+                            },
+                            {
+                                type: 'text',
+                                value: `- Phần nghi thức lễ diễn ra vào ban đêm với các hoạt động chính:`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Trang trí bàn cúng để cúng Thần Mặt Trăng.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Mọi người tụ tập quay quanh bàn cúng và cầu nguyện. Người lớn tuổi đại diện cúng.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Khi mặt trăng bắt đầu lên cao và chiếu sáng khắp nơi, lễ hội bắt đầu. Vị chủ tế bày các vật phẩm thu hoạch của gia đình hoặc làng xã như cốm dẹp, chuối, khoai để cúng và khấn nguyện tạ ơn Thần Mặt Trăng, Thần Nước và Thần Đất Đai.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+ Người đại diện cúng trăng hỏi ước nguyện từng người và đút một nắm cốm dẹp cùng một quả chuối vào miệng. Khi ngậm đầy miệng và nhả ra, điều này tượng trưng cho mùa màng bội thu, dư ăn dư để.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `+  Cuối cùng là nghi thức thả đèn nước. Mỗi huyện cử ra một ngôi chùa đại diện thực hiện nghi thức thả hoa đăng. Chiếc hoa đăng lớn được đưa lên xe, phía trước có đội múa Chayyam và dàn nhạc ngũ âm mở đường, phía sau xe là sư sãi và bà con phum sóc cầm đèn nhỏ đi bộ diễu hành dọc theo bốn bờ Ao bà Om, hình thành một đám rước tráng lệ với những âm thanh, màu sắc làm náo nức lòng người. Kết thúc diễu hành, toàn bộ hoa đăng của các huyện, thành phố đều được thả xuống mặt nước Ao Bà Om, tạo ra không khí huyền diệu suốt đêm lễ hội.`,
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Ý nghĩa và tác động:`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/3-6.jpg',
+                                ],
+                            },
+                            {
+                                type: 'text',
+                                value: `- Các nghi lễ và hội diễn ra rất sôi nổi. Những bài dân ca và sự góp mặt của dàn nhạc ngũ âm tạo nên nét đặc sắc cho lễ hội. Lễ hội Ok Om Bok tại Ao Bà Om được Bộ Văn hoá Thể thao và Du lịch công nhận là di sản văn hoá phi vật thể cấp quốc gia vào năm 2015.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `- Ok Om Bok là một lễ hội dân gian truyền thống của đồng bào Khmer Nam bộ được tổ chức theo chu kỳ hàng năm. Lễ hội này là sự phản ánh, lưu giữ và truyền thừa những giá trị tích cực của tín ngưỡng đa thần cổ xưa của một tộc người gắn chặt cuộc đời mỗi con người, mỗi gia đình và cả phum sóc với ruộng đồng, mùa vụ và thiên nhiên.`,
+                            },
+                            {
+                                type: 'text',
+                                value: `- Từ một lễ hội của đồng bào dân tộc Khmer, ngày nay, Ok Om Bok đã trở thành một hoạt động văn hóa chung của cộng đồng các dân tộc trong tỉnh, có tác động rất lớn trong việc bảo tồn, phát huy bản sắc văn hóa truyền thống và củng cố, tăng cường khối đại đoàn kết toàn dân tộc tại địa phương.`,
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Lễ hội',
+                        link: '/tieng-viet/figure/4',
+                    },
+                    {
+                        title: 'Người Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
+                    },
+                    {
+                        title: 'Trà Vinh',
+                        link: '/tieng-viet/map',
+                    },
+                    {
+                        title: 'Ao Bà Om',
+                        link: '/tieng-viet/figure/2/product/8',
+                    },
+                    
+                ],
+            },
+        ],
     },
     {
         figureId: 5,
