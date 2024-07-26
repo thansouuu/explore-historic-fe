@@ -16,7 +16,7 @@ import Bot from '@/components/utils/Bot';
 import Manual from '@/components/utils/Manual';
 
 import { useNavigate } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -158,6 +158,11 @@ const HeaderRoot = ({ toggleSidebar }) => {
             <div className="flex items-center mx-auto py-4 max-w-[992px] z-214783646">
                 {/* {!searchOpen && ( */}
                     <>
+                    <Helmet>
+                        {zoomEnabled && (
+                        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
+                        )}
+                    </Helmet>
                         <button onClick={toggleSidebar} className="focus:outline-none hidden md:block">
                             <Burger />
                         </button>
@@ -350,6 +355,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                             >
                                 {zoomEnabled ? 'Disable Zoom' : 'Enable Zoom'}
                             </button>
+                            
                         </li>
                        
                         
