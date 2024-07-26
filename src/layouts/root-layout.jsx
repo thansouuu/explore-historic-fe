@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from './header';
 import Sidebar from './sidebar';
-
+import { Helmet } from 'react-helmet';
 const RootLayout = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
     const location = useLocation();
@@ -22,6 +22,9 @@ const RootLayout = () => {
     return (
         <>
             <div className="h-screen flex flex-col">
+                <Helmet>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
+                </Helmet>
                 <Header toggleSidebar={toggleSidebar} />
                 <div className="flex flex-1">
                     <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
