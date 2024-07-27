@@ -90,19 +90,12 @@ const Map = () => {
   };
 
   const handleTour=()=>{
-    // if (selectedLocation.tourUrl!=''){
-    //   window.location.assign(selectedLocation.tourUrl)
-    // }
-    // else {
-    //     const e=getIdAddress(selectedLocation.name).tour_id
-    //     Thinklink(e)
-    // }
-    const link=getIdAddress(selectedLocation.name).tour_id
+    if (selectedLocation.tourUrl!=''){
+      window.location.assign(selectedLocation.tourUrl)
+    }
+    else {
     navigate(`/tieng-viet/thinglink/${getIdAddress(selectedLocation.name).tour_id}`)
-    // <Thinklink e={link}/>
-    // navigate(`/thinklink`)
-    // Thinklink(1);
-    
+    }
   }
 
   return (

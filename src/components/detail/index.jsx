@@ -3,11 +3,13 @@
 import { useForm } from 'react-hook-form';
 import InputField from '../form/input-field';
 import { useAuth } from '@/hooks/use-auth';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { uploadToCloudinary } from '@/hooks/use-upload-cloudinary';
 import BorderRank from '../border-rank/border-rank';
 import { MdRemoveCircle } from 'react-icons/md';
 import { FaLockOpen, FaLock  } from "react-icons/fa";
+
+
 import avatar1 from '@/assets/avartar/403019_avatar_male_man_person_user_icon.svg';
 import avatar2 from '@/assets/avartar/628284_avatar_male_man_mature_old_icon.svg';
 import avatar3 from '@/assets/avartar/4043232_avatar_batman_comics_hero_icon.svg';
@@ -39,8 +41,12 @@ import best_icon6 from '@/assets/best/best6.png'
 
 
 
-
 const Detail = ({ onUpdate }) => {
+    useEffect(() => {
+        document.querySelectorAll('input.bg-white').forEach(input => {
+          input.classList.remove('bg-white');
+        });
+    }, []);
     const { isLoggedIn, mutate, data } = useAuth();
     
     const [ images, setImages ] = useState([]);
@@ -76,7 +82,7 @@ const Detail = ({ onUpdate }) => {
         defaultValues: {
             fullname: `${data?.data?.fullname}`,
             email: `${data?.data?.email}`,
-            password: `${data?.data?.password}`,
+            password: `${data?.data?.password_nohash}`,
             id: `${data?.data?._id}`,
         },
     });
@@ -101,58 +107,18 @@ const Detail = ({ onUpdate }) => {
                 return
             }    
         }
-        {console.log(values)}
+        {console.log(values.password)}
+        
+        
         const update_data = {
             ...values,
+            password_nohash:values.password,
             avatar: images[0],
             imageIcon: imageIcon,
             
         }
         onUpdate?.(update_data)
     }
-    // const onSubmit = async (values) => {
-    //     if (!isObjectEmpty(cloudinaryFiles)) {
-    //       if (!imageDefaults.includes(images[0])) {
-    //         console.log('render')
-    //         const result = await uploadToCloudinary(cloudinaryFiles)
-      
-    //         const imageUrlList = result.map((file) => file.secure_url)
-      
-    //         let update_data = {
-    //           id: values.id,
-    //           fullname: values.fullname,
-    //           email: values.email,
-    //           avatar: imageUrlList[0],
-    //           imageIcon: imageIcon,
-      
-    //         }
-    //         if (!isDisablePassword) {
-    //           update_data = {
-    //             ...update_data,
-    //             password: values.password
-    //           }
-    //         }
-      
-    //         onUpdate?.(update_data)
-    //         return
-    //       }
-    //     }
-    //     let update_data = {
-    //       id: values.id,
-    //       fullname: values.fullname,
-    //       email: values.email,
-    //       avatar: images[0],
-    //       imageIcon: imageIcon,
-      
-    //     }
-    //     if (!isDisablePassword) {
-    //       update_data = {
-    //         ...update_data,
-    //         password: values.password
-    //       }
-    //     }
-    //     onUpdate?.(update_data)
-    //   }
 
     const logoutHandler = () => {
         localStorage.removeItem('accessToken');
@@ -247,6 +213,7 @@ const Detail = ({ onUpdate }) => {
                         disabled={true}
                         style={{ background: '#8080808a' }}
                     />
+                    
                     <div className='flex items-end gap-4'>
                         <InputField
                             htmlType="text"

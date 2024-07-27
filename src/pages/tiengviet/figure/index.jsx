@@ -5,59 +5,6 @@ import CardContentHightlight from '@/components/card-content/card-content-hightl
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; // optional
 
-const getHighlightedText = ({text, highlights}) => {
-    const values = highlights.map((h) => h.hightlight);
-    const regex = new RegExp(`(${values.join('|')})`, 'gi');
-    const parts = text.split(regex);
-    return parts.map((part, index) => {
-        const highlight = highlights.find((h) => h.hightlight === part);
-        return highlight ? (
-            <span
-                key={index}
-                className={cn('inline relative highlighted-text text-amber-700 font-medium cursor-pointer', {
-                    'group relative': highlight?.valueModal?.type == 'tooltip',
-                })}
-                onClick={() => handleHighlightClick(highlight)}
-            >
-                {highlight?.valueModal?.type == 'tooltip' ? (
-                    <>
-                        {/* <a id={highlight?.valueModal?.id}>{part} </a>
-                        <Tooltip anchorSelect={`#${highlight?.valueModal?.id}`} clickable>
-                            {highlight?.valueModal?.ref ? <a href={highlight?.valueModal?.link} target="_blank">{highlight?.valueModal?.value}</a> : highlight?.valueModal?.value}
-                        </Tooltip> */}
-                        {highlight?.valueModal?.ref ? (
-                            <Tippy 
-                                interactive={true} interactiveBorder={20}
-                                content={
-                                    <div className='min-w-[200px]'>
-                                        <Link to={highlight?.valueModal?.link}>
-                                            {highlight?.valueModal?.value}
-                                        </Link>
-                                        {/* <a href={highlight?.valueModal?.link} target="_blank" rel="noreferrer">
-                                            {highlight?.valueModal?.value}
-                                        </a> */}
-                                    </div>
-                                }
-                            >
-                               <span className={'text-green-400'}> {part} </span>
-                            </Tippy>
-                        ) : (
-                            
-                            <Tippy content={highlight?.valueModal?.value}><span>{part}</span></Tippy>
-                            
-                        
-                        )}
-                    </>
-                ) : (
-                    part
-                )}
-
-            </span>
-        ) : (
-            part
-        );
-    });
-};
 
 const Figure = () => {
     return (

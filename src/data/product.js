@@ -2,9 +2,11 @@
 export default [
     {
         figureId: 1,
+        type:0,
         data: [
             {
                 id: '34',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Chị Út Tịch',
@@ -532,6 +534,7 @@ export default [
             },
             {
                 id: '2',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/D%C6%B0%C6%A1ng%20Quang%20%C4%90%C3%B4ng/1%20-%2024.jpg',
                 video: 'https://www.youtube.com/embed/FS2v2N5_JXU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Dương Quang Đông',
@@ -1016,6 +1019,7 @@ export default [
             },
             {
                 id: '3',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Ph%E1%BA%A1m%20Th%C3%A1i%20B%C6%B0%E1%BB%9Dng/1.jpg',
                 video: 'https://www.youtube.com/embed/ZXIHwNXfNsU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Phạm Thái Bường',
@@ -1312,6 +1316,7 @@ export default [
             },
             {
                 id: '4',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/S%C6%A1n%20Th%C3%B4ng/1-TS%20start.jpg',
                 video: 'https://www.youtube.com/embed/Lbp5ClTPPkQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Sơn Thông',
@@ -1699,6 +1704,7 @@ export default [
             },
             {
                 id: '1',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Nguy%E1%BB%85n%20V%C4%83n%20T%E1%BB%93n/1.jpg',
                 video: 'https://www.youtube.com/embed/eezu7le4Js4?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Thống chế Nguyễn Văn Tồn',
@@ -2046,9 +2052,11 @@ export default [
     },
     {
         figureId: 2,
+        type:0,
         data: [
             {
                 id: '8',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ao%20B%C3%A0%20Om/1.jpg',
                 video: 'https://www.youtube.com/embed/DXN6x4l9Zgg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Ao Bà Om',
@@ -2293,6 +2301,7 @@ export default [
             },
             {
                 id: '7',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%C3%B9%20lao%20T%C3%A2n%20Quy/1-TQ%20start.jpg',
                 video: 'https://www.youtube.com/embed/MUbvjYCdtZk?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Cù lao Tân Quy',
@@ -2510,6 +2519,7 @@ export default [
             }, 
             {
                 id: '32',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/L%C6%B0u%20C%E1%BB%AB%20II/1.jpg',
                 video: 'https://www.youtube.com/embed/7q8KMpMr16A?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Di tích khảo cổ Lưu Cừ II',
@@ -2740,6 +2750,7 @@ export default [
             },
             {
                 id: '33',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%E1%BB%93n%20T%C3%A0u/1.jpg',
                 video: 'https://www.youtube.com/embed/Ox16nUDzirc?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Khu Di tích Bến tiếp nhận vũ khí Cồn Tàu',
@@ -2960,6 +2971,7 @@ export default [
             }, 
             {
                 id: '38',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
                 video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Biển ba động',
@@ -3262,6 +3274,7 @@ export default [
             },
             {
                 id: '40',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
                 video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Thiền viện Trúc Lâm',
@@ -3502,6 +3515,7 @@ export default [
             },
             {
                 id: '41',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
                 video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Biển ba động',
@@ -3806,9 +3820,11 @@ export default [
     },
     {
         figureId: 3,
+        type:0,
         data: [
             {
                 id: '10',
+                type:0,
                 imageCover: 'https://buhkhkt.github.io/CHINH/b%C3%A1nh%20canh%20th%C6%B0%E1%BB%9Fng%20th%E1%BB%A9c%204.jpg',
                 video: '',
                 title: 'Bánh canh Bến Có',
@@ -3970,6 +3986,7 @@ export default [
             },
             {
                 id: '11',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%A1nh%20t%C3%A9t%20Tr%C3%A0%20Cu%C3%B4n/I-10.jpg',
                 video: '',
                 title: 'Bánh tét Trà Cuôn',
@@ -4404,6 +4421,7 @@ export default [
             },
             {
                 id: '9',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%BAn%20n%C6%B0%E1%BB%9Bc%20l%C3%A8o/III-1.jpg',
                 video: '',
                 title: 'Bún nước lèo',
@@ -4737,9 +4755,11 @@ export default [
     },
     {
         figureId: 4,
+        type:0,
         data: [
             {
                 id: '12',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20bi%E1%BB%83n%20M%E1%BB%B9%20Long/I-1.jpg',
                 video: '',
                 title: 'Lễ hội cúng biển Mỹ Long',
@@ -4927,6 +4947,7 @@ export default [
             },
             {
                 id: '13',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20%C3%94ng%20B%E1%BB%95n%20huy%E1%BB%87n%20C%E1%BA%A7u%20K%C3%A8/I-1.jpg',
                 video: '',
                 title: 'Lễ hội cúng Ông Bổn huyện Cầu Kè',
@@ -5095,6 +5116,7 @@ export default [
             },
             {
                 id: '39',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-1.jpg',
                 video: '',
                 title: 'Lễ hội Ok Om Bok',
@@ -5287,9 +5309,11 @@ export default [
     },
     {
         figureId: 5,
+        type:0,
         data: [
             {
                 id: '15',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20D%E1%BB%87t%20chi%E1%BA%BFu%20H%C3%A0m%20T%C3%A2n/I-6.jpg',
                 video: '',
                 title: 'Làng nghề Dệt chiếu Hàm Tân',
@@ -5483,6 +5507,7 @@ export default [
             },
             {
                 id: '14',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20s%E1%BA%A3n%20xu%E1%BA%A5t%20r%C6%B0%E1%BB%A3u%20Xu%C3%A2n%20Th%E1%BA%A1nh/I-2.jpg',
                 video: '',
                 title: 'Làng nghề sản xuất rượu Xuân Thạnh',
@@ -5641,6 +5666,7 @@ export default [
             },
             {
                 id: '16',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20ti%E1%BB%83u%20th%E1%BB%A7%20c%C3%B4ng%20nghi%E1%BB%87p%20H%C6%B0ng%20M%E1%BB%B9/I-1.jpg',
                 video: '',
                 title: 'Làng nghề tiểu thủ công nghiệp Hưng Mỹ',
@@ -5749,9 +5775,11 @@ export default [
     },
     {
         figureId: 6,
+        type:0,
         data: [
             {
                 id: '17',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
                 video: '',
                 title: 'CHÙA ANG KOR RAIG BOREI (CHÙA ÂNG)',
@@ -5843,6 +5871,7 @@ export default [
             },
             {
                 id: '6',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20Can%20Snom/1%20-%20TQ.webp',
                 video: '',
                 title: 'Chùa Can Snom',
@@ -6141,6 +6170,7 @@ export default [
             },
             {
                 id: '20',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-6.jpg',
                 video: '',
                 title: 'CHÙA KAMPONYNIXRDLE (CHÙA HANG)',
@@ -6239,6 +6269,7 @@ export default [
             },
             {
                 id: '21',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t%20-1.png',
                 video: '',
                 title: 'CHÙA KOM PONG (Chùa Ông Mẹt)',
@@ -6317,6 +6348,7 @@ export default [
             },
             {
                 id: '19',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20C%C3%B2/ch%C3%B9a%20c%C3%B2.jpg',
                 video: '',
                 title: 'CHÙA NODOL (CHÙA CÒ)',
@@ -6396,6 +6428,7 @@ export default [
             },
             {
                 id: '5',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20%C3%94%20M%E1%BB%8Bch/1%20-%20TQ.jpg',
                 video: '',
                 title: 'Chùa Ô Mịch',
@@ -6719,6 +6752,7 @@ export default [
             },
             {
                 id: '18',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Py-sey%20Va-ra-ram/ch%C3%B9a%20pasy-1.jpeg',
                 video: '',
                 title: 'CHÙA PY-SEY VA-RA-RAM  (CHÙA BA SY)',
@@ -6790,9 +6824,11 @@ export default [
     },
     {
         figureId: 7,
+        type:0,
         data: [
             {
                 id: '23',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
                 video: '',
                 title: 'Tục thờ cá Ông',
@@ -6901,6 +6937,7 @@ export default [
             },
             {
                 id: '22',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
                 video: '',
                 title: 'Tục thờ Quan Thánh đế',
@@ -7035,6 +7072,7 @@ export default [
             },
             {
                 id: '24',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
                 video: '',
                 title: 'Tục tu trả hiếu',
@@ -7151,9 +7189,11 @@ export default [
     },
     {
         figureId: 8,
+        type:0,
         data: [
             {
                 id: '27',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Hoa/II-trangphuc-1.jpg',
                 video: '',
                 title: 'Người Hoa',
@@ -7355,6 +7395,7 @@ export default [
             },
             {
                 id: '26',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Khmer/II-trangphuc-2.jpg',
                 video: '',
                 title: 'Người Khmer',
@@ -7572,6 +7613,7 @@ export default [
             },
             {
                 id: '25',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Kinh/I-dan%20toc-1.jpg',
                 video: '',
                 title: 'Người Kinh',
@@ -7796,9 +7838,11 @@ export default [
     },
     {
         figureId: 9,
+        type:0,
         data: [
             {
                 id: '30',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/%C4%90%E1%BA%A9y%20g%E1%BA%ADy/1-1.jpg',
                 video: '',
                 title: 'Đẩy gậy nam, nữ',
@@ -7876,6 +7920,7 @@ export default [
             },
             {
                 id: '29',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/%C4%90i%20c%E1%BA%A7u%20tre/1-1.jpg',
                 video: '',
                 title: 'Đi cầu tre',
@@ -7944,6 +7989,7 @@ export default [
             },
             {
                 id: '31',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/K%C3%A9o%20co/1-1.jpg',
                 video: '',
                 title: 'Kéo co',
@@ -8024,6 +8070,7 @@ export default [
             },
             {
                 id: '28',
+                type:0,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/Nh%E1%BA%A3y%20bao%20b%E1%BB%91/1-1.jpg',
                 video: '',
                 title: 'Nhảy bao bố',
@@ -8107,9 +8154,11 @@ export default [
     },
     {
         figureId: 10,
+        type:1,
         data: [
             {
                 id: '35',
+                type:1,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
                 video: '',
                 title: 'Cách mạng Tháng Tám năm 1945 ở Trà Vinh',
@@ -8479,8 +8528,10 @@ export default [
                     },
                 ],
             },
+            
             {
                 id: '36',
+                type:2,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
                 video: '',
                 title: 'Sự hình thành của tỉnh Trà Vinh đầu thế kỉ XVIII - cuối thế kỉ XIX',
@@ -8644,6 +8695,7 @@ export default [
             
             {
                 id: '37',
+                type:3,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
                 video: '',
                 title: 'Sự hình thành của tỉnh Trà Vinh trong thế kỉ XX',
@@ -8772,4 +8824,5 @@ export default [
             },
         ]
     },
+   
 ]
