@@ -93,7 +93,7 @@ const Map = () => {
     if (selectedLocation.tourUrl!=''){
       window.location.assign(selectedLocation.tourUrl)
     }
-    else {
+    else if (getIdAddress(selectedLocation.name).tour_id!='0'){
     navigate(`/tieng-viet/thinglink/${getIdAddress(selectedLocation.name).tour_id}`)
     }
   }

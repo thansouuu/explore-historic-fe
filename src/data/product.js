@@ -10,7 +10,7 @@ export default [
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Chị Út Tịch',
-                tour:'1',
+                tour:'6',
                 game: '',
                 view: 100,
                 description: 'Tên thật là Nguyễn Thị Út, sinh ngày 19/4/1931 tại xã Tam Ngãi, quận Cầu Kè, tỉnh Cần Thơ. Dưới thời...',
@@ -535,6 +535,7 @@ export default [
             {
                 id: '2',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/D%C6%B0%C6%A1ng%20Quang%20%C4%90%C3%B4ng/1%20-%2024.jpg',
                 video: 'https://www.youtube.com/embed/FS2v2N5_JXU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Dương Quang Đông',
@@ -1020,6 +1021,7 @@ export default [
             {
                 id: '3',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Ph%E1%BA%A1m%20Th%C3%A1i%20B%C6%B0%E1%BB%9Dng/1.jpg',
                 video: 'https://www.youtube.com/embed/ZXIHwNXfNsU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Phạm Thái Bường',
@@ -1317,6 +1319,7 @@ export default [
             {
                 id: '4',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/S%C6%A1n%20Th%C3%B4ng/1-TS%20start.jpg',
                 video: 'https://www.youtube.com/embed/Lbp5ClTPPkQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Sơn Thông',
@@ -1705,6 +1708,7 @@ export default [
             {
                 id: '1',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Nguy%E1%BB%85n%20V%C4%83n%20T%E1%BB%93n/1.jpg',
                 video: 'https://www.youtube.com/embed/eezu7le4Js4?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Thống chế Nguyễn Văn Tồn',
@@ -2057,6 +2061,7 @@ export default [
             {
                 id: '8',
                 type:0,
+                tour:'1',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ao%20B%C3%A0%20Om/1.jpg',
                 video: 'https://www.youtube.com/embed/DXN6x4l9Zgg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Ao Bà Om',
@@ -2302,6 +2307,7 @@ export default [
             {
                 id: '7',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%C3%B9%20lao%20T%C3%A2n%20Quy/1-TQ%20start.jpg',
                 video: 'https://www.youtube.com/embed/MUbvjYCdtZk?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Cù lao Tân Quy',
@@ -2520,6 +2526,7 @@ export default [
             {
                 id: '32',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/L%C6%B0u%20C%E1%BB%AB%20II/1.jpg',
                 video: 'https://www.youtube.com/embed/7q8KMpMr16A?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Di tích khảo cổ Lưu Cừ II',
@@ -2751,6 +2758,7 @@ export default [
             {
                 id: '33',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%E1%BB%93n%20T%C3%A0u/1.jpg',
                 video: 'https://www.youtube.com/embed/Ox16nUDzirc?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Khu Di tích Bến tiếp nhận vũ khí Cồn Tàu',
@@ -2972,6 +2980,7 @@ export default [
             {
                 id: '38',
                 type:0,
+                tour:'5',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
                 video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Biển ba động',
@@ -3275,8 +3284,9 @@ export default [
             {
                 id: '40',
                 type:0,
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
-                video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
+                tour:'2',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-1.jpg',
+                video: 'https://www.youtube.com/embed/jPufJRk5AYI?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Thiền viện Trúc Lâm',
                 description: 'Thiền viện Trúc Lâm Trà Vinh tọa lạc tại ấp Khoán Tiều, xã Trường Long Hòa, thị xã Duyên Hải...',
                 game: '',
@@ -3286,15 +3296,16 @@ export default [
                         title: 'Tổng quan ',
                         data: [
                             {
-                                type: 'bold',
-                                value: `* Vị trí địa lí:`,
-                            },
-                            {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-4.jpg',
                                 ],
+                            },
+                            {
+                                type: 'bold',
+                                value: `* Vị trí địa lí:`,
                             },
                             {
                                 type: 'hightlight',
@@ -3320,13 +3331,11 @@ export default [
                                 value: `- Thiền viện Trúc Lâm Trà Vinh được xây dựng trên khuôn viên rộng 7 ha, trong khu du lịch sinh thái rừng ngập mặn ven biển, mặt tiền nhìn ra biển Đông bao la. Ngôi Thiền viện được thi công trong hai năm và khánh thành vào ngày 31/01/2016.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Duyên Hải',
+                                        hightlight: 'nhìn ra biển',
                                         valueModal: {
-                                            type: 'tooltip',
-                                            ref: true,
-                                            link: '/tieng-viet/map',
-                                            value: 'Tìm hiểu thêm',
-                                        }
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-2.jpg',
+                                        },
                                     },
                                 ],
                             },
@@ -3338,8 +3347,10 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-6-tptlyt.jpg',
                                 ],
                             },
                             {
@@ -3347,10 +3358,10 @@ export default [
                                 value: `- Thiền phái Trúc Lâm là một dòng thiền Việt Nam hình thành từ thời nhà Trần, do Vua Trần Nhân Tông sáng lập. Thiền phái Trúc Lâm có ba Thiền sư kiệt xuất là Nhân Tông (Trúc Lâm Đầu Đà), Pháp Loa và Huyền Quang, gọi chung là Trúc Lâm Tam tổ. Thiền phái này được xem là tiếp nối nhưng là sự hợp nhất của ba dòng thiền Việt Nam của thế kỉ thứ 12. Với việc lập ra phái Trúc Lâm, Trần Nhân Tông đã thống nhất các Thiền phái tồn tại trước đó và toàn bộ Giáo hội Phật giáo đời Trần về một mối.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'sóng yên biển lặng',
+                                        hightlight: 'một mối',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-2.jpg',
                                         },
                                     },
                                 ],
@@ -3360,10 +3371,17 @@ export default [
                                 value: `- Thiền phái Trúc Lâm mang đậm tinh thần nhập thế, không phải từ bỏ thế gian này mới giác ngộ được. Trên tinh thần đó, Đức Phật hoàng Trần Nhân Tông chọn núi Yên Tử là vùng hiểm địa phía đông bắc đất nước làm nơi xuất gia. Tuy đã rời bỏ ngai vàng, chuyên tâm việc tu hành nhưng ngài vẫn đau đáu lo toan vận nước, sẵn sàng trở về lãnh đạo triều đình và nhân dân đánh giặc. Sau khi đánh đuổi quân xâm lược, đất nước thái bình, Đức Phật hoàng quay lại với việc tu hành và nghiên cứu để đưa hiểu biết của mình đến với người dân.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'sóng yên biển lặng',
+                                        hightlight: 'núi Yên Tử',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'lo toan vận nước',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/2-5.jpg',
                                         },
                                     },
                                 ],
@@ -3372,26 +3390,12 @@ export default [
                                 type: 'hightlight',
                                 value: `- Trong suốt thế kỷ XIII và XIV, Phật giáo phát triển đạt tới đỉnh cao trong lịch sử Việt Nam. Từ đó, ở Thiền phái Trúc Lâm Yên Tử chúng ta thấy nổi bật những nét đặc trưng của tôn giáo mang đậm đà bản sắc của nền văn hoá dân tộc Việt Nam, không bị phụ thuộc, lai căng từ bên ngoài.`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'sóng yên biển lặng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
-                                        },
-                                    },
                                 ],
                             },
                             {
                                 type: 'hightlight',
                                 value: `- Thiền phái Trúc Lâm trong lịch sử đã trải qua nhiều giai đoạn thăng trầm. Đến cuối thế kỷ XX, đầu thế kỷ XXI, Thiền sư Thích Thanh Từ các các vị Thiền sư đạo cao đức trọng khác đã chung tay dốc sức phục hồi và phát triển thiền phái dấn thân nhập thế, gắn liền đạo pháp với dân tộc này. Nhiều ngôi thiền viện lần được ra đời trên phạm vi cả nước làm nơi tu hành, nghiên cứu và phát triển thiền phái thuần Việt, có nhiều đóng góp cho lịch sử dân tộc này.`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'sóng yên biển lặng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
-                                        },
-                                    },
                                 ],
                             },
                         ],
@@ -3402,7 +3406,10 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-6.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-7.jpg',
                                 ],
                             },
                             {
@@ -3410,10 +3417,17 @@ export default [
                                 value: `- Toàn bộ các kiến trúc tại Thiền viện Trúc Lâm Trà Vinh được thiết kế và xây dựng theo mô hình các ngôi chùa Phật giáo Việt Nam thời Lý – Trần (thế kỷ XII đến thế kỷ XIV), mà điển hình là các mái ngói dạng hai tầng. Các đầu đao cuối mái được vuốt cong nhẹ nhàng, thể hiện tính khiêm cung, hài hòa với tự nhiên của dân tộc.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'nghỉ dưỡng',
+                                        hightlight: 'hai tầng',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-1.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'vuốt cong nhẹ nhàng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/3-2.jpg',
                                         },
                                     },
                                 ],
@@ -3422,13 +3436,6 @@ export default [
                                 type: 'hightlight',
                                 value: `- Bước qua cổng tam quan, để vào đến Chánh điện, là khoảng sân rộng, dài 150 m và được kết cấu thành hai bậc, là nơi để vị sư trụ trì thuyết pháp hay nhà chùa, địa phương tổ chức các sự kiện văn hóa Phật giáo.`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'nghỉ dưỡng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
-                                        },
-                                    },
                                 ],
                             },
                             {
@@ -3436,10 +3443,10 @@ export default [
                                 value: `- Ngôi Chánh điện Thiền viện Trúc Lâm có diện tích 27 x 45 m, cao 11 m, trên nền đá cao 1,4 m, là ngôi Chánh điện lớn nhất trong tất cả các tự viện Phật giáo trên địa bàn tỉnh Trà Vinh hiện nay. Toàn bộ khung sườn ngôi Chánh điện làm bằng gỗ lim nhập từ nước ngoài, được chạm khắc công phu bởi những nghệ nhân lành nghề đến từ Bắc Ninh.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'nghỉ dưỡng',
+                                        hightlight: 'Ngôi Chánh điện',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-4.jpg',
                                         },
                                     },
                                 ],
@@ -3448,13 +3455,6 @@ export default [
                                 type: 'hightlight',
                                 value: `- Tượng Phật Tổ ở Chánh điện Thiền viện Trúc Lâm Trà Vinh ở tư thế “Niêm hoa vi tiếu”, theo điển tích Phật Tổ cầm đóa sen đưa lên và Anan Hành giả mỉm cười. Đây là tượng Phật bằng đồng lớn nhất Trà Vinh, cao 3,5 m, nặng hơn 3 tấn được cung thỉnh từ làng nghề đúc đồng nổi tiếng cố đô Huế.`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'nghỉ dưỡng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
-                                        },
-                                    },
                                 ],
                             },
                             {
@@ -3462,10 +3462,10 @@ export default [
                                 value: `- Tượng Phật mẫu Quán Thế âm Bồ tát cao 25m được an vị trên bệ tượng cao 6 m, tạo ra chiều cao chung đến 31 m, cũng là tượng Phật mẫu cao nhất trên địa bàn tỉnh Trà Vinh. Tượng Phật mẫu hiền từ mà uy nghiêm nhìn ra muôn trùng biển Đông bao la, giúp người dân đi biển Trà Vinh an tâm hơn khi đối đầu với bao hiểm nguy từ gió to sóng dữ.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'nghỉ dưỡng',
+                                        hightlight: 'hiền từ mà uy nghiêm',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-8.jpg',
                                         },
                                     },
                                 ],
@@ -3478,10 +3478,9 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2a.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-6.png',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/4-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/4-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/4-3.jpg',
 
                                 ],
                             },
@@ -3489,13 +3488,6 @@ export default [
                                 type: 'hightlight',
                                 value: `- Thiền viện Trúc Lâm đang giữ nhiều kỷ lục trong số các tự viện Phật giáo trên địa bàn Trà Vinh như ngôi chùa gần biển Đông nhất, toàn bộ các kiến trúc gần với kiến trúc truyền thống dân tộc nhất, ngôi Chánh điện to nhất, tượng Phật tổ to nhất, tượng Quán Thế âm to nhất, đại hồng chung lớn nhất, giảng đường có sức chứa lớn nhất, khoảng sân phía trước Chánh điện rộng lớn nhất…`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'Bà Cố Hỷ',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2b.jpg',
-                                        },
-                                    },
                                 ],
                             },
                         ],
@@ -3516,29 +3508,37 @@ export default [
             {
                 id: '41',
                 type:0,
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
-                video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
-                title: 'Biển ba động',
-                description: 'Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh...',
+                tour:'7',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-3.jpg',
+                video: 'https://www.youtube.com/embed/z_SLtiM1wOQ?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
+                title: 'Đền thờ Bác',
+                description: ' Đền thờ Chủ tịch Hồ Chí Minh, biểu tượng “Công trình của trái tim” của nhân dân các dân tộc Trà Vinh...',
                 game: '',
                 view: 100,
                 contents: [
                     {
-                        title: 'Giới thiệu chung',
+                        title: 'Tổng quan',
                         data: [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuudata-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-8.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-9.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-11.jpg',
                                 ],
                             },
                             {
+                                type: 'bold',
+                                value: `* Vị trí địa lí:`,
+                            },
+                            {
                                 type: 'hightlight',
-                                value: ` - Biển Ba Động là danh thắng và khu du lịch nổi tiếng thuộc xã Trường Long Hoà, thị xã Duyên Hải, tỉnh Trà Vinh. Cách thành phố Trà Vinh hơn 60km về hướng đông nam.  Đây là một trong những bãi biển đẹp của Đồng bằng sông Cửu Long với vẻ đẹp hoang sơ và triền cát dài.`,
+                                value: ` - Đền thờ Chủ tịch Hồ Chí Minh, biểu tượng “Công trình của trái tim” của nhân dân các dân tộc Trà Vinh đối với Người. Ngôi đền toạ lạc tại ấp Vĩnh Hội, xã Long Đức, thành phố Trà Vinh. `,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Duyên Hải',
+                                        hightlight: 'thành phố Trà Vinh',
                                         valueModal: {
                                             type: 'tooltip',
                                             ref: true,
@@ -3548,253 +3548,147 @@ export default [
                                     },
                                 ],
                             },
-                        ],
-                    },
-                    {
-                        title: 'Đặc điểm tự nhiên',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-3.jpg',
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Bãi biển có độ dốc thoai thoải, nước biển trong và sóng yên biển lặng. Là một trong những khu vực hiếm hoi ở miền Tây Nam Bộ có bãi cát dài hơn 10km từ ấp Nhà Mát tới ấp Cồn Trứng. Khi thủy triều xuống, bãi cát phơi ra hàng trăm mét từ bờ xuống mép nước.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'sóng yên biển lặng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-2.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'thủy triều xuống',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/2-4.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Lịch sử và phát triển',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-2.jpg',
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Từ đầu thế kỷ XX, khu vực này đã hình thành khu tắm biển và nghỉ dưỡng. Biển Ba Động vừa có bãi tắm đẹp vừa có các món ăn đặc sản hấp dẫn như: chù ụ rang me, tôm sú Cồn Cù, nghêu Nhà Mát, ốc cà na hấp sả.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'nghỉ dưỡng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-1.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'chù ụ rang me',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-3.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'tôm sú Cồn Cù',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-4.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'nghêu Nhà Mát',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-5.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'ốc cà na hấp sả',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/3-6.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Lịch sử văn hóa và chiến tranh',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2a.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-6.png',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-7.jpg',
-
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Dừng chân tại khu du lịch Biển Ba Động, du khách sẽ có dịp tìm hiểu bề dày lịch sử, chiều sâu văn hóa của vùng đất ven biển Trường Long Hòa, Duyên Hải, Trà Vinh. `,
-                                hightlightList: [
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Gần 3 thế kỷ trước, những ngư dân vùng Bình Thuận vào định cư tại đây đã mở ra nghề đi biển tạo cơm ăn áo mặc và cũng chính họ đã mang theo địa danh Ba Động, tín ngưỡng thờ Bà Cố Hỷ cho vùng đất mới.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Bà Cố Hỷ',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-2b.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Vào cuối thế kỷ XVIII, trong những năm tháng quân tướng chúa Nguyễn Ánh trốn chạy sự truy đuổi của nghĩa quân Tây Sơn,  các tên làng có từ tố “Long” như Trường Long Hòa, Long Vĩnh, Long Hữu, Long Toàn xuất hiện.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'quân tướng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-3.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `-  Cuối thế kỷ XIX, khi thực dân Pháp nổ súng xâm chiếm Nam bộ, tuyến rừng ven biển Duyên Hải là căn cứ của nghĩa binh Đề Triệu, Phan Tôn – Phan Liêm, Lê Tấn Kế – Trần Bình…`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'nổ súng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-4.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'tuyến rừng',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-5.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Trong hai cuộc kháng chiến chống thực dân Pháp và đế quốc Mỹ trường kỳ của dân tộc, Trường Long Hòa nói riêng, Duyên Hải nói chung là căn cứ vững chắc của các cơ quan lãnh đạo, lực lượng vũ trang cách mạng tỉnh Trà Vinh, Khu Tây Nam bộ và cả Đặc khu Sài Gòn – Gia Định. Chính địa bàn này là một trong những mắc xích quan trọng của tuyến đường Hồ Chí Minh trên biển huyền thoại vận chuyển vũ khí từ miền Bắc xã hội chủ nghĩa vào chi viện cho chiến trường Tây Nam bộ, với những kình ngư lẫy lừng tên tuổi là những người con ưu tú của vùng đất này như Lê Thanh Lòng, Hồ Đức Thắng…`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'vận chuyển',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/4-8.jpg',
-                                        },
-                                    },
-                                ],
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Hoạt động du lịch và tiềm năng kinh tế',
-                        data: [
-                            {
-                                type: 'bold',
-                                value: `* Hoạt động du lịch`,
-                            },
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-a-3.jpg',
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Du khách nên nghỉ lại qua đêm để ngắm ánh bình minh hoặc hoàng hôn trên biển. Các hoạt động như tắm biển, cưỡi mô tô nước, thư giãn tại nhà hàng hoặc ghế bố dọc theo bờ kè.`,
-                                hightlightList: [
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Tham quan các lối mòn quanh co, khúc khuỷu theo chân các động cát và hàng phi lao uốn lượn theo chiều gió.`,
-                                hightlightList: [
-                                ],
-                            },
 
                             {
                                 type: 'bold',
-                                value: `* Tiềm năng và thế mạnh`,
+                                value: `* Cảnh quan trong đền thờ:`,
                             },
+                            {
+                                type: 'hightlight',
+                                value: ` -  Khu di tích đền thờ Bác Hồ rộng 5,4 ha với các hạng mục chính như: Đền thờ Bác Hồ, nhà trưng bày thân thế sự nghiệp Chủ tịch Hồ Chí Minh, khuôn viên cây xanh, ao cá, khu vui chơi cắm trại…và đặc biệt là mô hình Nhà sàn Bác Hồ được thiết kế, in sao và lắp khoa học với tỉ lệ 97% theo nguyên bản nhà sàn Bác Hồ tại Phủ Chủ tịch ở thủ đô Hà Nội.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Đền thờ Bác Hồ',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-2.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'nhà trưng bày',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-3.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'khuôn viên',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-4.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'khu vui chơi',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-5.jpg',
+                                        },
+                                    },
+                                    {
+                                        hightlight: 'Nhà sàn',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-6.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngôi Đền thờ Bác Hồ được phục chế lại theo đúng nguyên trạng khiêm tốn, đơn sơ, với kích thước 4 x 4 m bằng khung gỗ, mái lợp lá, vách tôn. Tại đây, mỗi dịp lễ tết, nhiều đoàn đại biểu đại diện lãnh đạo tỉnh, lực lượng vũ trang và đồng bào các giới trong tỉnh Trà Vinh đến đặt vòng hoa, thắp nén hương thơm, thành kính báo cáo cùng Bác những thành tựu mới nhất của mình.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: ` -  Công viên với hồ sen lớn hài hòa cùng hệ thống cây xanh, hoa kiểng quanh năm khoe sắc tạo ra khu vui chơi, giải trí đa dạng, hấp dẫn. Trong đó, những tán còng cổ thụ và lũy tre bao quanh cùng hệ thống hầm hào, công sự là chứng nhân của quá trình xây dựng, chiến đấu bảo vệ ngôi Đền được phục hồi và bảo quản một cách nghiêm túc, chu đáo.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'tán còng',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-10.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Quá trình xây dựng và bảo vệ đền th',
+                        data: [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-8.jpg',
                                 ],
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Trường Long Hòa, Duyên Hải là vùng kinh tế trọng điểm của tỉnh Trà Vinh với nhiều công trình trọng điểm quốc gia.`,
+                                value: `- Sau khi nhận được nguồn tin Chủ tịch Hồ Chí Minh đã vĩnh viễn đi xa vào ngày 02/09/1969. Người dân ở thị xã Trà Vinh và xã Long Đức có nguyện vọng xây dựng đền thờ để bày tỏ lòng thành kính, biết ơn đối với Chủ tịch Hồ Chí Minh. Đáp ứng mong mỏi của người dân, Trung ương đã chấp thuận cho xây dựng Đền thờ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'vĩnh viễn đi xa',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/2-1.jpg',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày khởi công là 10/3/1970 và dự kiến khánh thành vào dịp sinh nhật Bác lần thứ 80. Địa điểm được chọn là vuông giồng cao ráo thuộc ấp Vĩnh Hội – trung tâm của cả xã, nơi trước đây từng là ngôi đình thờ Thần Thành hoàng bổn cảnh của địa phương. Địa điểm này cách tiểu khu quân sự địch hơn 4 km, cách căn cứ quân sự Mỹ ở Vàm Trà Vinh hơn 2 km, cách sông Cổ Chiên mà tàu chiến địch tuần tra bắn phá không quá 1.500 m, cách đồn địch gần nhất chỉ 400 m… Nghĩa là, khi xây dựng ngôi Đền, Đảng bộ và quân dân Long Đức chấp nhận mọi sự thách thức từ phía kẻ thù.`,
                                 hightlightList: [
                                 ],
                             },
                             {
                                 type: 'hightlight',
-                                value: `-  Khu du lịch Biển Ba Động là trọng tâm của chuỗi các địa chỉ du lịch tiềm năng ven biển Trà Vinh như Trúc Lâm Thiền viện, khu Di tích Bến Tiếp nhận vũ khí Cồn Tàu, Đình miếu Cồn Trứng, Hải đăng Vàm Láng Nước, Lầu Bà Thượng động Cố hỷ nương nương, mộ cổ Ba Động.`,
+                                value: `- Khi Đảng bộ, quân dân Long Đức triển khai việc xây dựng ngôi Đền cũng là lúc cao điểm lấn chiếm, bình định của Mỹ ngụy, mà các xã vùng ven tỉnh lỵ như Long Đức là trọng điểm. Địch tăng cường đánh phá bằng bộ binh, biệt kích, máy bay, tàu chiến, pháo binh…vào các ấp thuộc xã Long Đức. Tuy có đội bảo vệ sẵn sàng chiến đấu nhưng để đảm bảo an toàn, việc thi công chủ yếu vào ban đêm. Khi bộ khung hoàn thành chuẩn bị dựng lên thì bị trận pháo địch gây hư hại, phải làm lại từ đầu…`,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'Cồn Tàu',
-                                        valueModal: {
-                                            type: 'tooltip',
-                                            ref: true,
-                                            link: '/tieng-viet/figure/2/product/33',
-                                            value: 'Tìm hiểu thêm',
-                                        }
-                                    },
-                                    {
-                                        hightlight: 'Hải đăng Vàm Láng Nước',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-5.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'Lầu Bà',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-6.jpg',
-                                        },
-                                    },
-                                    {
-                                        hightlight: 'mộ cổ Ba Động',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/5-b-7.jpg',
-                                        },
-                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đến ngày 26–01–1971 (Ba mươi Tết năm Canh Tuất), ngôi đền được khánh thành. Người dân Trà Vinh đến thắp hương, kính viếng Người. Sau khi phát hiện sự tồn tại của ngôi Đền, đế quốc Mỹ tìm cách phá huỷ ngôi đền. Các lực lượng vũ trang và nhân dân Long Đức, thành phố Trà Vinh đã phối hợp bảo vệ ngôi đền.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong gần 5 năm xây dựng và bảo vệ Đền thờ Chủ tịch Hồ Chí Minh, lực lượng vũ trang và nhân dân Long Đức, thị xã Trà Vinh đã phối hợp nhuần nhuyễn ba mũi giáp công, bẻ gãy hàng chục trận càn quét, hàng trăm trận đánh phá bằng máy bay, pháo binh, tàu chiến của địch, loại ra khỏi vòng chiến đấu hơn 300 tên địch. Hơn 20 cán bộ, chiến sĩ và quần chúng đã anh dũng hy sinh cho sự tồn tại của ngôi Đền, trong đó có nhiều gương hy sinh anh dũng như Nguyễn Văn Lượm, Nguyễn Văn Trị… Đội nữ du kích Long Đức, dưới sự chỉ huy của đồng chí Phan Thị Nhờ đã sát cánh cùng đồng đội nam, dũng cảm chiến đấu, lập nhiều chiến công trong quá trình bảo vệ Đền thờ Chủ tịch Hồ Chí Minh.`,
+                                hightlightList: [
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Ý nghĩa của đền thờ',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/3-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/3-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/3-3.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hiện nay, ngôi đền được trùng tu, tôn tạo theo quy hoạch của một khu di tích lịch sử - văn hoá gắn với chức năng du lịch với trung tâm là Nhà trưng bày với nhiều hiện vật, tài liệu giới thiệu về thân thế, sự nghiệp của Bác, về truyền thống đấu tranh anh dũng của quân, dân tỉnh Trà Vinh trong quá trình xây dựng và bảo vệ ngôi Đền.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đền thờ Bác Hồ đã trở thành niềm tự hào, là biểu trưng của tấm lòng người dân Trà Vinh đối với Chủ tịch Hồ Chí Minh. Đền thờ Chủ tịch Hồ Chí Minh tỉnh Trà Vinh đã được Bộ Văn hoá Thông tin, nay là Bộ Văn hoá, Thể thao và Du lịch xếp hạng di tích lịch sử - văn hoá cấp quốc gia vào năm 1989.`,
+                                hightlightList: [
                                 ],
                             },
                         ],
@@ -3807,12 +3701,8 @@ export default [
                         link: '/tieng-viet/figure/2',
                     },
                     {
-                        title: 'Duyên hải',
+                        title: 'Trà Vinh',
                         link: '/tieng-viet/map',
-                    },
-                    {
-                        title:'Cồn Tàu',
-                        link: '/tieng-viet/figure/2/product/33',
                     },
                 ],
             },
@@ -3825,6 +3715,7 @@ export default [
             {
                 id: '10',
                 type:0,
+                tour:'0',
                 imageCover: 'https://buhkhkt.github.io/CHINH/b%C3%A1nh%20canh%20th%C6%B0%E1%BB%9Fng%20th%E1%BB%A9c%204.jpg',
                 video: '',
                 title: 'Bánh canh Bến Có',
@@ -3987,6 +3878,7 @@ export default [
             {
                 id: '11',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%A1nh%20t%C3%A9t%20Tr%C3%A0%20Cu%C3%B4n/I-10.jpg',
                 video: '',
                 title: 'Bánh tét Trà Cuôn',
@@ -4422,6 +4314,7 @@ export default [
             {
                 id: '9',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%BAn%20n%C6%B0%E1%BB%9Bc%20l%C3%A8o/III-1.jpg',
                 video: '',
                 title: 'Bún nước lèo',
@@ -4760,6 +4653,7 @@ export default [
             {
                 id: '12',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20bi%E1%BB%83n%20M%E1%BB%B9%20Long/I-1.jpg',
                 video: '',
                 title: 'Lễ hội cúng biển Mỹ Long',
@@ -4948,6 +4842,7 @@ export default [
             {
                 id: '13',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20%C3%94ng%20B%E1%BB%95n%20huy%E1%BB%87n%20C%E1%BA%A7u%20K%C3%A8/I-1.jpg',
                 video: '',
                 title: 'Lễ hội cúng Ông Bổn huyện Cầu Kè',
@@ -5117,6 +5012,7 @@ export default [
             {
                 id: '39',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/Ok%20Om%20Bok/1-1.jpg',
                 video: '',
                 title: 'Lễ hội Ok Om Bok',
@@ -5314,6 +5210,7 @@ export default [
             {
                 id: '15',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20D%E1%BB%87t%20chi%E1%BA%BFu%20H%C3%A0m%20T%C3%A2n/I-6.jpg',
                 video: '',
                 title: 'Làng nghề Dệt chiếu Hàm Tân',
@@ -5508,6 +5405,7 @@ export default [
             {
                 id: '14',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20s%E1%BA%A3n%20xu%E1%BA%A5t%20r%C6%B0%E1%BB%A3u%20Xu%C3%A2n%20Th%E1%BA%A1nh/I-2.jpg',
                 video: '',
                 title: 'Làng nghề sản xuất rượu Xuân Thạnh',
@@ -5667,6 +5565,7 @@ export default [
             {
                 id: '16',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20ti%E1%BB%83u%20th%E1%BB%A7%20c%C3%B4ng%20nghi%E1%BB%87p%20H%C6%B0ng%20M%E1%BB%B9/I-1.jpg',
                 video: '',
                 title: 'Làng nghề tiểu thủ công nghiệp Hưng Mỹ',
@@ -5780,6 +5679,7 @@ export default [
             {
                 id: '17',
                 type:0,
+                tour:'4',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
                 video: '',
                 title: 'CHÙA ANG KOR RAIG BOREI (CHÙA ÂNG)',
@@ -5872,6 +5772,7 @@ export default [
             {
                 id: '6',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20Can%20Snom/1%20-%20TQ.webp',
                 video: '',
                 title: 'Chùa Can Snom',
@@ -6171,6 +6072,7 @@ export default [
             {
                 id: '20',
                 type:0,
+                tour:'3',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-6.jpg',
                 video: '',
                 title: 'CHÙA KAMPONYNIXRDLE (CHÙA HANG)',
@@ -6270,6 +6172,7 @@ export default [
             {
                 id: '21',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t%20-1.png',
                 video: '',
                 title: 'CHÙA KOM PONG (Chùa Ông Mẹt)',
@@ -6349,6 +6252,7 @@ export default [
             {
                 id: '19',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20C%C3%B2/ch%C3%B9a%20c%C3%B2.jpg',
                 video: '',
                 title: 'CHÙA NODOL (CHÙA CÒ)',
@@ -6429,6 +6333,7 @@ export default [
             {
                 id: '5',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20%C3%94%20M%E1%BB%8Bch/1%20-%20TQ.jpg',
                 video: '',
                 title: 'Chùa Ô Mịch',
@@ -6753,6 +6658,7 @@ export default [
             {
                 id: '18',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Py-sey%20Va-ra-ram/ch%C3%B9a%20pasy-1.jpeg',
                 video: '',
                 title: 'CHÙA PY-SEY VA-RA-RAM  (CHÙA BA SY)',
@@ -6829,6 +6735,7 @@ export default [
             {
                 id: '23',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
                 video: '',
                 title: 'Tục thờ cá Ông',
@@ -6938,6 +6845,7 @@ export default [
             {
                 id: '22',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
                 video: '',
                 title: 'Tục thờ Quan Thánh đế',
@@ -7073,6 +6981,7 @@ export default [
             {
                 id: '24',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
                 video: '',
                 title: 'Tục tu trả hiếu',
@@ -7194,6 +7103,7 @@ export default [
             {
                 id: '27',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Hoa/II-trangphuc-1.jpg',
                 video: '',
                 title: 'Người Hoa',
@@ -7396,6 +7306,7 @@ export default [
             {
                 id: '26',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Khmer/II-trangphuc-2.jpg',
                 video: '',
                 title: 'Người Khmer',
@@ -7614,6 +7525,7 @@ export default [
             {
                 id: '25',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/D%C3%A2n%20t%E1%BB%99c/Ng%C6%B0%E1%BB%9Di%20Kinh/I-dan%20toc-1.jpg',
                 video: '',
                 title: 'Người Kinh',
@@ -7843,6 +7755,7 @@ export default [
             {
                 id: '30',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/%C4%90%E1%BA%A9y%20g%E1%BA%ADy/1-1.jpg',
                 video: '',
                 title: 'Đẩy gậy nam, nữ',
@@ -7921,6 +7834,7 @@ export default [
             {
                 id: '29',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/%C4%90i%20c%E1%BA%A7u%20tre/1-1.jpg',
                 video: '',
                 title: 'Đi cầu tre',
@@ -7990,6 +7904,7 @@ export default [
             {
                 id: '31',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/K%C3%A9o%20co/1-1.jpg',
                 video: '',
                 title: 'Kéo co',
@@ -8071,6 +7986,7 @@ export default [
             {
                 id: '28',
                 type:0,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Tr%C3%B2%20ch%C6%A1i%20d%C3%A2n%20gian/Nh%E1%BA%A3y%20bao%20b%E1%BB%91/1-1.jpg',
                 video: '',
                 title: 'Nhảy bao bố',
@@ -8159,6 +8075,7 @@ export default [
             {
                 id: '35',
                 type:1,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
                 video: '',
                 title: 'Cách mạng Tháng Tám năm 1945 ở Trà Vinh',
@@ -8528,10 +8445,10 @@ export default [
                     },
                 ],
             },
-            
             {
                 id: '36',
                 type:2,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
                 video: '',
                 title: 'Sự hình thành của tỉnh Trà Vinh đầu thế kỉ XVIII - cuối thế kỉ XIX',
@@ -8692,10 +8609,10 @@ export default [
                     },
                 ],
             },
-            
             {
                 id: '37',
                 type:3,
+                tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
                 video: '',
                 title: 'Sự hình thành của tỉnh Trà Vinh trong thế kỉ XX',

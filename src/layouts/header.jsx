@@ -148,10 +148,8 @@ const HeaderRoot = ({ toggleSidebar }) => {
 
     return (
         <nav style={{backgroundImage: 'url("https://raw.githubusercontent.com/thansouuu/data-image/main/testing.jpg")',
-            // width: '100%',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            // backgroundHeight: 'contain' ,
             backgroundSize: 'contain',
             }} className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
             <div className="flex items-center mx-auto py-4 max-w-[992px] z-214783646">
@@ -249,7 +247,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                     
                 >
                     <ul  className="flex h-screen flex-col font-medium p-4 md:p-0 border border-gray-100 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                        <li
+                        <li 
                             
                         >
                             <Link
@@ -258,9 +256,10 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 aria-current="page"
                                 onClick={() => {setNavbarOpen(false), window.Location.reload()}}
                             >
-                                {/* <Login /> */}
                                 <Home/>
-                                <div>Trang chủ</div>
+                                <div 
+                                // style={{opacity: 0}}
+                                >Trang chủ</div>
                             </Link>
                         </li>
                         <li>
