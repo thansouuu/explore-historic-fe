@@ -443,24 +443,6 @@ const Product = memo(() => {
         }
     }, [role, isLoggedIn]);
 
-    const [openImage, setOpenImage] = useState(false);
-
-    // const handleDownload = async (url, filename) => {
-    //     const response = await fetch(url, {
-    //         mode: 'cors',
-    //     });
-    //     const blob = await response.blob();
-    //     const link = document.createElement('a');
-    //     link.href = window.URL.createObjectURL(blob);
-    //     link.download = filename;
-    //     link.click();
-    // };
-
-    // function setModal(image){
-    //     setIsModal(true)
-    //     setImage(image)
-    // }
-
     const handleModalImageCarousel = (image) => {
         setIsModal(true)
         setImageModal(image)
@@ -481,12 +463,9 @@ const Product = memo(() => {
     return (
         
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
-            <Helmet>
+            {/* <Helmet>
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
-            </Helmet>
-            {/* <MetaTags>
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1" />
-            </MetaTags> */}
+            </Helmet> */}
             {product?.video!='' && 
             <iframe
                 className="w-full h-auto aspect-video border-4 border-gray-600 rounded-xl overflow-hidden"

@@ -1,52 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import classNames from 'classnames';
-import cn from '@/helper/cn';
-import { useAuth } from '@/hooks/use-auth';
-import Category from '@/components/utils/Category';
-import Map from '@/components/utils/Map';
-import Login from '@/components/utils/Login';
-import Magnify from '@/components/utils/Magnify';
-import Burger from '@/components/utils/Burger';
-import Logo from '@/components/utils/Logo';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import productData from '@/data/product';
-import Like from '@/components/utils/Like';
-import Home from '@/components/utils/Home';
-import Bot from '@/components/utils/Bot';
-import Manual from '@/components/utils/Manual';
+import cn from '@/helper/cn';
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Find = () => {
-
-
-    const location = useLocation();
-    const [dropdownOpen, setDropdownOpen] = useState(false);
     const [user, setUser] = useState(localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : null);
-    const [navbarOpen, setNavbarOpen] = useState(false);
-    const [searchOpen, setSearchOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
-    const { isLoggedIn, mutate, data } = useAuth();
-    const [zoomEnabled, setZoomEnabled] = useState(false);
     const [searchResult, setSearchResult] = useState([]);
+    const [showFind, setShowFinds] = useState(false);
 
-    const handleNavbarToggle = () => {
-        setNavbarOpen(!navbarOpen);
-    };
-
-    const handleLogout = () => {
-        localStorage.removeItem('accessToken');
-        mutate();
-        localStorage.removeItem('user');
-        setDropdownOpen(false);
-    };
-    const handleSearchOpen = () => {
-        setSearchOpen(true);
+    const navigate = useNavigate();
+    const toggleFinds = () => {
+        setShowFinds(!showFind);
     };
 
     const handleSearchClose = () => {
         setSearchResult([]);
-        setSearchOpen(false);
         setSearchTerm('');
     };
 
@@ -56,7 +28,7 @@ const Find = () => {
 
     const handleSearchSubmit = (e) => {
         e.preventDefault();
-        if (searchTerm=='') {
+        if (searchTerm === '') {
             setSearchResult([]);
             return;
         }
@@ -69,54 +41,108 @@ const Find = () => {
         const tmp = products.filter(product =>
             product.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
-        console.log('Search term:', tmp);
-        console.log(productData);
         setSearchResult(tmp);
+    };
+
+    const imageStyle = {
+        width: '310px',
+        height: '310px',
+        display: 'block',
+        margin: '0 auto', // Căn giữa hình ảnh theo chiều ngang
+    };
+
+    const buttonStyle = (top, left) => ({
+        position: 'absolute',
+        top: top,
+        left: left,
+        width: '10%', // Kích thước nút
+        height: '10%', // Kích thước nút
+        backgroundColor: 'red',
+        color: 'white',
+        border: 'none',
+        borderRadius: '50%', // Làm cho nút hình tròn
+        cursor: 'pointer',
+        fontSize: '16px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        transform: 'translate(-50%, -50%)' // Căn giữa nút
+    });
+
+    const handleClick = () => {
+        navigate(`/tieng-viet/like`);
     };
 
     return (
         <>
-            <form onSubmit={handleSearchSubmit} className="flex w-full items-center space-x-2">
-                            <input
-                                type="text"
-                                className="w-full px-4 py-2 text-black rounded-md"
-                                placeholder="Tìm kiếm..."
-                                value={searchTerm}
-                                onChange={handleSearchChange}
-                            />
-                            <button type="submit" className="px-4 py-2 text-white bg-blue-500 rounded-md">
-                                Tìm
-                            </button>
-                            <button
-                                type="button"
-                                className="px-4 py-2 text-white bg-red-500 rounded-full"
+            <div>
+                <button
+                    className={cn('text-white w-fit m-auto px-4 rounded-2xl py-2 my-2', {
+                        'bg-gray-300 hover:bg-gray-400': !showFind,
+                        'bg-gray-400 hover:bg-gray-500': showFind,
+                        'flex items-center justify-center': true,
+                    })}
+                    onClick={toggleFinds}
+                >
+                    {showFind ? 'Ẩn tìm kiếm' : 'Tìm kiếm bằng thành phố'}
+                </button>
+                {showFind && (
+                    <div className="mt-4 my-4" style={{ position: 'relative', textAlign: 'center', width: '310px', margin: '0 auto' }}>
+                        <img
+                            src="https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20Can%20Snom/23.jpg"
+                            alt="Your Image"
+                            style={imageStyle}
+                        />
+                        <button 
+                            style={buttonStyle('10%', '10%')}
+                            onClick={() => handleClick()}
+                        >Nút 1</button>
+                        <button style={buttonStyle('30%', '30%')}>Nút 2</button>
+                        <button style={buttonStyle('50%', '50%')}>Nút 3</button>
+                        <button style={buttonStyle('70%', '70%')}>Nút 4</button>
+                        <button style={buttonStyle('90%', '90%')}>Nút 5</button>
+                    </div>
+                )}
+                <form onSubmit={handleSearchSubmit} className="flex w-full items-center space-x-2">
+                    <input
+                        type="text"
+                        className="w-full px-4 py-2 text-black rounded-md"
+                        placeholder="Tìm kiếm..."
+                        value={searchTerm}
+                        onChange={handleSearchChange}
+                    />
+                    <button type="submit" className="px-4 py-2 text-white bg-blue-500 rounded-md">
+                        Tìm
+                    </button>
+                    <button
+                        type="button"
+                        className="px-4 py-2 text-white bg-red-500 rounded-full"
+                        onClick={handleSearchClose}
+                    >
+                        x
+                    </button>
+                </form>
+                {searchResult.length > 0 && (
+                    <ul className='bg-white rounded-lg'>
+                        {searchResult.map((product) => (
+                            <li
+                                key={product.id}
+                                className="px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
                                 onClick={handleSearchClose}
                             >
-                                x
-                            </button>
-                        </form>
-                        {searchResult.length > 0 && (
-                            <ul className='bg-white rounded-lg'>
-                                {searchResult.map((product) => (
-                                    <li
-                                        key={product.id}
-                                        className="px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
-                                        onClick={handleSearchClose}
-                                    >
-                                        <Link
-                                            to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}
-                                            className="block"
-                                            onClick={() => setSearchResult([])} 
-                                        >
-                                            {product.title}
-                                        </Link>
-                                    </li>
-                                ))}
-                                
-                            </ul>
-                           
-                        )}
-                </>
+                                <Link
+                                    to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}
+                                    className="block"
+                                    onClick={() => setSearchResult([])}
+                                >
+                                    {product.title}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
+        </>
     );
 };
 

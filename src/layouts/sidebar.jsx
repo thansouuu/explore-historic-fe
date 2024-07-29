@@ -106,7 +106,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 </Link>
                 
                 
-                <li>
+                {/* <li>
                     <Dropdown title="Danh mục" items={[
                         {
                             label: 'Danh mục 1',
@@ -121,7 +121,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             href: '/tieng-viet/tin-tuc/1',
                         }
                     ]}/>
-                </li>
+                </li> */}
                 {/* <div style={{ height: '300px' }}></div> */}
             </ul>
         </div>

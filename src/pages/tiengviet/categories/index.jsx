@@ -29,25 +29,25 @@ const Categories = memo(() => {
                             onClick={() => handleButtonClick(1)}
                             className="px-4 py-2 my-2 bg-blue-500 text-white rounded hover:bg-blue-600 mr-4"
                         >
-                            Button 1
+                            Giai đoạn 1
                         </button>
                         <button 
                             onClick={() => handleButtonClick(2)}
                             className="px-4 py-2 my-2 bg-green-500 text-white rounded hover:bg-green-600 mr-4"
                         >
-                            Button 2
+                            Giai đoạn 2
                         </button>
                         <button 
                             onClick={() => handleButtonClick(3)}
                             className="px-4 py-2 my-2 bg-red-500 text-white rounded hover:bg-red-600 mr-4"
                         >
-                            Button 3
+                            Giai đoạn 3
                         </button>
                         <button 
                             onClick={() => handleButtonClick(4)}
                             className="px-4 py-2 my-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 mr-4"
                         >
-                            Button 4
+                            Giai đoạn 4
                         </button>
                     </div>
                 </>
