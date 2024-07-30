@@ -55,9 +55,9 @@ const Find = () => {
         position: 'absolute',
         top: top,
         left: left,
-        width: '10%', // Kích thước nút
-        height: '10%', // Kích thước nút
-        backgroundColor: 'red',
+        width: '6%', // Kích thước nút
+        height: '6%', // Kích thước nút
+        backgroundColor: '#0D6DDB',
         color: 'white',
         border: 'none',
         borderRadius: '50%', // Làm cho nút hình tròn
@@ -69,8 +69,8 @@ const Find = () => {
         transform: 'translate(-50%, -50%)' // Căn giữa nút
     });
 
-    const handleClick = () => {
-        navigate(`/tieng-viet/like`);
+    const handleClick = (idx) => {
+        navigate(`/tieng-viet/city/${idx}`);
     };
 
     return (
@@ -89,18 +89,55 @@ const Find = () => {
                 {showFind && (
                     <div className="mt-4 my-4" style={{ position: 'relative', textAlign: 'center', width: '310px', margin: '0 auto' }}>
                         <img
-                            src="https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20Can%20Snom/23.jpg"
+                            src="/public/location.png"
                             alt="Your Image"
                             style={imageStyle}
                         />
                         <button 
-                            style={buttonStyle('10%', '10%')}
-                            onClick={() => handleClick()}
-                        >Nút 1</button>
-                        <button style={buttonStyle('30%', '30%')}>Nút 2</button>
-                        <button style={buttonStyle('50%', '50%')}>Nút 3</button>
-                        <button style={buttonStyle('70%', '70%')}>Nút 4</button>
-                        <button style={buttonStyle('90%', '90%')}>Nút 5</button>
+                            //tra vinh
+                            style={buttonStyle('25%', '60%')}
+                            onClick={() => handleClick(1)}
+                        ></button>
+                        <button 
+                            //cau ke
+                            style={buttonStyle('38%', '24%')}
+                            onClick={() => handleClick(2)}
+                        ></button>
+                        <button 
+                            //cang long
+                            style={buttonStyle('28%', '46%')}
+                            onClick={() => handleClick(3)}
+                        ></button>
+                        <button 
+                            //chau thanh
+                            style={buttonStyle('34%', '68%')}
+                            onClick={() => handleClick(4)}
+                        ></button>
+                        <button 
+                            //thi xa duyen hai
+                            style={buttonStyle('75%', '85%')}
+                            onClick={() => handleClick(5)}
+                        ></button>
+                        <button 
+                            //tra cu
+                            style={buttonStyle('66%', '48%')}
+                            onClick={() => handleClick(6)}
+                        ></button>
+                        <button 
+                            //cau ngang
+                            style={buttonStyle('48%', '80%')}
+                            onClick={() => handleClick(7)}
+                        ></button>
+                        <button 
+                            //huyen duyen hai
+                            style={buttonStyle('78%', '66%')}
+                            onClick={() => handleClick(8)}
+                        ></button>
+                        <button 
+                            //huyen tieu can
+                            style={buttonStyle('55%', '36%')}
+                            onClick={() => handleClick(9)}
+                        ></button>
                     </div>
                 )}
                 <form onSubmit={handleSearchSubmit} className="flex w-full items-center space-x-2">

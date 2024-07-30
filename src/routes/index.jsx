@@ -16,6 +16,7 @@ import Main from '@/pages/tiengviet/main';
 import Thinglink from '@/pages/tiengviet/thinglink';
 import Find from '@/pages/tiengviet/find';
 import Bot from '@/pages/tiengviet/chatbot';
+import City from '@/pages/tiengviet/city';
 
 
 export const routes = [
@@ -55,6 +56,10 @@ export const routes = [
             { 
                 path: 'tag/:id', 
                 element: <Tag /> ,
+            },
+            { 
+                path: 'city/:id', 
+                element: <City /> ,
             },
             {
                 path: 'forgot-password',

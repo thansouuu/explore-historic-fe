@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import productData from '@/data/product';
 import { Link } from 'react-router-dom';
-  import { useNavigate } from 'react-router-dom';
-  import { Carousel } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import { Carousel } from 'react-bootstrap';
+import FoodContent from '@/components/food-content';
+
+
+
+
 const Main = () => {
     const [topViewedProducts, setTopViewedProducts] = useState([]);
     const navigate = useNavigate()
@@ -18,6 +23,12 @@ const Main = () => {
         `/tieng-viet/figure/2`,
         `/tieng-viet/figure/10`,
         `/tieng-viet/figure/8`,
+    ]
+    const decrip=[
+        'Nhân vật lịch sử',
+        'Địa điểm nổi bật',
+        'Sự kiện lịch sử',
+        'Dân tộc',
     ]
 
     useEffect(() => {
@@ -48,54 +59,84 @@ const Main = () => {
         navigate(paths[index])
     }
 
+    
+
     return (
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:max-w-[900px] mx-auto">
-            {/* <div className="flex flex-1"> */}
-                <main className="flex-1 p-4 transition-margin duration-300">
-                    <div>
-                        <Carousel  style={{ width: '100%', height: '300px' }}>
+            
+            <div className="col-span-full flex flex-col items-center">
+            <div className="h-[100px]" /> 
+                <video
+                    width="640"
+                    height="360"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                >
+                    <source src="/testing-video.mp4" type="video/mp4" />
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+                <p className="mt-4 text-justify text-lg ">
+                    Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ Giới thiệu app ABC XYZ 
+                </p>
+            </div>
+
+            <div className="col-span-full">
+                <FoodContent className="shadow-md flex justify-center items-center flex-wrap mb-6 flex-1 p-4 transition-margin duration-300" 
+                    title="Những mục nổi bật" >
+                    <div className="w-full">
+                        <Carousel style={{ width: '100%', height: '300px' }}>
                             {images.map((image, idx) => (
-                                
-                                <Carousel.Item key={idx}  style={{ height: '300px' }}>
-                                    <img
-                                        className="d-block w-full h-full object-contain"
-                                        onClick={() => handleClick(idx)}
-                                        src={image}
-                                        alt={`Slide ${idx}`}
-                                    />
-                                    
+                                <Carousel.Item key={idx} style={{ height: '300px' }}>
+                                    <div className="flex flex-col justify-between items-center w-full h-full p-4">
+                                        <img
+                                            className="d-block w-full h-[95%] object-contain"
+                                            onClick={() => handleClick(idx)}
+                                            src={image}
+                                            alt={`Slide ${idx}`}
+                                            style={{ maxHeight: '300px' }} // Đảm bảo ảnh không vượt quá chiều cao phần tử chứa
+                                        />
+                                        <div className="w-full text-center mt-2 mb-4">
+                                            <p className="text-[24px] leading-tight">
+                                                <b><i>{decrip[idx]}</i></b>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </Carousel.Item>
-                                
                             ))}
                         </Carousel>
                     </div>
-                </main>
-            {/* </div> */}
-
-            <div className="flex flex-col p-4">
-                <h2 className="mb-4 text-xl font-semibold">Top 3 bài viết nổi bật nhất:</h2>
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-                    {topViewedProducts.map((product, index) => (
-                        <div  key={index} className="w-full lg:max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <Link key={index}
-                             to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}>
-                                <img  className="rounded-t-lg"
-                                    src={product.imageCover}
-                                    alt={product.title}
-                                />
-                            </Link>
-                            <div className="p-5">
-                                <Link key={index}
-                                to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}>
-                                    <p className="text-lg font-semibold mb-2">{product.title}</p>
-                                        {/* <p className="text-gray-600">Số lượt xem: {product.view}</p> */}
-                                    <p className="text-gray-600">{product.description}</p>
+                </FoodContent>
+            </div>
+            <div className=" col-span-full"> 
+            <FoodContent className="flex flex-col p-4" title="Top 3 bài viết nổi bật nhất" >
+                <div className="overflow-x-auto">
+                    <div className="flex space-x-4">
+                        {topViewedProducts.map((product, index) => (
+                            <div key={index} className="w-full lg:max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+                                <Link
+                                    to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}>
+                                    <img
+                                        className="rounded-t-lg"
+                                        src={product.imageCover}
+                                        alt={product.title}
+                                    />
                                 </Link>
+                                <div className="p-5">
+                                    <Link
+                                        to={`/tieng-viet/figure/${product.figureId}/product/${product.id}`}>
+                                        <p className="text-[24px] font-semibold mb-2">{product.title}</p>
+                                        {/* <p className="text-gray-600">Số lượt xem: {product.view}</p> */}
+                                        <p className="text-gray-600">{product.description}</p>
+                                    </Link>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>  
+            </FoodContent>
+            </div>
         </div>
     );
 };

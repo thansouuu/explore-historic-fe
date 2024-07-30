@@ -50,42 +50,70 @@ const Hdsd = () => {
             <div className="bg-white shadow rounded-xl p-4 text-justify">
                 <ul className="list-[disclosure-closed] pl-5">
                     <li>
-                        <div>
-                            <p className={cn('flex items-center gap-2 py-2 px-3 ')}>
-                                Ở mục{' '}
-                                <Home/>
-                                <b>Trang chủ</b>{' '}:
-                            </p>
-                            <ul >
-                                <li>Bạn có thể {highlightText('')} tìm hiểu những thông tin khái quát về phần mềm, bản đồ tỉnh trà vinh và những đối tượng cụ thể trong từng huyện, thị, thành phố</li>
-                                <li>Cung cấp cho bạn những bài viết nổi bật nhất và những bài viết vừa được phần mềm cập nhật</li>
-                            </ul>
+                        <div>                     
+                            Ở mục{' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/home.png" className="w-5 h-5" />
+                            </span>
+                            <b>Trang chủ</b>{' '}: bạn có thể tìm hiểu thông tin khái quát về phần mềm, cung cấp cho bạn những bài viết nổi bật nhất và những bài viết vừa được phần mềm cập nhật.    
                         </div>
                     </li>
                     <li>
                         <div >
                            Để có trải nghiệm tốt hơn, bạn có thể tạo tài khoản và đăng nhập vào phần mềm ở mục
-                          <Login />  Đăng ký/ đăng nhập để có thể viết bình luận, bổ sung thông tin, chơi trò chơi, thích bài viết,...
+                           {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/account.png" className="w-5 h-5" />
+                            </span>
+                            {' '}
+                            <b>Đăng ký/ đăng nhập</b>  để có thể viết bình luận, bổ sung thông tin, chơi trò chơi, thích bài viết,...
                         </div>
                     </li>
                     <li>
                         <div>
-                            <b>Danh mục</b> và <b>yêu thích</b> là nơi lưu trữ những bài viết của phần mềm cũng như những bài viết bạn đã yêu thích.
+                            {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/list.png" className="w-4 h-4" />
+                            </span>
+                            {' '}
+                            <b>Danh mục</b> và 
+                            {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/like.png" className="w-4 h-4" />
+                            </span>
+                            {' '}
+                            <b>yêu thích</b> là nơi lưu trữ những bài viết của phần mềm cũng như những bài viết bạn đã yêu thích.
                         </div>
                     </li>
                     <li>
                         <div>
-                            Chức năng <b>bản đồ</b> sẽ cung cấp cho bạn vị trí của từng đối tượng cụ thể theo từng huyện, thị, thành phố, bạn có thể xem nội dung khái quát, thuyết minh cũng như 3d vr tour.
+                            Chức năng 
+                            {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/map.png" className="w-5 h-5" />
+                            </span>
+                            {' '}
+                            <b>bản đồ</b> sẽ cung cấp cho bạn vị trí của từng đối tượng cụ thể theo từng huyện, thị, thành phố, bạn có thể xem nội dung khái quát, thuyết minh cũng như 3D - VR Tour.
                         </div>
                     </li>
                     <li>
                         <div>
+                            {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/bot.png" className="w-5 h-5" />
+                            </span>
+                            {' '}
                             <b>Chatbot</b> sẽ cho bạn tương tác trực tiếp với ai của phần mềm nhận được những câu trả lời lý thú.
                         </div>
                     </li>
                     <li>
                         <div>
-                            <b>Tìm kiếm</b> sẽ cho bạn tìm kiếm theo tiêu đề của bài viết.
+                            {' '}
+                            <span className="inline-block align-middle">
+                                <img src="/src/assets/skill/find.png" className="w-5 h-5" />
+                            </span>
+                            {' '}
+                            <b>Tìm kiếm</b> sẽ cho bạn tìm kiếm nội dung của từng huyện, thị, thành phố hay tìm kiếm theo tiêu đề bài viết.
                         </div>
                     </li>
                     <li>
@@ -95,7 +123,8 @@ const Hdsd = () => {
                     </li>
                     <li>
                         <div>
-                            <p>Những chữ in đậm màu vàng, sẽ cung cấp cho bạn hình ảnh, nội dung, liên kết đến các trang liên quan. </p>
+                            <p>Những chữ in đậm <b><span className={'text-amber-700'}>màu</span></b> : sẽ cung cấp cho bạn hình ảnh, nội dung liên quan. </p>
+                            <p>Những chữ in đậm <b><span className={'text-green-400'}>màu</span></b> : sẽ liên kết tới những bài viết liên quan. </p>
                         </div>
                     </li>
                 </ul>

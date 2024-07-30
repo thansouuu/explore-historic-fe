@@ -67,7 +67,7 @@ const Map = () => {
 
   const navigate = useNavigate()
 
-  const getIdAddress = title => {
+  const getIdAddress = (title) => {
     for (let index = 0; index < productData.length; index++) {
         const element = productData[index];
         for (let j = 0; j < element.data.length; j++) {

@@ -7,6 +7,8 @@ export default [
             {
                 id: '34',
                 type:0,
+                city:1,
+                link:1,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
                 title: 'Chị Út Tịch',
@@ -535,6 +537,7 @@ export default [
             {
                 id: '2',
                 type:0,
+                city:1,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/D%C6%B0%C6%A1ng%20Quang%20%C4%90%C3%B4ng/1%20-%2024.jpg',
                 video: 'https://www.youtube.com/embed/FS2v2N5_JXU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -5681,27 +5684,82 @@ export default [
                 type:0,
                 tour:'4',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
-                video: '',
+                video: 'https://www.youtube.com/embed/3WkXWCyCXHo?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'CHÙA ANG KOR RAIG BOREI (CHÙA ÂNG)',
-                description: 'Địa chỉ: cách trung tâm thành phố Trà Vinh hơn 5km về hướng tây nam, thuộc khóm 4, ...',
+                description: 'Địa chỉ: Chùa  ng cách trung tâm thành phố Trà Vinh hơn 5km về hướng tây nam, thuộc khóm 4,...',
                 game: '',
                 view: 100,
                 contents: [
                     {
-                        title: 'Địa chỉ',
+                        title: 'Tổng quan ',
                         data: [
+                            
                             {
-                                type: 'text',
-                                value: `- Cách trung tâm thành phố Trà Vinh hơn 5km về hướng tây nam, thuộc khóm 4, phường 8, thành phố Trà Vinh, tỉnh Trà Vinh.`,
+                                type: 'bold',
+                                value:`* Địa chỉ:`,
                             },
-                        ],
-                    },
-                    {
-                        title: 'Lịch sử hình thành',
-                        data: [
                             {
-                                type : 'text',
-                                value: `- theo truyền kể thì chùa  ng được xây dựng vào cuối thế kỷ X (năm 1534 Phật lịch, tức năm 990 dương lịch) . Tuy nhiên,  ngôi chính điện với những giá trị kiến trúc độc đáo còn tồn tại đến hôm nay, được xây dựng vào năm 2386 Phật lịch, tức năm 1842 dương lịch.`,
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Chùa  ng cách trung tâm thành phố Trà Vinh hơn 5km về hướng tây nam, thuộc khóm 4, phường 8, thành phố Trà Vinh, tỉnh Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+
+
+                            {
+                                type: 'bold',
+                                value:`* Lịch sử hình thành:`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Theo bảng Di tích lịch sử chùa  ng, thì chùa có từ năm 990. Chùa  ng có lịch sử hình thành lâu đời nhất ở tỉnh Trà Vinh. Đến năm 1965, ngôi chánh điện được xây dựng lại bằng lá tre. Năm 1842, chùa được xây dựng lại bằng gỗ quý, lợp ngói và tường xây. Sau đó chùa còn được trùng tu vài lần nữa và được khang trang như ngày hôm nay. Chùa  ng là một trong những ngôi chùa mang phong cách kiến trúc của người Khmer nổi tiếng nhất của Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Việc xây dựng ngôi chùa bề thế, uy nghi vào giữa thế kỷ XIX đã chứng tỏ rằng, khu vực trên con giồng cát phía tây nam thành phố Trà Vinh ngày nay, vào thời điểm ấy đã tồn tại những phum sóc Khmer có mật độ dân cư khá đông đúc, đời sống kinh tế tương đối sung túc và trình độ nghệ thuật kiến trúc, hội họa, điêu khắc… cao khiến các thế hệ cư dân hiện nay và du khách gần xa phải nghiêng mình thán phục.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
@@ -5715,38 +5773,185 @@ export default [
                                 ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Cổng chùa: nằm ở hướng đông được trang trí theo hình : yăk (chằn), krud (chim thần), key-no( tiên nữ),….`,
+                                type: 'hightlight',
+                                value: `- Khuôn viên chùa: rộng hơn 3,5 ha với nhiều chủng loài thực vật đặc hữu trên đất giồng cát như sao, dầu, tre, trúc…Từ cổng chính vào là một lối đi rộng giữa hai hàng sao cổ thụ thân to, cao vút vừa che mát không gian vừa tạo ra thế uy nghiêm cho ngôi chùa. Lối đi ngang qua hào nước rộng chừng 4 m, dài hơn 400 m, bao quanh ngôi chánh điện và các công trình kiến trúc khác, mà không ngôi chùa Khmer nào khác ở Trà Vinh có được.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Chính điện: có diện tích 864 m2, nằm ở trung tâm chùa trên nền cao và hành lang rộng 4 phía, có cổng ra vào ở hai hướng đông tây.`,
+                                type: 'hightlight',
+                                value: `-Cổng chùa: nằm ở hướng đông được trang trí theo hình : yăk (chằn), krud (chim thần), key-no( tiên nữ),…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `Khung sườn chính điện: làm bằng gỗ quý`,
+                                type:'text',
+                                value:`- Chính điện:`,
                             },
                             {
-                                type: 'text',
-                                value: `Máy: cấu tạo gồm 3 cấp, 2 mái trên cùng dốc và cao hơn các mái kia. Trên các diềm mái có hình phu-chông (rồng) nằm xoải dài theo bờ dải.`,
+                                type: 'hightlight',
+                                value: `+ Có diện tích 864 m2, nằm ở trung tâm chùa trên nền cao và hành lang rộng 4 phía, có cổng ra vào ở hai hướng đông tây. `,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `Nội thất: là nơi thờ Phật gồm 12 cột chính bằng gỗ trên cột có hình phu-chông. Tượng Phật chính cao 2.1m an tọa trên tòa sen, xung quanh có 50 tượng Phật lớn nhỏ. Phía trước là bao lam bằng gỗ chạm khắc rất sắc xảo. Trên vách bốn bên được trang trí rất nhiều bức tranh về cuộc đời của Đức Phật.`,
+                                type: 'hightlight',
+                                value: `+ Nền chánh điện chùa  ng rộng 24 x 36 m, cao 1,4 m được xây bằng đá xanh, mặt lót gạch tàu cổ và được bao bọc bởi một hàng rào cao 1,23 m, chừa hai cửa ra vào ở hai hướng đông và tây. Ngôi chánh điện chùa  ng được xây dựng bằng khung gỗ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `Trước chính điện: có một tháp 5 ngọn, ở 4 gốc chân tháp có 4 Rech-cha-sey(sư tử vua)`,
+                                type: 'hightlight',
+                                value: `+ Khung sườn chính điện: làm bằng gỗ quý. Toàn bộ chánh điện được trụ đỡ bởi hệ thống 18 chiếc cột bằng gỗ quý, đường kính 0,6 m, cao 6 m. `,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Xung quanh chính điện: có nhiều tháp, trên đỉnh tháp là đầu thần 4 mặt Ma-ha-prum. Ngoài ra trong khuôn viên chùa còn nhiều công trình kiến trúc khác như: sa la, tăng xá, tháp cốt,…`,
+                                type: 'hightlight',
+                                value: `+ Mái: cấu tạo gồm 3 cấp, 2 mái trên cùng dốc và cao hơn các mái kia. Trên các diềm mái có hình phu-chông (rồng) nằm xoải dài theo bờ dải, vảy rồng uốn cong ngược lên, tạo cảm giác mái ngói vẫn nhẹ nhàng, thanh thoát.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `- Ngày 12/7/1994, được Bộ Văn hóa, Thể thao, Du lịch xếp hạng chùa là di tích quốc gia thuộc loại hình di tích kiến trúc nghệ thuật.`,
+                                type: 'hightlight',
+                                value: `+ Nội thất: là nơi thờ Phật gồm 12 cột chính bằng gỗ trên cột có hình phu-chông. Tượng Phật chính cao 2.1m an tọa trên tòa sen, xung quanh có 50 tượng Phật lớn nhỏ. Phía trước là bao lam bằng gỗ chạm khắc rất sắc xảo. Trên vách bốn bên được trang trí rất nhiều bức tranh về cuộc đời của Đức Phật.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
-
+                            {
+                                type: 'hightlight',
+                                value: `+Trước chính điện: có một tháp 5 ngọn, ở 4 gốc chân tháp có 4 Rech-cha-sey(sư tử vua)`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Xung quanh chính điện: có nhiều tháp, trên đỉnh tháp là đầu thần 4 mặt Ma-ha-prum. Ngoài ra trong khuôn viên chùa còn nhiều công trình kiến trúc khác như: sa la, tăng xá, tháp cốt,...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Ý nghĩa của chùa',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày nay, chùa  ng là một trong những ngôi chùa Phật giáo Khmer tiêu biểu trên địa bàn tỉnh Trà Vinh cũng là nơi diễn ra nhiều sinh hoạt văn hóa, lễ hội, trong đó có lễ hội Ok om bok – một di sản văn hóa phi vật thể cấp quốc gia, vào dịp Rằm tháng Mười âm lịch hàng năm. Di tích chùa  ng cùng với di tích lịch sử – văn hóa Ao Bà Om (loại hình danh thắng), Bảo tàng Văn hóa dân tộc Khmer và Trung tâm Văn hóa – Thể thao tỉnh hình thành một khu sinh hoạt văn hóa và là điểm nhấn quan trọng trong chiến lược phát triển ngành kinh tế Du lịch Trà Vinh thế kỷ XXI.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 12/7/1994, được Bộ Văn hóa, Thể thao, Du lịch xếp hạng chùa là di tích quốc gia thuộc loại hình di tích kiến trúc nghệ thuật. `,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
                         ],
                     },
                 ],
@@ -6074,28 +6279,74 @@ export default [
                 type:0,
                 tour:'3',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-6.jpg',
-                video: '',
+                video: 'https://www.youtube.com/embed/wGJDv9Uy3Vo?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'CHÙA KAMPONYNIXRDLE (CHÙA HANG)',
-                description: 'Địa chỉ: tọa lạc tại khóm 3, thị trấn Châu Thành, cách trung tâm thành phố Trà Vinh hơn 5...',
+                description: ' Địa chỉ: Chùa Hang tọa lạc tại khóm 3, thị trấn Châu Thành, cách trung tâm thành phố Trà Vinh...',
                 game: '',
                 view: 100,
                 contents: [
                     {
-                        title: 'Địa chỉ',
+                        title: 'Tổng quan',
                         data: [
                             {
-                                type: 'text',
-                                value: `- Tọa lạc tại khóm 3, thị trấn Châu Thành, cách trung tâm thành phố Trà Vinh hơn 5 km về hướng nam, theo quốc lộ 54.`,
+                                type:'bold',
+                                value: `* Địa chỉ:`,
                             },
-                        ],
-                    },
-                    {
-                        title: 'Lịch sử hình thành',
-                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang%20-2.jpg',
+                                ],
+                            },
                             {
                                 type: 'text',
-                                value: `- Chùa được thành lập năm 1637 và đã trải qua 22 đời sư trụ trì. Năm 1968 trong sự kiện Tết Mậu Thân, chùa bị bom đạn tàn phá nặng nề. Năm 1977, sư Thạch Suông (nay là sư trụ trì đời thứ 23) trở về, và vận động phục dựng lại chùa. Từ đó đến nay, qua nhiều lần trùng tu, ngôi chùa trở nên khang trang và bề thế.`,
+                                value: `- Chùa Hang tọa lạc tại khóm 3, thị trấn Châu Thành, cách trung tâm thành phố Trà Vinh hơn 5 km về hướng nam, theo quốc lộ 54.`,
                             },
+
+
+                            {
+                                type:'bold',
+                                value: `* Lịch sử hình thành:`,
+                            },
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang%20-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Chùa được thành lập năm 1637 và đã trải qua 22 đời sư trụ trì. Năm 1968, trong sự kiện Tết Mậu Thân, chùa bị bom đạn tàn phá nặng nề. Năm 1977, sư Thạch Suông (nay là sư trụ trì đời thứ 23) trở về, và vận động phục dựng lại chùa. Từ đó đến nay, qua nhiều lần trùng tu, ngôi chùa trở nên khang trang và bề thế.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Chùa Hang trước đây có tên gọi là chùa Kompông Chrây mang nghĩa “bến cây đa” vì phía trước cổng chùa có một bến đò dưới gốc cây đa, nhưng sau này dân địa phương thấy cổng phụ xây dựng có hình dáng như cổng vào một cái hang nên gọi là chùa Hang.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+
                         ],
                     },
                     {
@@ -6106,45 +6357,168 @@ export default [
                                 value: [
                                     'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-1.jpg',
                                     'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang%20-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-4.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-5.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-6.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-7.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-8.jpg',
                                 ],
                             },
                             {
-                                type: 'text',
+                                type: 'hightlight',
                                 value: `- Khởi nguyên, ngôi chùa quay mặt về hướng đông, nơi có bến ghe xuồng gần bên gốc đa để bà con phum sóc tiện lên chùa nghe kinh, lễ Phật nên có tên Wat Kompong Ch’rây (Chùa Bến Cây Đa). Đến đầu thế kỷ XX, chùa làm thêm một cổng phụ phía tây, quay ra tỉnh lộ 36 (nay là quốc lộ 54). Cổng phụ có dạng tam quan mái vòm thành hình hai hang nhỏ hai bên, hang lớn ở giữa nên chùa có thêm tên Chùa Hang.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Cổng hang là “vết tích” cho thấy Phật giáo Nam tông Khmer Trà Vinh có sự kế thừa nhất định Bà La Môn giáo, bởi ngày xưa, các tu sĩ Bà La Môn thường lặng lẽ tu luyện trong các hang động.`,
+                                type: 'hightlight',
+                                value: `- Cổng hang là “vết tích” cho thấy Phật giáo Nam tông Khmer Trà Vinh có sự kế thừa nhất định Bà La Môn giáo, bởi ngày xưa, các tu sĩ Bà La Môn thường lặng lẽ tu luyện trong các hang động.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Chánh điện chùa xây dựng trên nền đất cao, có nhiều bậc cấp dẫn lên, được trang trí lộng lẫy với nhiều hoa văn, họa tiết.`,
+                                type: 'hightlight',
+                                value: `- Chánh điện chùa xây dựng trên nền đất cao, có nhiều bậc cấp dẫn lên, được trang trí lộng lẫy với nhiều hoa văn, họa tiết. Mái của chánh điện được cấu tạo gồm nhiều lớp chồng lên nhau, trên đỉnh là chóp tháp cao vút, uy nghi.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Mái của chánh điện được cấu tạo gồm nhiều lớp chồng lên nhau, trên đỉnh là chóp tháp cao vút, uy nghi.`,
+                                type: 'hightlight',
+                                value: `- Bên trong chính điện là hai hàng cột cao lớn uy nghi, giữa chính điện là bàn thờ. Tượng Phật Thích Ca to lớn đặt trên cao, phía dưới là những tượng Phật Thích Ca nhỏ hơn trong nhiều tư thế khác nhau.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Bên trong chính điện là hai hàng cột cao lớn uy nghi, giữa chính điện là bàn thờ. Tượng Phật Thích Ca to lớn đặt trên cao, phía dưới là những tượng Phật Thích Ca nhỏ hơn trong nhiều tư thế khác nhau.`,
+                                type: 'hightlight',
+                                value: `- Phía trước nhà khách và tăng xá là tháp cột cờ, chân tháp có bộ phù điêu 7 đầu rắn thần Naga. Đối diện với chánh điện chùa Hang là quần thể tượng 12 con giáp, được bố trí hình vòng cung đắp nổi cặp rồng uốn lượn như chiếc thuyền.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Phía trước nhà khách và tăng xá là tháp cột cờ, chân tháp có bộ phù điêu 7 đầu rắn thần Naga. Đối diện với chánh điện chùa Hang là quần thể tượng 12 con giáp, được bố trí hình vòng cung đắp nổi cặp rồng uốn lượn như chiếc thuyền.`,
+                                type: 'hightlight',
+                                value: `- Khuôn viên Chùa Hang rộng khoảng 7 ha, thực sự là khu rừng nguyên sinh với nhiều chủng loài thực vật đặc hữu đất giồng cát như sao, dầu, tre, trúc… chen nhau thành nhiều tầng cao thấp khác nhau. Ngày nay, trên khuôn viên chùa có đến gần hàng chục ngàn cá thể chim các loại, nhiều nhất là cò trắng, cò ngà, cò cổ đỏ và diệc. Được con người yêu thương bảo vệ, chim ngày càng dạn dĩ hơn.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Thông tin thêm',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-1.jpg',
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `+ Khuôn viên Chùa Hang rộng khoảng 7 ha, thực sự là khu rừng nguyên sinh với nhiều chủng loài thực vật đặc hữu đất giồng cát như sao, dầu, tre, trúc… chen nhau thành nhiều tầng cao thấp khác nhau. Ngày nay, trên khuôn viên chùa có đến gần hàng chục ngàn cá thể chim các loại, nhiều nhất là cò trắng, cò ngà, cò cổ đỏ và diệc. Được con người yêu thương bảo vệ, chim ngày càng dạn dĩ hơn.`,
+                                type: 'hightlight',
+                                value: `- Trong chùa có một trường học khá quy mô và khoảng hai chục nhà sàn nhỏ vừa đủ cho một người ở, người dân Khmer trong vùng thường đến để cầu nguyện, tụ tập. Ngoài ra ở chùa Hang còn có xưởng điêu khắc gỗ nghệ thuật đã hoạt động gần 30 năm và đã cho ra đời rất nhiều tác phẩm với nhiều kích cỡ khác nhau.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                             {
-                                type: 'text',
-                                value: `- Thông tin thêm về Chùa Hang: Trong chùa có một trường học khá quy mô và khoảng hai chục nhà sàn nhỏ vừa đủ cho một người ở, người dân Khmer trong vùng thường đến để cầu nguyện, tụ tập. Ngoài ra ở chùa Hang còn có xưởng điêu khắc gỗ nghệ thuật đã hoạt động gần 30 năm và đã cho ra đời rất nhiều tác phẩm với nhiều kích cỡ khác nhau.`,
+                                type: 'hightlight',
+                                value: `- Sức hấp dẫn của ngôi chùa này đối với du khách gần xa chính ở xưởng điêu khắc gỗ và một “sân chim” được bảo vệ nghiêm ngặt tồn tại sát bên cạnh thành phố Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ đầu thế kỷ XX, khu rừng trong khuôn viên Chùa Hang có rất nhiều dơi quạ trú ngụ. Ban đêm chúng tỏa đi tìm thức ăn, ban ngày thì treo lủng lẳng trên khắp các cành cây. Tuy nhiên, trong chiến tranh máy bay ném bom, bắn pháo vào khuôn viên ngôi chùa, hủy hoại nhiều kiến trúc, gãy đổ nhiều cây xanh và gây thương vong cho một số sư sãi, bà con Khmer trong phum sóc đang lánh nạn trong chùa. Từ đó, những bầy dơi lần lượt bỏ đi.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-  Sau ngày chiến tranh kết thúc, nhất là từ thập niên 1990 trở lại đây, khuôn viên Chùa Hang lại trở thành nơi quần tụ của nhiều loại chim. Ngay khi có hiện tượng chim quần tụ trở về, sư sãi và bà con trong phum sóc rất vui mừng. Nhà chùa đặt ra những quy định bảo vệ chim và bảo vệ cây rừng rất nghiêm ngặt, tạo ra môi trường tự nhiên an bình cho những đàn chim trở về trú ngụ ngày càng đông hơn.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'huyện Cầu Kè',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/map',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
                             },
                         ],
                     },
