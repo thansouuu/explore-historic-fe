@@ -89,7 +89,7 @@ const Find = () => {
                 {showFind && (
                     <div className="mt-4 my-4" style={{ position: 'relative', textAlign: 'center', width: '310px', margin: '0 auto' }}>
                         <img
-                            src="/public/location.png"
+                            src="/location.png"
                             alt="Your Image"
                             style={imageStyle}
                         />

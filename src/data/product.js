@@ -7,7 +7,7 @@ export default [
             {
                 id: '34',
                 type:0,
-                city:1,
+                city:2,
                 link:1,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-1.jpg',
                 video: 'https://www.youtube.com/embed/iXwNNGyF4CQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -537,7 +537,8 @@ export default [
             {
                 id: '2',
                 type:0,
-                city:1,
+                city:7,
+                link:1,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/D%C6%B0%C6%A1ng%20Quang%20%C4%90%C3%B4ng/1%20-%2024.jpg',
                 video: 'https://www.youtube.com/embed/FS2v2N5_JXU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -1024,6 +1025,8 @@ export default [
             {
                 id: '3',
                 type:0,
+                city:3,
+                link:1,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Ph%E1%BA%A1m%20Th%C3%A1i%20B%C6%B0%E1%BB%9Dng/1.jpg',
                 video: 'https://www.youtube.com/embed/ZXIHwNXfNsU?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -1322,6 +1325,8 @@ export default [
             {
                 id: '4',
                 type:0,
+                city:9,
+                link:1,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/S%C6%A1n%20Th%C3%B4ng/1-TS%20start.jpg',
                 video: 'https://www.youtube.com/embed/Lbp5ClTPPkQ?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -1711,6 +1716,8 @@ export default [
             {
                 id: '1',
                 type:0,
+                city:3,
+                link:1,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/Nguy%E1%BB%85n%20V%C4%83n%20T%E1%BB%93n/1.jpg',
                 video: 'https://www.youtube.com/embed/eezu7le4Js4?list=PL7JhOAXjuOP0vuvue88MGWjKEpQYHjlvw',
@@ -2065,6 +2072,8 @@ export default [
                 id: '8',
                 type:0,
                 tour:'1',
+                city:1,
+                link:2,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ao%20B%C3%A0%20Om/1.jpg',
                 video: 'https://www.youtube.com/embed/DXN6x4l9Zgg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Ao Bà Om',
@@ -2311,6 +2320,8 @@ export default [
                 id: '7',
                 type:0,
                 tour:'0',
+                city:2,
+                link:2,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%C3%B9%20lao%20T%C3%A2n%20Quy/1-TQ%20start.jpg',
                 video: 'https://www.youtube.com/embed/MUbvjYCdtZk?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Cù lao Tân Quy',
@@ -2529,6 +2540,8 @@ export default [
             {
                 id: '32',
                 type:0,
+                city:6,
+                link:2,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/L%C6%B0u%20C%E1%BB%AB%20II/1.jpg',
                 video: 'https://www.youtube.com/embed/7q8KMpMr16A?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -2761,6 +2774,8 @@ export default [
             {
                 id: '33',
                 type:0,
+                city:8,
+                link:2,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/C%E1%BB%93n%20T%C3%A0u/1.jpg',
                 video: 'https://www.youtube.com/embed/Ox16nUDzirc?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -2983,6 +2998,8 @@ export default [
             {
                 id: '38',
                 type:0,
+                city:5,
+                link:2,
                 tour:'5',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Bi%E1%BB%83n%20Ba%20%C4%90%E1%BB%99ng/1-1.jpg',
                 video: 'https://www.youtube.com/embed/4RTHZqVdwdg?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -3287,6 +3304,8 @@ export default [
             {
                 id: '40',
                 type:0,
+                city:5,
+                link:2,
                 tour:'2',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m/1-1.jpg',
                 video: 'https://www.youtube.com/embed/jPufJRk5AYI?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -3512,6 +3531,8 @@ export default [
                 id: '41',
                 type:0,
                 tour:'7',
+                city:1,
+                link:2,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/%C4%90%E1%BB%81n%20th%E1%BB%9D%20b%C3%A1c/1-3.jpg',
                 video: 'https://www.youtube.com/embed/z_SLtiM1wOQ?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
                 title: 'Đền thờ Bác',
@@ -3718,6 +3739,8 @@ export default [
             {
                 id: '10',
                 type:0,
+                city:4,
+                link:3,
                 tour:'0',
                 imageCover: 'https://buhkhkt.github.io/CHINH/b%C3%A1nh%20canh%20th%C6%B0%E1%BB%9Fng%20th%E1%BB%A9c%204.jpg',
                 video: '',
@@ -3881,6 +3904,8 @@ export default [
             {
                 id: '11',
                 type:0,
+                city:7,
+                link:3,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%A1nh%20t%C3%A9t%20Tr%C3%A0%20Cu%C3%B4n/I-10.jpg',
                 video: '',
@@ -4318,6 +4343,8 @@ export default [
                 id: '9',
                 type:0,
                 tour:'0',
+                city:1,
+                link:3,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/M%C3%B3n%20%C4%83n/B%C3%BAn%20n%C6%B0%E1%BB%9Bc%20l%C3%A8o/III-1.jpg',
                 video: '',
                 title: 'Bún nước lèo',
@@ -4656,6 +4683,8 @@ export default [
             {
                 id: '12',
                 type:0,
+                city:7,
+                link:4,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20bi%E1%BB%83n%20M%E1%BB%B9%20Long/I-1.jpg',
                 video: '',
@@ -4845,6 +4874,8 @@ export default [
             {
                 id: '13',
                 type:0,
+                city:2,
+                link:4,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%E1%BB%85%20h%E1%BB%99i/L%E1%BB%85%20h%E1%BB%99i%20c%C3%BAng%20%C3%94ng%20B%E1%BB%95n%20huy%E1%BB%87n%20C%E1%BA%A7u%20K%C3%A8/I-1.jpg',
                 video: '',
@@ -5213,6 +5244,8 @@ export default [
             {
                 id: '15',
                 type:0,
+                city:6,
+                link:5,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20D%E1%BB%87t%20chi%E1%BA%BFu%20H%C3%A0m%20T%C3%A2n/I-6.jpg',
                 video: '',
@@ -5408,6 +5441,8 @@ export default [
             {
                 id: '14',
                 type:0,
+                city:4,
+                link:5,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20s%E1%BA%A3n%20xu%E1%BA%A5t%20r%C6%B0%E1%BB%A3u%20Xu%C3%A2n%20Th%E1%BA%A1nh/I-2.jpg',
                 video: '',
@@ -5568,6 +5603,8 @@ export default [
             {
                 id: '16',
                 type:0,
+                city:4,
+                link:5,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/l%C3%A0ng%20ngh%E1%BB%81/L%C3%A0ng%20ngh%E1%BB%81%20ti%E1%BB%83u%20th%E1%BB%A7%20c%C3%B4ng%20nghi%E1%BB%87p%20H%C6%B0ng%20M%E1%BB%B9/I-1.jpg',
                 video: '',
@@ -5682,6 +5719,8 @@ export default [
             {
                 id: '17',
                 type:0,
+                city:1,
+                link:6,
                 tour:'4',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
                 video: 'https://www.youtube.com/embed/3WkXWCyCXHo?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -5977,6 +6016,8 @@ export default [
             {
                 id: '6',
                 type:0,
+                city:7,
+                link:6,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20Can%20Snom/1%20-%20TQ.webp',
                 video: '',
@@ -6277,6 +6318,8 @@ export default [
             {
                 id: '20',
                 type:0,
+                city:4,
+                link:6,
                 tour:'3',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Hang/Ch%C3%B9a%20Hang-6.jpg',
                 video: 'https://www.youtube.com/embed/wGJDv9Uy3Vo?list=PL7JhOAXjuOP0OAe85eGjvVPBLflVI9wMt',
@@ -6547,6 +6590,8 @@ export default [
                 id: '21',
                 type:0,
                 tour:'0',
+                city:1,
+                link:6,
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t/Ch%C3%B9a%20%C3%94ng%20M%E1%BA%B9t%20-1.png',
                 video: '',
                 title: 'CHÙA KOM PONG (Chùa Ông Mẹt)',
@@ -6626,6 +6671,8 @@ export default [
             {
                 id: '19',
                 type:0,
+                city:6,
+                link:6,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20C%C3%B2/ch%C3%B9a%20c%C3%B2.jpg',
                 video: '',
@@ -6707,6 +6754,8 @@ export default [
             {
                 id: '5',
                 type:0,
+                city:2,
+                link:6,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/%C4%91%E1%BB%8Ba%20%C4%91i%E1%BB%83m/Ch%C3%B9a%20%C3%94%20M%E1%BB%8Bch/1%20-%20TQ.jpg',
                 video: '',
@@ -7032,6 +7081,8 @@ export default [
             {
                 id: '18',
                 type:0,
+                city:3,
+                link:6,
                 tour:'0',
                 imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20Py-sey%20Va-ra-ram/ch%C3%B9a%20pasy-1.jpeg',
                 video: '',

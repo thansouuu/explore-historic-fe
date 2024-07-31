@@ -68,7 +68,6 @@ const LikedPosts = () => {
 
 
     useEffect(() => {
-       
         if (isLoggedIn) {
             fetchLikedPosts();
         }
@@ -115,16 +114,27 @@ const LikedPosts = () => {
         }
     };
 
-    
 
-    
+    const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text).then(
+          () => {
+            toast.success('Link copied to clipboard');
+          },
+          (err) => {
+            toast.error('Failed to copy link');
+            console.error('Failed to copy: ', err);
+          }
+        );
+      };
+
+    const sortedProducts = likedPosts.sort((a, b) => a.localeCompare(b));
 
     return (
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
             <h2 className="text-3xl text-center pb-4 border-b border-slate-800">Bài viết đã yêu thích</h2>
             <div className="flex flex-col gap-4">
                 
-                {likedPosts.map((postTitle, index) => (
+                {sortedProducts.map((postTitle, index) => (
                     <div key={index}>
                         <FoodContent title={postTitle} key={index} >
                             
@@ -140,14 +150,15 @@ const LikedPosts = () => {
                                 </div>
                             </Link>
                             <div className="flex gap-4 my-3 text-[15px]">
-                                <FacebookShareButton url={window.location.href} quote={postTitle}>
+                                <FacebookShareButton hashtag={'Phần mềm Lịch sử địa phương Trà Vinh cung cấp cho tôi những thông tin rất hữu ích'} 
+                                url={`https://lichsudiaphuong-travinh.netlify.app/tieng-viet/figure/${getIdAddress(postTitle).figue_id}/product/${getIdAddress(postTitle).product_id}`} quote={postTitle}>
                                     <FacebookIcon size={32} round />
                                 </FacebookShareButton>
                                 
                                 {/* <WhatsappShareButton url={window.location.href} title={postTitle}>
                                     <WhatsappIcon size={32} round />
-                                </WhatsappShareButton>
-                                <EmailShareButton url={window.location.href} subject={postTitle}>
+                                </WhatsappShareButton> */}
+                                {/* <EmailShareButton url={window.location.href} subject={postTitle}>
                                     <EmailIcon size={32} round />
                                 </EmailShareButton> */}
                                 <a href={`https://www.messenger.com/t/?link=${encodeURIComponent(window.location.href)}`} target="_blank" rel="noopener noreferrer">
@@ -156,9 +167,17 @@ const LikedPosts = () => {
                                 <TwitterShareButton url={window.location.href} title={postTitle}>
                                     <TwitterIcon size={32} round />
                                 </TwitterShareButton>
-                                {/* <a href={`https://zalo.me/share/?url=${encodeURIComponent(window.location.href)}&title=${encodeURIComponent(product?.title)}`} target="_blank" rel="noopener noreferrer">
-                                    <img src="/public/images/zalo.png" alt="Share on Zalo" style={{ width: 32, height: 32, borderRadius: '50%' }} />
-                                </a> */}
+                                <button
+                                    onClick={() => copyToClipboard(`https://lichsudiaphuong-travinh.netlify.app/tieng-viet/figure/${getIdAddress(postTitle).figue_id}/product/${getIdAddress(postTitle).product_id}`)}
+                                    className="flex items-center gap-2"
+                                    >
+                                    <img
+                                        src="/images/link.png"
+                                        alt="Copy Link"
+                                        style={{ width: 32, height: 32, borderRadius: '50%' }}
+                                    />
+                                    {/* Copy Link */}
+                                    </button>
                                 <button onClick={() => handleRemoveLike(postTitle)} 
                                     // className="text-red-600"
                                     className="hover:bg-red-600 bg-red-500 p-2 rounded text-white"

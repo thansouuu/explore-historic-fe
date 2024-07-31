@@ -24,7 +24,6 @@ export const routes = [
         path: '/download',
         element: <Download />,
     },
-    
     {
         path: '/tieng-viet',
         element: <RootLayout />,

@@ -117,7 +117,8 @@ const HeaderRoot = ({ toggleSidebar }) => {
     const navigate = useNavigate()
 
     return (
-        <nav style={{backgroundImage: 'url("https://raw.githubusercontent.com/thansouuu/data-image/main/testing.jpg")',
+        <nav style={{
+            backgroundImage: 'url("/header.jpg")',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
@@ -145,7 +146,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 <Logo />
                             </button>
                         </div>
-                        <div className="flex items-center gap-1 mx-auto">
+                        {/* <div className="flex items-center gap-1 mx-auto">
                             <div className="w-[35px] h-[35px] ">
                                 <img
                                     src="https://raw.githubusercontent.com/thansouuu/data-image/main/%E1%BA%A3nh%20app/logo.jpg"
@@ -154,7 +155,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
                                 />
                             </div>
                             <h5 className="text-nowrap text-[20px] font-medium">LỊCH SỬ TỈNH TRÀ VINH</h5>
-                        </div>
+                        </div> */}
                     </>
             </div>
                 <div 

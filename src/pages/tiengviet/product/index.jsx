@@ -460,6 +460,8 @@ const Product = memo(() => {
     };
     // window.location.reload()
 
+
+
     return (
         
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">
@@ -746,7 +748,7 @@ const Product = memo(() => {
                 </FoodContent>
                 <FoodContent title="Chia sẻ bài viết">
                     <div className="flex gap-4">
-                        <FacebookShareButton hashtag={'#dscsdvsfvf'} url={window.location.href} quote={product?.title}>
+                        <FacebookShareButton hashtag={'Phần mềm Lịch sử địa phương Trà Vinh cung cấp cho tôi những thông tin rất hữu ích'} url={window.location.href} quote={product?.title}>
                             <FacebookIcon size={32} round />
                         </FacebookShareButton>
                         
@@ -757,8 +759,9 @@ const Product = memo(() => {
                             <EmailIcon size={32} round />
                         </EmailShareButton> */}
 
+
                         <a
-                            href={`https://www.messenger.com/t/?link=${encodeURIComponent(window.location.href)}`}
+                            href={`https://www.messenger.com/t/?body=${encodeURIComponent(window.location.href)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -768,19 +771,6 @@ const Product = memo(() => {
                                 style={{ width: 32, height: 32, borderRadius: '50%' }}
                             />
                         </a>
-                        {/* <a
-                            href={`https://zalo.me/share/?url=${encodeURIComponent(
-                                window.location.href,
-                            )}&title=${encodeURIComponent(product?.title)}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src="/images/zalo.png"
-                                alt="Share on Zalo"
-                                style={{ width: 32, height: 32, borderRadius: '50%' }}
-                            />
-                        </a> */}
                         <TwitterShareButton url={window.location.href} title={product?.title}>
                             <TwitterIcon size={32} round />
                         </TwitterShareButton>
@@ -894,7 +884,7 @@ const Product = memo(() => {
                                 <path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path>
                             </svg>
                         </button>
-                        <FacebookShareButton url={imageModal} quote={''}>
+                        <FacebookShareButton hashtag={'Phần mềm Lịch sử địa phương Trà Vinh cung cấp cho tôi những thông tin rất hữu ích'} url={imageModal} quote={''}>
                             <FacebookIcon size={32} round />
                         </FacebookShareButton>
                         {/* <TwitterShareButton url={imageModal} title={""}>
