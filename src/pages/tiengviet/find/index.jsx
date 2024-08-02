@@ -51,12 +51,30 @@ const Find = () => {
         margin: '0 auto', // Căn giữa hình ảnh theo chiều ngang
     };
 
+    // const buttonStyle = (top, left) => ({
+    //     position: 'absolute',
+    //     top: top,
+    //     left: left,
+    //     width: '6%', // Kích thước nút
+    //     height: '6%', // Kích thước nút
+    //     backgroundColor: '#0D6DDB',
+    //     color: 'white',
+    //     border: 'none',
+    //     borderRadius: '50%', // Làm cho nút hình tròn
+    //     cursor: 'pointer',
+    //     fontSize: '16px',
+    //     display: 'flex',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    //     transform: 'translate(-50%, -50%)' // Căn giữa nút
+    // });
+
     const buttonStyle = (top, left) => ({
         position: 'absolute',
         top: top,
         left: left,
-        width: '6%', // Kích thước nút
-        height: '6%', // Kích thước nút
+        width: '6%',
+        height: '6%',
         backgroundColor: '#0D6DDB',
         color: 'white',
         border: 'none',
@@ -66,8 +84,23 @@ const Find = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        transform: 'translate(-50%, -50%)' // Căn giữa nút
-    });
+        transform: 'translate(-50%, -50%)', // Căn giữa nút
+        animation: 'blink-animation 3s infinite' // Thêm hiệu ứng nhấp nháy
+      });
+
+    const styles = `
+    @keyframes blink-animation {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    `;
 
     const handleClick = (idx) => {
         navigate(`/tieng-viet/city/${idx}`);
@@ -88,6 +121,7 @@ const Find = () => {
                 </button>
                 {showFind && (
                     <div className="mt-4 my-4" style={{ position: 'relative', textAlign: 'center', width: '310px', margin: '0 auto' }}>
+                        <style>{styles}</style>
                         <img
                             src="/location.png"
                             alt="Your Image"

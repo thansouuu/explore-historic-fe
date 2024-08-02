@@ -65,8 +65,11 @@ const Main = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:max-w-[900px] mx-auto">
             
             <div className="col-span-full flex flex-col items-center">
-            <div className="h-[100px]" /> 
+            <div className="container mx-auto px-4 py-6">
+                <div className="h-[100px]" />
+
                 <video
+                    className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
                     width="640"
                     height="360"
                     autoPlay
@@ -78,11 +81,17 @@ const Main = () => {
                     Trình duyệt của bạn không hỗ trợ thẻ video.
                 </video>
                 <p className="mt-4 text-justify text-lg ">
-                    <ul className="list-[disclosure-closed] pl-5 italic">
+                    <ul className="list-disc pl-5 space-y-4 text-gray-700 italic text-lg">
                         <li>"Lịch sử TV" là phần mềm bổ ích, giúp khám phá lịch sử phong phú cùng nền văn hóa độc đáo của tỉnh Trà Vinh. Với giao diện thân thiện và dễ sử dụng, ứng dụng cung cấp thông tin chi tiết về các di tích lịch sử, danh lam thắng cảnh, nhân vật và các sự kiện quan trọng trong tỉnh. Dựa trên sự tích hợp kiến thức từ sách Giáo dục Địa Phương tỉnh Trà Vinh theo Chương trình Giáo dục 2018, "Lịch sử TV" mang đến cho học sinh cách tiếp cận mới mẻ và hấp dẫn. </li>   
                         <li>Hiểu được rằng lịch sử thường khó tiếp cận đến giới trẻ, chúng tôi đã tạo ra những trải nghiệm sinh động cho người dùng qua các tính năng nổi bật như bài học dưới dạng hình ảnh, video, tour 3D, trò chơi tương tác và bản đồ trực quan. "Lịch sử TV" không chỉ là một công cụ học tập mà còn là cầu nối đưa học sinh đến gần hơn với quá khứ của quê hương, khơi dậy lòng tự hào và tình yêu đối với nơi mình sinh sống.</li>
                     </ul>
                 </p>
+            {/* </div> */}
+
+
+
+                </div>
+                
             </div>
 
             <div className="col-span-full">

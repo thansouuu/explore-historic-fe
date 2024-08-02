@@ -44,10 +44,6 @@ import best_icon4 from '@/assets/best/best4.png'
 import best_icon5 from '@/assets/best/best5.png'
 import best_icon6 from '@/assets/best/best6.png'
 
-// import { Helmet } from 'react-helmet';
-
-// import 'react-tooltip/dist/react-tooltip.css';
-// import { Tooltip } from 'react-tooltip';
 
 const Product = memo(() => {
     const { isLoggedIn, mutate, data } = useAuth();

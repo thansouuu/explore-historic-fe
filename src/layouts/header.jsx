@@ -118,11 +118,13 @@ const HeaderRoot = ({ toggleSidebar }) => {
 
     return (
         <nav style={{
-            backgroundImage: 'url("/header.jpg")',
+            backgroundImage: 'url("/header.png")',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
-            }} className="bg-[#FDCC80] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
+
+            }} 
+            className="bg-[#faebd7] px-4 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
             <div className="flex items-center mx-auto py-4 max-w-[992px] z-214783646">
                     <>
                     <Helmet>

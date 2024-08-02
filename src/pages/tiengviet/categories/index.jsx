@@ -61,7 +61,7 @@ const Categories = memo(() => {
                     </div>
                 </>
             }
-            {types===1 && 
+            {types===1 && 1<=tmp && tmp<=4 &&
                 <>
                     <div className="col-span-full p-4 bg-gray-200 rounded-lg shadow-md">
                         <div className="text-[22px] font-bold text-gray-800 text-center">

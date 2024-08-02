@@ -148,7 +148,7 @@ export default [
     },
     {
         id: 6,
-        image: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/ch%C3%B9a%20%C3%A2ng-1.jpeg',
+        image: 'https://raw.githubusercontent.com/thansouuu/data-image/main/ch%C3%B9a/Ch%C3%B9a%20%C3%82ng/1-1.jpg',
         name: 'Chùa',
         description:[
             {
