@@ -31,7 +31,7 @@ const Hdsd = () => {
                             <div>
                                 Ở mục{' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/home.png" className="w-5 h-5" />
+                                    <img src="/assets/skill/home.png" className="w-5 h-5" />
                                 </span>
                                 <b>Trang chủ</b>{' '}: bạn có thể tìm hiểu thông tin khái quát về phần mềm, cung cấp cho bạn những bài viết nổi bật nhất và những bài viết vừa được phần mềm cập nhật.
                             </div>
@@ -40,7 +40,7 @@ const Hdsd = () => {
                             <div>
                                 Để có trải nghiệm tốt hơn, bạn có thể tạo tài khoản và đăng nhập vào phần mềm ở mục{' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/account.png" className="w-5 h-5" />
+                                    <img src="@/src/assets/skill/account.png" className="w-5 h-5" />
                                 </span>
                                 {' '}
                                 <b>Đăng ký/ đăng nhập</b> để có thể viết bình luận, bổ sung thông tin, chơi trò chơi, thích bài viết,...
@@ -111,7 +111,7 @@ const Hdsd = () => {
             <div className="bg-gray-900 -mx-6 -mb-[200px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 text-white">
                 <div className="flex items-center justify-center">
                     <img
-                        src="https://raw.githubusercontent.com/thansouuu/data-image/main/%E1%BA%A3nh%20app/logo.jpg"
+                        src="/public/logo.png"
                         alt="logo"
                         className="w-[100px] h-[100px] object-cover"
                     />
@@ -121,6 +121,7 @@ const Hdsd = () => {
                     <ul className="list-[disclosure-closed] pl-5 text-lg">
                         <li className='ml-5'>Hứa Phước Duy</li>
                         <li className='ml-5'>Thạch Hoàng Phương Lam</li>
+                        <li className='ml-5'>Giáo viên hướng dẫn: Thi Thị Thanh Tuyền</li>
                     </ul>
                 </div>
                 <div>
@@ -130,7 +131,7 @@ const Hdsd = () => {
                             <EmailIcon size={32} round />
                         </EmailShareButton>
                         <a href={`https://www.youtube.com/@L%E1%BB%8Bchs%E1%BB%AD%C4%91%E1%BB%8Baph%C6%B0%C6%A1ngTr%C3%A0Vinh`} target="_blank" rel="noopener noreferrer">
-                            <img src="https://raw.githubusercontent.com/thansouuu/data-image/main/%E1%BA%A3nh%20app/logo.jpg" alt="Share on Messenger" style={{ width: 32, height: 32, borderRadius: '50%' }} />
+                            <img src="/logo.png" alt="Share on Messenger" style={{ width: 32, height: 32, borderRadius: '50%' }} />
                         </a>
                         <FacebookShareButton hashtag={'Góp ý'} url={window.location.href} >
                             <FacebookIcon size={32} round />
