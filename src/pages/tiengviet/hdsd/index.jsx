@@ -31,7 +31,7 @@ const Hdsd = () => {
                             <div>
                                 Ở mục{' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/assets/skill/home.png" className="w-5 h-5" />
+                                    <img src="/skill/home.png" className="w-5 h-5" />
                                 </span>
                                 <b>Trang chủ</b>{' '}: bạn có thể tìm hiểu thông tin khái quát về phần mềm, cung cấp cho bạn những bài viết nổi bật nhất và những bài viết vừa được phần mềm cập nhật.
                             </div>
@@ -40,7 +40,7 @@ const Hdsd = () => {
                             <div>
                                 Để có trải nghiệm tốt hơn, bạn có thể tạo tài khoản và đăng nhập vào phần mềm ở mục{' '}
                                 <span className="inline-block align-middle">
-                                    <img src="@/src/assets/skill/account.png" className="w-5 h-5" />
+                                    <img src="/skill/account.png" className="w-5 h-5" />
                                 </span>
                                 {' '}
                                 <b>Đăng ký/ đăng nhập</b> để có thể viết bình luận, bổ sung thông tin, chơi trò chơi, thích bài viết,...
@@ -50,13 +50,13 @@ const Hdsd = () => {
                             <div>
                                 {' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/list.png" className="w-4 h-4" />
+                                    <img src="/skill/list.png" className="w-4 h-4" />
                                 </span>
                                 {' '}
                                 <b>Danh mục</b> và
                                 {' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/like.png" className="w-4 h-4" />
+                                    <img src="/skill/like.png" className="w-4 h-4" />
                                 </span>
                                 {' '}
                                 <b>yêu thích</b> là nơi lưu trữ những bài viết của phần mềm cũng như những bài viết bạn đã yêu thích.
@@ -67,7 +67,7 @@ const Hdsd = () => {
                                 Chức năng
                                 {' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/map.png" className="w-5 h-5" />
+                                    <img src="/skill/map.png" className="w-5 h-5" />
                                 </span>
                                 {' '}
                                 <b>bản đồ</b> sẽ cung cấp cho bạn vị trí của từng đối tượng cụ thể theo từng huyện, thị, thành phố, bạn có thể xem nội dung khái quát, thuyết minh cũng như 3D - VR Tour.
@@ -77,7 +77,7 @@ const Hdsd = () => {
                             <div>
                                 {' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/bot.png" className="w-5 h-5" />
+                                    <img src="/skill/bot.png" className="w-5 h-5" />
                                 </span>
                                 {' '}
                                 <b>Chatbot</b> sẽ cho bạn tương tác trực tiếp với ai của phần mềm nhận được những câu trả lời lý thú.
@@ -87,7 +87,7 @@ const Hdsd = () => {
                             <div>
                                 {' '}
                                 <span className="inline-block align-middle">
-                                    <img src="/src/assets/skill/find.png" className="w-5 h-5" />
+                                    <img src="/skill/find.png" className="w-5 h-5" />
                                 </span>
                                 {' '}
                                 <b>Tìm kiếm</b> sẽ cho bạn tìm kiếm nội dung của từng huyện, thị, thành phố hay tìm kiếm theo tiêu đề bài viết.
@@ -111,7 +111,7 @@ const Hdsd = () => {
             <div className="bg-gray-900 -mx-6 -mb-[200px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 text-white">
                 <div className="flex items-center justify-center">
                     <img
-                        src="/public/logo.png"
+                        src="/logo.png"
                         alt="logo"
                         className="w-[100px] h-[100px] object-cover"
                     />

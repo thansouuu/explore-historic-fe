@@ -22,7 +22,6 @@ import productData from '@/data/product';
 import { uploadToCloudinary } from '@/hooks/use-upload-cloudinary';
 import CardContentHightlight from '@/components/card-content/card-content-hightlight';
 import CardContentText from '@/components/card-content/card-content-text';
-import { Helmet } from 'react-helmet';
 
 import good_icon1 from '@/assets/good/good1.png'
 import good_icon2 from '@/assets/good/good2.png'
