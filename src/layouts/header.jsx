@@ -9,7 +9,6 @@ import Login from '@/components/utils/Login';
 import Magnify from '@/components/utils/Magnify';
 import Burger from '@/components/utils/Burger';
 import Logo from '@/components/utils/Logo';
-import productData from '@/data/product';
 import Like from '@/components/utils/Like';
 import Home from '@/components/utils/Home';
 import Bot from '@/components/utils/Bot';
@@ -120,7 +119,7 @@ const HeaderRoot = ({ toggleSidebar }) => {
         <nav style={{
             backgroundImage: 'url("/header.png")',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
+            backgroundRepeat: 'repeat',
             backgroundSize: 'contain',
 
             }} 

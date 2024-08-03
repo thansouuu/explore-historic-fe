@@ -128,6 +128,7 @@ const LikedPosts = () => {
       };
 
     const sortedProducts = likedPosts.sort((a, b) => a.localeCompare(b));
+    console.log(sortedProducts)
 
     return (
         <div className="flex flex-col gap-4 pb-4 max-w-[992px] mx-auto">

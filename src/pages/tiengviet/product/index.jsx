@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import cn from '@/helper/cn';
 import FoodContent from '@/components/food-content';
-import FeedbackCard from '@/components/feeadback-detail/feedback-card';
+import FeedbackCard from '@/components/feedback-detail/feedback-card';
 
 import {
     EmailShareButton,

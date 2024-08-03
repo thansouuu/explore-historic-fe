@@ -8488,382 +8488,9 @@ export default [
                 id: '35',
                 type:1,
                 tour:'0',
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
-                video: '',
-                title: 'Cách mạng Tháng Tám năm 1945 ở Trà Vinh',
-                description: 'Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu...',
-                game: '',
-                view: 100,
-                contents: [
-                    {
-                        title: 'Chiến Tranh Thế Giới Thứ Hai và Phong Trào Cách Mạng ở Việt Nam',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
-                                ],
-                            },
-                            {
-                                type: 'bold',
-                                value: `* Bối Cảnh Quốc Tế và Quốc Nội:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu các quyền tự do dân chủ mà nhân dân ta giành được trong thời kỳ Mặt trận Dân chủ.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Năm 1940, Nhật vào Đông Dương, nhân dân ta chịu cảnh “một cổ hai tròng”.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'bold',
-                                value: `* Các Hội Nghị Trung Ương Đảng:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Hội nghị Trung ương lần thứ 6 (11/1939) và lần thứ 7 (11/1940) của Đảng chủ trương đề cao nhiệm vụ giải phóng dân tộc.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `-  Hội nghị Trung ương 8 (5/1941) họp tại Cao Bằng, chủ trương thành lập một mặt trận dân tộc thống nhất rộng rãi lấy tên là “Việt Nam Độc lập Đồng minh hội” (Mặt trận Việt Minh), tập hợp tất cả những người có tinh thần dân tộc chống Pháp, chuẩn bị cho khởi nghĩa vũ trang giành chính quyền.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-
-                            {
-                                type: 'bold',
-                                value: `*  Nhật Đảo Chính Pháp và Chỉ Thị Của Trung Ương Đảng:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Ngày 9 tháng 3 năm 1945, Nhật đảo chính Pháp, Trung ương Đảng ra Chỉ thị “Nhật - Pháp bắn nhau và hành động của chúng ta”, phát động cao trào đánh đuổi phát xít Nhật.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Hội nghị toàn quốc của Đảng họp tại Tân Trào (Tuyên Quang) từ ngày 13 đến 15 tháng 8 năm 1945 kêu gọi toàn dân đứng lên tổng khởi nghĩa giành chính quyền trong cả nước.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-
-                            {
-                                type: 'bold',
-                                value: `*  Cuộc Tổng Khởi Nghĩa Tháng 8/1945:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Dưới sự lãnh đạo của Đảng, 25 triệu đồng bào ta đã tiến hành tổng khởi nghĩa trong 15 ngày cuối tháng 8/1945, giành thắng lợi hoàn toàn.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Ngày 2/9/1945, tại Quảng trường Ba Đình lịch sử, Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, tuyên bố sự ra đời của nước Việt Nam Dân chủ Cộng hòa.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Phong Trào Cách Mạng và Cuộc Tổng Khởi Nghĩa Tại Trà Vinh',
-                        data: [
-                            {
-                                type: 'grid-image',
-                                value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
-                                ],
-                            },
-                            {
-                                type: 'bold',
-                                value: `* Nhận Lệnh Khởi Nghĩa và Tổ Chức Hội Nghị Tỉnh Ủy:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Chiều ngày 24 tháng 8 năm 1945, Tỉnh ủy Trà Vinh nhận được lệnh khởi nghĩa của Xứ ủy Nam Kỳ.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Hội nghị Tỉnh ủy được triệu tập vào lúc 18 giờ tại nhà số 37, cơ quan giao liên, quyết định tiến hành Tổng khởi nghĩa giành chính quyền trên toàn tỉnh vào đúng thời điểm theo lệnh Tổng khởi nghĩa của Xứ ủy. Đồng chí Dương Quang Đông, Bí thư Tỉnh ủy, giữ chức vụ Chủ tịch Ủy ban khởi nghĩa.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'bold',
-                                value: `* Triển Khai Kế Hoạch Khởi Nghĩa:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Ủy ban khởi nghĩa gấp rút triển khai kế hoạch chỉ đạo và phân công nhiệm vụ cho từng thành viên, phát lệnh Tổng khởi nghĩa đến Trưởng ban khởi nghĩa các địa phương trong tỉnh.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Kế hoạch khởi nghĩa được bí mật triển khai đến mọi nhà, đồng bào Kinh - Khmer - Hoa tại Trà Vinh nhất tề hưởng ứng.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-
-                            {
-                                type: 'bold',
-                                value: `* Diễn Biến Khởi Nghĩa Tại Trà Vinh:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Trong đêm 24 rạng sáng ngày 25 tháng 8, khởi nghĩa nổ ra tại tỉnh lỵ, sau đó lan tỏa xuống các quận lỵ và xã trong tỉnh.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Tại tỉnh lỵ Trà Vinh, các mục tiêu quan trọng bị bao vây vào nửa đêm 24 tháng 8 bởi các lực lượng quần chúng cách mạng, lực lượng Thanh niên Tiền phong giữ vai trò nòng cốt.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Phần lớn lực lượng địch tại tỉnh lỵ chỉ chống cự yếu ớt rồi buông súng đầu hàng, ngoại trừ một số tốp lính ngoan cố phải buông súng vào rạng sáng 25 tháng 8.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-
-                            {
-                                type: 'bold',
-                                value: `* Kết Quả Khởi Nghĩa Tại Trà Vinh:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Rạng sáng ngày 25/8/1945, toàn bộ các cứ điểm của địch ở tỉnh lỵ Trà Vinh đã thuộc quyền kiểm soát của lực lượng cách mạng, chính quyền thân Nhật tại Trà Vinh bị đập tan.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Các lực lượng khởi nghĩa tại các quận Càng Long, Cầu Ngang, Trà Cú, Cầu Kè cũng giành thắng lợi vào chiều ngày 25/8.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Quần chúng cách mạng dưới sự lãnh đạo của Đảng Cộng sản đã tổ chức ra các hình thức chính quyền dân chủ nhân dân.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Sáng ngày 28 tháng 8, một cuộc mít-tinh lớn diễn ra tại sân vận động tỉnh Trà Vinh, Ủy ban nhân dân tỉnh Trà Vinh chính thức ra mắt đồng bào các dân tộc trong tỉnh.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-
-                            {
-                                type: 'bold',
-                                value: `* Ý Nghĩa của Cách Mạng Tháng Tám 1945 tại Trà Vinh:`,
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Cách mạng Tháng Tám năm 1945 tại Trà Vinh giành thắng lợi nhờ thời cơ chiến lược "ngàn năm có một", đường lối chủ trương tài tình của Trung ương Đảng và Chủ tịch Hồ Chí Minh, và sự cổ vũ mạnh mẽ của cuộc tổng khởi nghĩa cả nước.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                            {
-                                type: 'hightlight',
-                                value: `- Nhân dân Trà Vinh có truyền thống chống thực dân và phong kiến kiên cường, với tinh thần "Đem sức ta mà giải phóng cho ta", toàn dân Trà Vinh đã nhất tề nổi dậy trong thời cơ thuận lợi nhất.`,
-                                hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
-                                ],
-                            },
-                        ],
-                    },
-                ],
-        
-                tags: [
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                    {
-                        id: '1',
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
-                    },
-                ],
-            },
-            {
-                id: '36',
-                type:2,
-                tour:'0',
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
-                video: '',
-                title: 'Sự hình thành của tỉnh Trà Vinh đầu thế kỉ XVIII - cuối thế kỉ XIX',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-1.jpg',
+                video: 'https://www.youtube.com/embed/PrSdHSB1Hyk?list=PL7JhOAXjuOP1-pgRM2dlQR6JW4awgq07R',
+                title: 'Sự hình thành của tỉnh Trà Vinh giai đoạn 1732-1900',
                 description: 'Trong thời kỳ phong kiến, người dân Trà Vinh phải đối mặt với nhiều khó khăn do sự áp bức từ chính quyền...',
                 game: '',
                 view: 100,
@@ -8874,8 +8501,12 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/I-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-6.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-8.jpg',
+
                                 ],
                             },
                             {
@@ -8883,10 +8514,17 @@ export default [
                                 value: `- Trong thời kỳ phong kiến, người dân Trà Vinh phải đối mặt với nhiều khó khăn do sự áp bức từ chính quyền. Họ phải nộp nhiều vật phẩm sản xuất, thuế ruộng đất, và thuế thủy lợi. Cuộc chiến khốc liệt giữa quân Tây Sơn và quân Nguyễn Ánh đã gián đoạn các hoạt động kinh tế, gây nạn mất mùa và khiến đời sống người dân ngày càng đói khổ.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'nộp',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-2.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'cuộc chiến',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-3.jpg',
                                         }
                                     },
                                 ],
@@ -8896,10 +8534,10 @@ export default [
                                 value: `- Vùng đất và tên gọi “Trà Vang”, tiền thân của tỉnh Trà Vinh, đã xuất hiện trước khi Chúa Nguyễn lập Châu Định Viễn và dựng Dinh Long Hồ vào năm 1732. Lúc bấy giờ, Trà Vinh thuộc Châu Định Viễn. Trong thế kỷ XVIII, vùng đất này trở thành chiến trường trong cuộc chiến giữa quân Xiêm và nghĩa quân Tây Sơn. Vào năm 1802, khi Vua Gia Long lên ngôi, vùng đất này thuộc Dinh Vĩnh Trấn. Sau đó, vào năm 1808, Gia Long đổi tên Gia Định Trấn thành Gia Định Thành, và vùng đất Trà Vinh thuộc Trấn Vĩnh Thanh.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'chiến trường',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-5.jpg',
                                         }
                                     },
                                 ],
@@ -8909,10 +8547,10 @@ export default [
                                 value: `- Năm 1825, Vua Minh Mạng lập Phủ Lạc Hóa, trực thuộc Gia Định Thành, gồm hai huyện Trà Vinh và Tuân Mỹ. Đến năm 1832, Trấn Vĩnh Thanh được đổi tên thành Trấn Vĩnh Long. Sau đó, Vua Minh Mạng chia các trấn thành tỉnh, và vùng đất Nam Bộ được chia thành sáu tỉnh gọi là “Nam Kỳ lục tỉnh”. Trà Vinh là một huyện thuộc Phủ Lạc Hóa, tỉnh Vĩnh Long.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: '“Nam Kỳ lục tỉnh”',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/1-9.jpg',
                                         }
                                     },
                                 ],
@@ -8925,23 +8563,29 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-4.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-5.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20c%C3%A1%20%C3%94ng/II-6.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-6.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-8.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-9.jpg',
                                 ],
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Năm 1833, nhân dân vùng đất Trà Vinh cùng nhân dân các tỉnh Nam Kỳ tham gia cuộc khởi nghĩa Lê Văn Khôi chống lại triều đình nhà Nguyễn. Cuộc khởi nghĩa đã khiến vua Minh Mạng phải điều động lực lượng lớn đến để đàn áp mới dập tắt được cuộc khởi nghĩa.`,
+                                value: `- Năm 1833, nhân dân vùng đất Trà Vinh cùng nhân dân các tỉnh Nam Kỳ tham gia cuộc khởi nghĩa Lê Văn Khôi chống lại triều đình nhà Nguyễn. Khởi nghĩa đã khiến vua Minh Mạng phải điều động lực lượng lớn đến để đàn áp mới dập tắt được khởi nghĩa.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'cuộc khởi nghĩa',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-1.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'đàn áp',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-2.jpg',
                                         }
                                     },
                                 ],
@@ -8951,23 +8595,23 @@ export default [
                                 value: `- Khi thực dân Pháp chiếm Vĩnh Long vào năm 1867, người dân Trà Vinh đã tích cực giúp đỡ và tham gia các cuộc khởi nghĩa chống Pháp. Trong những năm 1868 – 1869, nhiều cuộc khởi nghĩa ở Trà Vinh có liên hệ với cuộc khởi nghĩa do Nguyễn Trung Trực lãnh đạo ở vùng Rạch Giá.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'chiếm',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-3.jpg',
                                         }
                                     },
                                 ],
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Từ 1867 đến 1872 nhiều cuộc nổi dậy, khởi nghĩa diễn ra sôi nổi như: cuộc nổi dậy do Phan Tôn, Phan Liêm khởi xướng (1867); cuộc khởi nghĩa do Phó Soái chỉ huy (1867); cuộc khởi nghĩa Ba Động do Tán Lí Lê Văn Quân, Đề đốc Triều và Đốc binh Say lãnh đạo (1868); Khởi nghĩa Vĩnh Trị, Bình Khánh do Đốc binh Lê Cẩn, Phó Mai cùng Nguyễn Giao gây dựng và khởi xướng (1871); Khởi nghĩa ở Bàn Đa do Trần Văn Đề lãnh đạo (1872). Trong đó nổi bật nhất là khởi nghĩa Vĩnh Trị - Bình Khánh và khởi nghĩa Bàn Đa.`,
+                                value: `- Từ 1867 đến 1872 nhiều cuộc nổi dậy, khởi nghĩa diễn ra sôi nổi như: nổi dậy do Phan Tôn, Phan Liêm khởi xướng (1867); cuộc khởi nghĩa do Phó Soái chỉ huy (1867); cuộc khởi nghĩa Ba Động do Tán Lí Lê Văn Quân, Đề đốc Triều và Đốc binh Say lãnh đạo (1868); Khởi nghĩa Vĩnh Trị, Bình Khánh do Đốc binh Lê Cẩn, Phó Mai cùng Nguyễn Giao gây dựng và khởi xướng (1871); Khởi nghĩa ở Bàn Đa do Trần Văn Đề lãnh đạo (1872). Trong đó nổi bật nhất là khởi nghĩa Vĩnh Trị - Bình Khánh và khởi nghĩa Bàn Đa.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'cuộc nổi dậy',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-5.jpg',
                                         }
                                     },
                                 ],
@@ -8977,10 +8621,37 @@ export default [
                                 value: `- Năm 1873, đồng bào Kinh, Khmer, Hoa ở Trà Vinh tham gia cuộc khởi nghĩa của Đề Triệu ở Cồn Cù, Ba Động, nhưng đến năm 1874, cuộc khởi nghĩa thất bại do bị thực dân Pháp đàn áp. Năm 1876, Thống đốc Nam Kỳ ra nghị định phân chia toàn bộ Nam Kỳ thành 4 khu vực hành chính lớn. Khu vực hành chính lớn Vĩnh Long gồm 4 tiểu khu: Vĩnh Long, Trà Vinh, Bến Tre, và Sa Đéc. Tiểu khu Trà Vinh là tiền thân của tỉnh Trà Vinh sau này.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'Kinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/25',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Hoa',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/27',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'phân chia',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-10.jpg',
                                         }
                                     },
                                 ],
@@ -8990,10 +8661,17 @@ export default [
                                 value: `- Ngày 20/12/1899, Toàn quyền Đông Dương Doumer ký nghị định đổi tên tiểu khu thành tỉnh. Từ đây, Nam Kỳ lục tỉnh cũ được phân chia lại thành 10 tỉnh mới, trong đó tỉnh Vĩnh Long cũ được tách ra thành 3 tỉnh mới: Vĩnh Long, Bến Tre, và Trà Vinh.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'Toàn quyền Đông Dương Doumer',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-11.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Vĩnh Long cũ',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201732-1900/2-12.jpg',
                                         }
                                     },
                                 ],
@@ -9004,30 +8682,30 @@ export default [
         
                 tags: [
                     {
-                        title: 'Mua ngay',
+                        title: 'Sự kiện lịch sử',
                         link: 'https://www.facebook.com/Chinhhocvietnam',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Kinh',
+                        link: '/tieng-viet/figure/8/product/25',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
                     },
                     {
-                        title: 'Mua ngay',
-                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                        title: 'Hoa',
+                        link: '/tieng-viet/figure/8/product/27',
                     },
                 ],
             },
             {
-                id: '37',
-                type:3,
+                id: '36',
+                type:1,
                 tour:'0',
-                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
-                video: '',
-                title: 'Sự hình thành của tỉnh Trà Vinh trong thế kỉ XX',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-1.jpg',
+                video: 'https://www.youtube.com/embed/r46qqu98yo0?list=PL7JhOAXjuOP1-pgRM2dlQR6JW4awgq07R',
+                title: 'Sự hình thành của tỉnh Trà Vinh giai đoạn 1900-1945',
                 description: 'Đầu thế kỉ XX, Phan Bội Châu khởi xướng phong trào Đông Du, ở Trà Vinh có hàng chục thanh niên tại tỉnh...',
                 game: '',
                 view: 100,
@@ -9038,23 +8716,16 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/I-1-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-7.jpg',
                                 ],
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Đầu thế kỉ XX, Phan Bội Châu khởi xướng phong trào Đông Du, ở Trà Vinh có hàng chục thanh niên tại tỉnh lị và các huyện Càng Long, Cầu Ngang đã hăng hái tham gia sang Nhật Bản để học quân sự, đi đầu là Nguyễn Thành Phương, Nguyễn Viên Kiều, Trương Gia Mô, Lương Khắc Minh...`,
+                                value: `- Đầu thế kỉ XX, Phan Bội Châu khởi xướng phong trào Đông Du, ở Trà Vinh có hàng chục thanh niên tại tỉnh lị và các huyện Càng Long, Cầu Ngang đã hăng hái tham gia sang Nhật Bản để học quân sự, đi đầu là Nguyễn Thành Phương, Nguyễn Viên Kiều, Trương Gia Mô, Lương Khắc Minh... `,
                                 hightlightList: [
-                                    {
-                                        hightlight: 'Nguyễn Thị Keo',
-                                        valueModal: {
-                                            type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
-                                        }
-                                    },
                                 ],
                             },
                             {
@@ -9062,10 +8733,10 @@ export default [
                                 value: `- Phong trào Thiên Địa Hội có nơi gọi là "Hội Kín", có nơi gọi là "Hội Tam Hợp" du nhập vào Việt Nam và đến Trà Vinh từ năm 1911.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'Thiên Địa Hội',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-2.jpg',
                                         }
                                     },
                                 ],
@@ -9075,10 +8746,10 @@ export default [
                                 value: `- Nhiều đình, chùa là nơi Thiên Địa Hội họp bàn và tổ chức nhiều hoạt động yêu nước chống Pháp. Phong trào thu hút đông đảo nông dân địa phương, dân lưu tán, dân nghèo, thành thị, tiểu thương, thợ thủ công chuyên nghiệp và bán chuyên nghiệp như cắt tóc, sửa xe, phu khuân vác, người chạy hàng, công nhân trong các xí nghiệp, cả những người làm nghề bói toán, cúng bái... là người Kinh, người Khmer, người Hoa. Tuy nhiên, do nhiều nguyên nhân khách quan và chủ quan, phong trào đấu tranh của nhân dân Trà Vinh chưa giành được thắng lợi.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'chưa giành',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-5.jpg',
                                         }
                                     },
                                 ],
@@ -9088,10 +8759,17 @@ export default [
                                 value: `- Vào những năm 1925 - 1926, cả nước dấy lên phong trào đòi thả nhà yêu nước Phan Bội Châu, phong trào để tang Phan Chu Trinh, nhân dân trà vinh cũng tích cực tham gia hưởng ứng. Từ sau năm 1926, các phong trào yêu nước chống Pháp mang tính chất nông dân và tiểu tư sản ngày càng giảm dần.`,
                                 hightlightList: [
                                     {
-                                        hightlight: 'Nguyễn Thị Keo',
+                                        hightlight: 'dấy lên',
                                         valueModal: {
                                             type: 'image',
-                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-6.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'nông dân',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/1-8.jpg',
                                         }
                                     },
                                 ],
@@ -9104,15 +8782,430 @@ export default [
                             {
                                 type: 'grid-image',
                                 value: [
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/II-1.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/II-2.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/II-3.jpg',
-                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20tu%20tr%E1%BA%A3%20hi%E1%BA%BFu/II-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-4.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-5.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-7.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-8.jpg',
                                 ],
                             },
                             {
                                 type: 'hightlight',
                                 value: `-  Tại Trà Vinh vào 1930, ba Chi bộ Cộng sản đầu tiên cũng được thành lập. Sự ra đời của các Chi bộ Cộng sản đánh dấu bước phát triển mới của cách mạng Trà Vinh. Từ đây cách mạng Trà Vinh đã có sự lãnh đạo, dìu dắt của Đảng. Sự ra đời của các tổ chức cộng sản cũng đánh dấu sự phát triển về chất của các phong trào yêu nước tại Trà Vinh lúc bấy giờ, đi từ tự phát chuyển lên tự giác, phong trào cách mạng trong tỉnh gắn liền với các phong trào cách mạng Nam Bộ nói riêng và cả nước nói chung.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'thành lập',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-1.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'lãnh đạo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Với tình yêu quê hương đất nước và tài năng sáng tạo cách mạng của tuổi trẻ, Dương Quang Đông về Trà Vinh xúc tiến việc thành lập tổ chức “Thanh niên đỏ”. Tổ chức này lần lượt ra đời tại Cầu Ngang, tỉnh lỵ Trà Vinh và Càng Long, đây cũng chính là những chiếc nôi hình thành các Chi bộ Đảng Cộng sản Việt Nam đầu tiên của tỉnh Trà Vinh vào năm 1930. Mùa xuân năm 1930, Tỉnh ủy Trà Vinh ra đời, và đến năm 1945, dưới sự chỉ đạo trực tiếp của Tỉnh ủy và các Huyện ủy, nhân dân Trà Vinh đã vùng lên tiến hành cuộc Tổng khởi nghĩa giành thắng lợi vào ngày 25/8/1945.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'lần lượt ra đời',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20c%E1%BB%A7a%20t%E1%BB%89nh%20Tr%C3%A0%20Vinh%20giai%20%C4%91o%E1%BA%A1n%201900-1945/2-6.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Dương Quang Đông',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/1/product/2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Sự kiện lịch sử',
+                        link: '/tieng-viet/figure/10',
+                    },
+                    {
+                        title: 'Dương Quang Đông',
+                        link: '/tieng-viet/figure/1/product/2',
+                    },
+                ],
+            },
+            {
+                id: '37',
+                type:1,
+                tour:'0',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-2-2.jpg',
+                video: 'https://www.youtube.com/embed/Mcfl9JXON4g?list=PL7JhOAXjuOP1-pgRM2dlQR6JW4awgq07R',
+                title: 'Cách mạng Tháng Tám năm 1945 ở Trà Vinh',
+                description: 'Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Chiến Tranh Thế Giới Thứ Hai và Phong Trào Cách Mạng ở Việt Nam',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-2-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-3-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-4-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-4-2.jpg',
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value:`* Bối Cảnh Quốc Tế và Quốc Nội:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tháng 9 năm 1939, Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp tiến hành khủng bố tàn khốc, thủ tiêu các quyền tự do dân chủ mà nhân dân ta giành được trong thời kỳ Mặt trận Dân chủ.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Năm 1940, Nhật vào Đông Dương, nhân dân ta chịu cảnh “một cổ hai tròng”.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nhật',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-1-2.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type:'bold',
+                                value:`* Các Hội Nghị Trung Ương Đảng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị Trung ương lần thứ 6 (11/1939) và lần thứ 7 (11/1940) của Đảng chủ trương đề cao nhiệm vụ giải phóng dân tộc.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Hội nghị',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-2-1.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị Trung ương 8 (5/1941) họp tại Cao Bằng, chủ trương thành lập một mặt trận dân tộc thống nhất rộng rãi lấy tên là “Việt Nam Độc lập Đồng minh hội” (Mặt trận Việt Minh), tập hợp tất cả những người có tinh thần dân tộc chống Pháp, chuẩn bị cho khởi nghĩa vũ trang giành chính quyền.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'tập hợp',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-2-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type:'bold',
+                                value:`* Nhật Đảo Chính Pháp và Chỉ Thị Của Trung Ương Đảng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 9 tháng 3 năm 1945, Nhật đảo chính Pháp, Trung ương Đảng ra Chỉ thị “Nhật - Pháp bắn nhau và hành động của chúng ta”, phát động cao trào đánh đuổi phát xít Nhật.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'bắn nhau',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/I-3-1.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Hội nghị toàn quốc của Đảng họp tại Tân Trào (Tuyên Quang) từ ngày 13 đến 15 tháng 8 năm 1945 kêu gọi toàn dân đứng lên tổng khởi nghĩa giành chính quyền trong cả nước.`,
+                                hightlightList: [
+                                ],
+                            },
+
+                            {
+                                type:'bold',
+                                value:`* Cuộc Tổng Khởi Nghĩa Tháng 8/1945:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Dưới sự lãnh đạo của Đảng, 25 triệu đồng bào ta đã tiến hành tổng khởi nghĩa trong 15 ngày cuối tháng 8/1945, giành thắng lợi hoàn toàn.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 2/9/1945, tại Quảng trường Ba Đình lịch sử, Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, tuyên bố sự ra đời của nước Việt Nam Dân chủ Cộng hòa.`,
+                                hightlightList: [
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Phong Trào Cách Mạng và Cuộc Tổng Khởi Nghĩa Tại Trà Vinh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-2-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-3-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-3-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-5-1.jpg',
+
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value:`* Nhận Lệnh Khởi Nghĩa và Tổ Chức Hội Nghị Tỉnh Ủy:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Chiều ngày 24 tháng 8 năm 1945, Tỉnh ủy Trà Vinh nhận được lệnh khởi nghĩa của Xứ ủy Nam Kỳ. Hội nghị Tỉnh ủy được triệu tập vào lúc 18 giờ tại nhà số 37, cơ quan giao liên, quyết định tiến hành Tổng khởi nghĩa giành chính quyền trên toàn tỉnh vào đúng thời điểm theo lệnh Tổng khởi nghĩa của Xứ ủy.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `-Đồng chí Dương Quang Đông, Bí thư Tỉnh ủy, giữ chức vụ Chủ tịch Ủy ban khởi nghĩa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Dương Quang Đông',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-1-3.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Đồng chí',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/1/product/2',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value:`* Triển Khai Kế Hoạch Khởi Nghĩa:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ủy ban khởi nghĩa gấp rút triển khai kế hoạch chỉ đạo và phân công nhiệm vụ cho từng thành viên, phát lệnh Tổng khởi nghĩa đến Trưởng ban khởi nghĩa các địa phương trong tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'triển khai',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-2-1.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Kế hoạch khởi nghĩa được bí mật triển khai đến mọi nhà, đồng bào Kinh - Khmer - Hoa tại Trà Vinh nhất tề hưởng ứng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Kinh',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/25',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Khmer',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/26',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'Hoa',
+                                        valueModal: {
+                                            type: 'tooltip',
+                                            ref: true,
+                                            link: '/tieng-viet/figure/8/product/27',
+                                            value: 'Tìm hiểu thêm',
+                                        }
+                                    },
+                                ],
+                            },
+
+
+                            {
+                                type: 'bold',
+                                value:`* Diễn Biến Khởi Nghĩa Tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong đêm 24 rạng sáng ngày 25 tháng 8, khởi nghĩa nổ ra tại tỉnh lỵ, sau đó lan tỏa xuống các quận lỵ và xã trong tỉnh. Tại tỉnh lỵ Trà Vinh, các mục tiêu quan trọng bị bao vây vào nửa đêm 24 tháng 8 bởi các lực lượng quần chúng cách mạng, lực lượng Thanh niên Tiền phong giữ vai trò nòng cốt.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'nổ ra',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-3-1.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Phần lớn lực lượng địch tại tỉnh lỵ chỉ chống cự yếu ớt rồi buông súng đầu hàng, ngoại trừ một số tốp lính ngoan cố phải buông súng vào rạng sáng 25 tháng 8`,
+                                hightlightList: [
+                                ],
+                            },
+
+
+                            {
+                                type: 'bold',
+                                value:`* Kết Quả Khởi Nghĩa Tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Rạng sáng ngày 25/8/1945, toàn bộ các cứ điểm của địch ở tỉnh lỵ Trà Vinh đã thuộc quyền kiểm soát của lực lượng cách mạng, chính quyền thân Nhật tại Trà Vinh bị đập tan. Các lực lượng khởi nghĩa tại các quận Càng Long, Cầu Ngang, Trà Cú, Cầu Kè cũng giành thắng lợi vào chiều ngày 25/8.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'thuộc quyền kiểm soát',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-4-1.jpg',
+                                        }
+                                    },
+                                    {
+                                        hightlight: 'thắng lợi',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-4-2.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Quần chúng cách mạng dưới sự lãnh đạo của Đảng Cộng sản đã tổ chức ra các hình thức chính quyền dân chủ nhân dân. Sáng ngày 28 tháng 8, một cuộc mít-tinh lớn diễn ra tại sân vận động tỉnh Trà Vinh, Ủy ban nhân dân tỉnh Trà Vinh chính thức ra mắt đồng bào các dân tộc trong tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'mít-tinh',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-4-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+
+                            {
+                                type: 'bold',
+                                value:`* Ý Nghĩa của Cách Mạng Tháng Tám 1945 tại Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Cách mạng Tháng Tám năm 1945 tại Trà Vinh giành thắng lợi nhờ thời cơ chiến lược "ngàn năm có một", đường lối chủ trương tài tình của Trung ương Đảng và Chủ tịch Hồ Chí Minh, và sự cổ vũ mạnh mẽ của cuộc tổng khởi nghĩa cả nước.`,
+                                hightlightList: [
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Nhân dân Trà Vinh có truyền thống chống thực dân và phong kiến kiên cường, với tinh thần "Đem sức ta mà giải phóng cho ta", toàn dân Trà Vinh đã nhất tề nổi dậy trong thời cơ thuận lợi nhất.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'truyền thống',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/S%E1%BB%B1%20ki%E1%BB%87n%20l%E1%BB%8Bch%20s%E1%BB%AD/%20C%C3%A1ch%20m%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%20n%C4%83m%201945%20%E1%BB%9F%20Tr%C3%A0%20Vinh/II-5-2.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        title: 'Sự kiện lịch sử',
+                        link: '/tieng-viet/figure/10',
+                    },
+                    {
+                        title: 'Dương Quang Đông',
+                        link: '/tieng-viet/figure/1/product/2',
+                    },
+                    {
+                        title: 'Kinh',
+                        link: '/tieng-viet/figure/8/product/25',
+                    },
+                    {
+                        title: 'Khmer',
+                        link: '/tieng-viet/figure/8/product/26',
+                    },
+                    {
+                        title: 'Hoa',
+                        link: '/tieng-viet/figure/8/product/27',
+                    },
+                ],
+            },
+            {
+                id: '42',
+                type:2,
+                tour:'0',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                video: '',
+                title: 'Trà Vinh những ngày đầu Nam Bộ kháng chiến',
+                description: '0 giờ ngày 23 tháng 9 năm 1945 (chưa đầy một tháng sau Cách mạng Tháng Tám giành thắng lợi ở Sài Gòn...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Thực dân Pháp xâm lược lần thứ 2',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- 0 giờ ngày 23 tháng 9 năm 1945 (chưa đầy một tháng sau Cách mạng Tháng Tám giành thắng lợi ở Sài Gòn và một số tỉnh Nam bộ), thực dân Pháp được sự giúp đỡ tích cực của quân Anh - Ấn gây hấn ở Sài Gòn, bắt đầu cuộc chiến tranh chinh phục lại Đông Dương. Chúng hy vọng nhanh chóng bình định Nam Bộ để làm bàn đạp tiến chiếm miền Trung và miền Bắc Việt Nam như đã từng làm trong cuộc chiến tranh xâm lược lần trước.`,
                                 hightlightList: [
                                     {
                                         hightlight: 'Nguyễn Thị Keo',
@@ -9125,7 +9218,177 @@ export default [
                             },
                             {
                                 type: 'hightlight',
-                                value: `- Với tình yêu quê hương đất nước và tài năng sáng tạo cách mạng của tuổi trẻ, Dương Quang Đông về Trà Vinh xúc tiến việc thành lập tổ chức “Thanh niên đỏ”. Tổ chức này lần lượt ra đời tại Cầu Ngang, tỉnh lỵ Trà Vinh và Càng Long, đây cũng chính là những chiếc nôi hình thành các Chi bộ Đảng Cộng sản Việt Nam đầu tiên của tỉnh Trà Vinh vào năm 1930. Mùa xuân năm 1930, Tỉnh ủy Trà Vinh ra đời, và đến năm 1945, dưới sự chỉ đạo trực tiếp của Tỉnh ủy và các Huyện ủy, nhân dân Trà Vinh đã vùng lên tiến hành cuộc Tổng khởi nghĩa giành thắng lợi vào ngày 25/8/1945.`,
+                                value: `- Nhưng chúng đã lầm, Cuộc khởi nghĩa tháng Tám năm 1945 đã biến thành cuộc chiến cách mạng của hàng triệu con người Nam bộ sẵn sàng hy sinh cho độc lập, tự do của Tổ quốc. Nam Bộ trở thành tiền tuyến của cả nước. Riêng tỉnh Trà Vinh, Uỷ ban kháng chiến tỉnh tổ chức một trung đội Cộng hoà Vệ binh dưới sự chỉ huy của Quảng Nam cấp tốc lên chi viện cho quân dân Sài Gòn - Gia Định. Lực lượng này tham gia vây đánh địch ở mặt trận Tây - Nam Sài Gòn, đọ súng quyết liệt với quân Pháp tại cầu Rạch Ông, Xóm Chiếu, Bình Điền, vv… và bị thương vong nhiều vì lực lượng quân Pháp quá đông, được trang bị nhiều loại vũ khí hiện đại. Sau đó, trung đội Cộng hoà vệ binh do Quảng Nam chỉ huy rút về Trà Vinh, chỉ còn một tiểu đội ở lại tiếp tục chiến đấu.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Một tháng vây hãm quân xâm lược trong nội thành Sài Gòn đã thể hiện khí phách anh hùng của Nhân dân Nam Bộ và Nhân dân cả nước, phá vỡ ý đồ nhanh chóng chiếm lại Nam Bộ của thực dân Pháp và tạo điều kiện cho các tỉnh Nam Bộ và Nam Trung Bộ chuẩn bị kháng chiến.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tuy nhiên, Thực dân Pháp lần lượt chiếm đóng hầu hết các thành phố, thị xã, các đường giao thông quan trọng ở Nam Bộ, cực Nam Trung Bộ và bắt đầu càn quét “bình định” các vùng nông thôn.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đồng thời với việc chi viện cho Sài Gòn và sẵn sàng phối hợp tác chiến với các địa phương bạn khi cần thiết, các lực lượng vũ trang cách mạng tỉnh Trà Vinh gấp rút triển khai các phương án tác chiến trên địa bàn tỉnh theo kế hoạch của Uỷ ban kháng chiến tỉnh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Cuộc kháng chiến của nhân dân Trà Vinh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 02 tháng 12 năm 1945, quân Pháp tấn công Trà Vinh bằng đường thủy, từ ngoài biển theo sông Cổ Chiên tiến vào, trên hai con tàu: một tàu chiến La mắc (Lamarek) và một tàu chở đầy lính. Trên đường tiến quân, tàu chiến xả đạn vào bất kỳ nơi nào chúng nghi ngờ. Tới Cồn Bàng, tàu chiến bắn nhiều đợt pháo vào thị xã Trà Vinh và các ụ cản do quân dân ta thiết lập ở Vàm Trà Vinh. Không phá được ụ cản bằng pháo, quân Pháp dùng ca nô chở lính công binh vào phá, nhưng cũng không được, tàu Pháp phải rút lui và chuyển hướng tấn công.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đến 14 giờ cùng ngày, quân Pháp tiếp tục tấn công Trà Vinh từ hai hướng. Hướng thứ nhất từ bờ sông Cổ chiên đổ bộ vào Long Đức; hướng thứ hai từ Vĩnh Long theo lộ 7 (nay là Quốc lộ 53) đánh xuống. Về phía ta, các đơn vị Cộng hòa vệ binh và tự vệ tổ chức đánh chặn từ hai hướng: một hướng phía sông Cổ Chiên, một hướng từ phía lộ 7.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ở hướng thứ nhất có 2 cánh quân, một cánh do Đội Châu và Cò Bổn chỉ huy, lập trận địa dài 5 km từ Vàm Trà Vinh đến cầu Long Bình; một cánh do Cò Bê (Bùi Cát Vũ) chỉ huy, bố trí trận địa ở cầu tàu Bãi San. Ở hướng này, lực lượng ta có hơn 100 tay súng với vũ khí thô sơ, nhưng đã chiến đấu dũng cảm, kiên cường với hơn 400 lính Pháp đổ bộ, có pháo, trọng liên, đại diện trên tàu chiến yểm trợ. Sau nhiều giờ chiến đấu, lực lượng của ta bị thương vong nhiều, nên phải rút lui, địch vào chiếm thị xã.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ở hướng thứ hai, có một phân đội hơn 30 tay súng, bố trí trận địa tại khu vực dưới chân cầu Long Hồ dưới sự chỉ huy của Quảng Nam. Lực lượng này phải đối đầu với 2 đại đội quân Pháp tiến theo lộ 7 bằng xe vận tải quân sự. Lực lượng ta đã nhiều lần chặn đứng mũi tiến công của địch, không cho chúng vượt qua cầu Long Hồ. Sau nhiều giờ chiến đấu với đội quân đông hơn về số lượng, vượt trội về vũ khí, Quảng Nam và phần lớn lực lượng của ta hy sinh, số còn lại bị thương nặng, quân Pháp vượt qua cầu Long Hồ tiến về thị xã Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong đêm 02 và rạng sáng ngày 03 tháng 12 năm 1945, lực lượng của ta từ Vàm Trà Vinh rút về chùa Hang và Bàng Đa và từ Bãi San rút về Ba Se (Ô Chát). Địch đóng quân ở Trà Vinh trong tình thế “nhà không vườn trống” do Nhân dân thị xã Trà Vinh đã tản cư từ trước, chỉ còn một số ít người Hoa ở lại theo kế hoạch của Ủy ban kháng chiến.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Những ngày tiếp theo, quân Pháp tổ chức các đợt tấn công vào lực lượng của ta. Tại Ô Chát, lực lượng Cộng hòa vệ binh, tự vệ chiến đấu và Nhân dân địa phương lập phòng tuyến ở Ba Se. Ngày 09 tháng 12 năm 1945, quân Pháp mới đến được Ô Chát, đụng phải phòng tuyến của ta, cuộc chiến đấu diễn ra quyết liệt, cả lực lượng của ta và Pháp đều chịu nhiều tổn thất, nhưng do chênh lệch về lực lượng và vũ khí, cuối cùng quân Pháp vượt qua được phòng tuyến Ba Se, quân ta rút lui về tuyến sau rồi chuyển về Huyền Hội (Càng Long).`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tại Đa Lộc và Phước Hảo, Cộng hòa vệ binh, tự vệ chiến đấu và Nhân dân địa phương cũng lập phòng tuyến chặn địch ở chùa Hang và Bàng Đa. Tại hai nơi này, quân ta phối hợp tác chiến có hiệu quả gây cho quân Pháp nhiều thiệt hại, buộc chúng phải rút lui về Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Sau thất bại ở Bàng Đa, quân Pháp từ thị xã Trà Vinh tổ chức các mũi tiến công về hướng Tây và Tây Nam, đánh chiếm Huyền Hội và Tiểu Cần, rồi tiếp tục tổ chức mũi tiến công về hướng Đông và Nam, đánh chiếm Mỹ Hòa, Long Sơn, Hiệp Mỹ, Long Hữu, Long Toàn (Cầu Ngang), Tập Sơn, Phước Hưng (Trà Cú)…`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ thực tế chiến trường, trong thư gởi các chiến sĩ miền Nam ngày 22 tháng 12 năm 1945, Chủ tịch Hồ Chí Minh đã viết: “Chính phủ dân chủ cộng hòa rất khen ngợi các chiến sĩ ở các mặt trận miền Nam, đặc biệt là các chiến sĩ Nha Trang và Trà Vinh; đã làm gương anh dũng cho toàn quốc. Tổ quốc biết ơn các bạn, toàn thể đồng bào nêu gương các bạn”. Đây chính là sự khẳng định lịch sử và là nguồn động viên, khích lệ to lớn, kịp thời đối với cán bộ, chiến sĩ, đồng bào các dân tộc tỉnh Trà Vinh.`,
                                 hightlightList: [
                                     {
                                         hightlight: 'Nguyễn Thị Keo',
@@ -9142,16 +9405,447 @@ export default [
         
                 tags: [
                     {
+                        id: '1',
                         title: 'Mua ngay',
                         link: 'https://www.facebook.com/Chinhhocvietnam',
                     },
                     {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
                         title: 'Mua ngay',
                         link: 'https://www.facebook.com/Chinhhocvietnam',
                     },
                 ],
             },
-        ]
+            {
+                id: '43',
+                type:3,
+                tour:'0',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                video: '',
+                title: 'Nhân dân Trà Vinh vào những ngày đầu đấu tranh chống chính quyền Mỹ-Diệm',
+                description: 'Từ năm 1954, đất nước ta tạm thời chia làm hai miền với hai chế độ chính trị khác nhau. Ở miền Bắc là chế độ...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Bối cảnh lịch sử',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ năm 1954, đất nước ta tạm thời chia làm hai miền với hai chế độ chính trị khác nhau. Ở miền Bắc là chế độ dân chủ nhân dân, tiến lên con đường xây dựng chủ nghĩa xã hội do Đảng Cộng sản lãnh đạo. Ở miền Nam, đế quốc Mỹ ra sức củng cố ngụy quyền tay sai để xây dựng chế độ thực dân mới, hòng biến miền Nam thành thuộc địa kiểu mới và căn cứ quân sự của chúng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Các phong trào đấu tranh cách mạng của nhân dân',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Với lòng khát khao hòa bình, độc lập, tự do và mong đợi thống nhất đất nước, đồng bào các dân tộc Trà Vinh đã hân hoan đón mừng Hiệp định Giơ-ne-vơ. Ngay sau khi Hiệp định được công bố, nhiều cuộc mít tinh với sự tham gia của hàng trăm, hàng ngàn quần chúng đã diễn ra trên khắp các địa bàn trong tỉnh. Một số ngôi chùa Khmer cũng trở thành tụ điểm mít tinh hội họp, cán bộ cách mạng phổ biến tình hình, giải thích cho đồng bào hiểu rõ nội dung Hiệp định Giơ-ne-vơ, hướng dẫn đồng bào nắm vững cơ sở pháp lý của Hiệp định làm căn cứ để sẵn sàng đấu tranh chống địch vi phạm hiệp định. Điển hình là cuộc mít tinh lớn diễn ra tại chùa Ông Mẹt vào cuối tháng 7 năm 1954, đã thu hút hàng ngàn đồng bào Kinh - Khmer - Hoa từ Thị xã và các vùng lân cận tham gia.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ giữa năm 1955, phong trào đấu tranh chống địch ở Trà Vinh ngày một dâng cao. Tháng 10 năm 1955, Ngô Đình Diệm tổ chức “trưng cầu dân ý”, đưa tay sai đến các địa phương để diễn thuyết. Chúng tung ra những luận điệu điêu ngoa xảo quyệt, giả nhân giả nghĩa nhằm tô vẽ cho Ngô Đình Diệm và bôi nhọ cách mạng. Khắp nơi trong tỉnh, nhân dân kiên quyết đấu tranh, tẩy chay các cuộc diễn thuyết này. Hàng vạn tờ truyền đơn phản đối Mỹ - Diệm in bằng bột trong các gia đình cơ sở cách mạng được tung ra khắp các nẻo đường, công sở, trường học, chợ, đình, chùa, v.v... từ tỉnh lị đến các xã, ấp. Nhiều nơi, nhân dân làm kiến nghị có hàng trăm, hàng ngàn người ký tên vào, cử đại biểu mang kiến nghị trực tiếp trao cho Ủy ban quốc tế, tố cáo ngụy quyền tay sai Ngô Đình Diệm vi phạm Hiệp định Giơ- ne-vơ. Mỹ-Diệm bắt giam những người đi đấu tranh, đi đưa kiến nghị. Đồng bào Trà Vinh không hề khuất phục, người trước bị địch bắt thì người sau tiếp tục đi đấu tranh, bản kiến nghị thứ nhất chưa được trả lời thì tiếp tục đưa bản kiến nghị thứ hai,...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đầu tháng 3 năm 1956, khi Mỹ - Diệm bày trò dân chủ giả hiệu, tổ chức “bầu cử Tổng thống”, đồng bào các dân tộc Trà Vinh đã đấu tranh chống lại bằng nhiều hình thức phong phú, như tìm lý do không đi bỏ phiếu, hoặc khi bị cưỡng bức đi bỏ phiếu thì bấm lủng phiếu trước khi bỏ vào thùng phiếu, gạch tên Ngô Đình Diệm hoặc nhét khẩu hiệu “đả đảo Ngô Đình Diệm’ vào thùng phiếu. Ở một số nơi thuộc huyện Trà Cú, đồng bào còn mang theo rắn thả vào đám đông, làm náo loạn nơi bỏ phiếu ...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Vào thời gian địch điều quân đi càn quét các vùng dân cư, khủng bố các cuộc đấu tranh của nhân dân, vây bắt những người chúng cho là chống lại ngụy quyền Ngô Đình Diệm, v.v.... Vào thời gian này, bất chấp sự khủng bố của địch, phong trào đấu tranh chính trị của đồng bào các dân tộc trong tỉnh diễn ra ngày càng mạnh mẽ, với các khẩu hiệu đòi dân sinh, dân chủ, đòi thả những người bị bắt, đòi thi hành Hiệp định Giơ-ne-vơ, đòi quan hệ bình thường hai miền Nam Bắc, v.v... Điển hình là ở xã Ngũ Lạc (huyện Cầu Ngang), đồng bào đã liên tục nổi dậy đấu tranh chống địch đưa quân vây bắt dân đi làm đồn bót, đồng thời đấu tranh bằng kiến nghị với hàng trăm chữ ký gởi lên Ủy ban quốc tế ở Sài Gòn, tố cáo những hành động của địch ở đồn Cây Da ức hiếp nhân dân. Ở khắp mọi nơi, đồng bào đã sáng tạo và mưu trí đấu tranh chống địch, bảo vệ và giải thoát cho nhiều cán bộ đảng viên bị địch vây bắt, như vào tháng 3 năm 1956, các tầng lớp đồng bào Kinh và Khmer tham dự cuộc mít tinh ở ấp Cây Xoài (xã Ngũ Lạc) đã mưu trí giải thoát cho đồng chí Mười Tường và Nguyễn Phước Dợt (Hai Trị) thoát khỏi sự vây ráp, bắt bớ của địch,...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Cường độ khủng bố của địch ở Trà Vinh ngày một gia tăng thì ý chí đấu tranh của đồng bào các dân tộc trong tỉnh ngày càng mãnh liệt, không chỉ dừng lại ở đấu tranh chính trị mà đã bộc khởi những hành động bạo lực quần chúng diệt ác vào năm 1956, điển hình là: vụ bao vây và đánh lừa địch giải thoát cho đồng chí Ba Chà (Chi ủy viên) của nông dân Huyền Hội (huyện Càng Long), vụ diệt ác ôn bằng cách dùng khăn rằn siết cổ của anh Dương Công Nghiệp ở Long Toàn, vụ nổi dậy chém chết tên quản Hiển tại xã Mỹ Long (huyện Cầu Ngang), vụ đập đầu địa chủ Trương Hoàng Lâu của Ba Minh (Ba Mù U) nông dân xã Ninh Thới (huyện Cầu Kè) v.v... Những hành động bộc khởi diệt ác lúc này thật sự là tín hiệu đòi hỏi của đồng bào Kinh - Khmer - Hoa Trà Vinh đấu tranh với Mỹ - Diệm bằng bạo lực vũ trang cách mạng...`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                ],
+            },
+            {
+                id: '44',
+                type:4,
+                tour:'0',
+                imageCover: 'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                video: '',
+                title: 'Khắc phục hậu quả chiến tranh, xây dựng và phát triển Trà Vinh từ năm 1975-1985',
+                description: 'Với chiến thắng lịch sử của Chiến dịch Hồ Chí Minh ngày 30-4-1975, cuộc kháng chiến chống Mỹ, cứu nước...',
+                game: '',
+                view: 100,
+                contents: [
+                    {
+                        title: 'Khí thế sau chiến thắng lịch sử 30/4/1975',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Với chiến thắng lịch sử của Chiến dịch Hồ Chí Minh ngày 30-4-1975, cuộc kháng chiến chống Mỹ, cứu nước của nhân dân ta đã đi tới thắng lợi hoàn toàn. Dưới sự lãnh đạo của Đảng, cách mạng Việt Nam đã chuyển sang một giai đoạn mới: giai đoạn cả nước hòa bình, thống nhất, độc lập, cùng đi lên chủ nghĩa xã hội.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Sau 30 năm đấu tranh kiên cường bất khuất chống thực dân, đế quốc, cùng với nhân dân cả nước, Đảng bộ và nhân dân các dân tộc Kinh, Khmer, Hoa... của thị xã Trà Vinh đã được sống trong độc lập, tự do. Chuyển sang giai đoạn thực hiện nhiệm vụ cách mạng mới, Đảng bộ, quân và dân thị xã Trà Vinh tuy còn gặp nhiều khó khăn, nhưng có những thuận lợi chưa từng có để xây dựng lại quê hương, làm cho nhân dân có cuộc sống ấm no, tự do, hạnh phúc, đi lên theo con đường xã hội chủ nghĩa.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Các hoạt động khôi phục và phát triển tại Trà Vinh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value:`* Hoạt động khôi phục cơ sở hạ tầng và ổn định đời sống:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngay trong ngày 1-5-1975, chính quyền cách mạng đã chỉ đạo khôi phục lại việc cung cấp điện, nước bảo đảm cho sinh hoạt bình thường của nhân dân và hoạt động của các cơ quan.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Thu gom, dọn dẹp vũ khí, xe cộ do địch bỏ chạy để lại; chôn cất người chết, cứu chữa người bị thương, cấp phát gạo cứu đói cho đồng bào; tập trung cứu đói, ổn định tình hình vùng mới giải phóng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value:`* Sự phấn khởi của nhân dân và các hoạt động ăn mừng chiến thắng:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 15-5-1975, dưới sự chỉ đạo trực tiếp của Tỉnh ủy, chính quyền cách mạng lâm thời và Mặt trận dân tộc giải phóng cùng nhân dân và lực lượng vũ trang tổ chức cuộc mít tinh trọng thể tại sân vận động thị xã Trà Vinh.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Nhiều nơi người dân tự đóng góp tổ chức ăn mừng chiến thắng tập thể, có những cuộc có tới hàng trăm người tham dự.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type:'bold',
+                                value:`* Các hoạt động duy trì an ninh trật tự và phát triển sản xuất:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Chính quyền nhân dân được thành lập, ra sức giữ gìn an ninh trật tự xã hội, tiếp tục truy quét bọn ngụy quân, ngụy quyền, tổ chức học tập, cải tạo cho binh lính và nhân viên chế độ cũ.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tổ chức tháo gỡ bom mìn, vận động nhân dân phục hóa, khai hoang đất đai để đẩy mạnh sản xuất, từng bước ổn định đời sống.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                           
+                        ],
+                    },
+                    {
+                        title: 'Xây dựng lực lượng và cải tạo xã hội tại Trà Vinh',
+                        data: [
+                            {
+                                type: 'grid-image',
+                                value: [
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-1.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-2.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-3.jpg',
+                                    'https://raw.githubusercontent.com/thansouuu/data-image/main/Phong%20t%E1%BB%A5c/T%E1%BB%A5c%20th%E1%BB%9D%20Quan%20th%C3%A1nh%20%C4%91%E1%BA%BF/I-1-4.jpg',
+                                ],
+                            },
+                            {
+                                type: 'bold',
+                                value:`* Huy động lực lượng và tổ chức đào tạo:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Trong mấy tuần lễ đầu sau giải phóng, nhờ phân công cán bộ đi vận động tuyên truyền, ổn định quần chúng, hàng trăm thanh niên nam, nữ các phường trong thị xã tham gia lực lượng tập trung của thị xã, tham gia du kích, dân quân tự vệ phường, ấp và các tổ chức đoàn thể.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Tháng 10-1975, toàn thị xã tổ chức được 2 đợt tập trung học tập cải tạo, giáo dục hàng nghìn ngụy quân và ngụy quyền trở về theo chính sách khoan hồng của Đảng.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type: 'bold',
+                                value:`* Thực hiện quyền công dân và xây dựng chính quyền:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Ngày 25-4-1976, gần một năm sau ngày đất nước thống nhất, cử tri toàn thị xã đã vinh dự được cầm lá phiếu tự do bầu chọn người tài đức đại diện cho mình trong cơ quan quyền lực cao nhất của đất nước.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Lần đầu tiên sau ngày giải phóng, nhân dân thị xã Trà Vinh được thực hiện quyền và nghĩa vụ công dân của mình.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                            {
+                                type:'bold',
+                                value:`* Hoạt động của Ban Chấp hành Đảng bộ thị xã Trà Vinh:`,
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Từ 30-4-1975 đến tháng 2-1976, Ban Chấp hành Đảng bộ thị xã Trà Vinh do đồng chí Trần Văn Tư (Tư Tranh) làm Bí thư, các đồng chí Lý Trung Tuấn và Phan Văn Truyền (Út Võ) làm Phó Bí thư.`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'hightlight',
+                                value: `- Đảng bộ thường xuyên kết hợp chặt chẽ ba mặt: chính trị, tư tưởng và tổ chức gắn với nhiệm vụ chính trị chuyên môn thông qua phong trào cách mạng của quần chúng trên cơ sở thực hiện dân chủ nội bộ, tạo được sự đoàn kết nhất trí cao trong Đảng bộ, phát huy sáng kiến tập thể, kịp thời khắc phục khó khăn, phức tạp, từng bước xây dựng Đảng bộ tiên tiến, vững mạnh`,
+                                hightlightList: [
+                                    {
+                                        hightlight: 'Nguyễn Thị Keo',
+                                        valueModal: {
+                                            type: 'image',
+                                            value:   'https://raw.githubusercontent.com/thansouuu/data-image/main/nh%C3%A2n%20v%E1%BA%ADt/%C3%9At%20T%E1%BB%8Bch/1-3.jpg',
+                                        }
+                                    },
+                                ],
+                            },
+
+                           
+                        ],
+                    },
+                ],
+        
+                tags: [
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                    {
+                        id: '1',
+                        title: 'Mua ngay',
+                        link: 'https://www.facebook.com/Chinhhocvietnam',
+                    },
+                ],
+            },
+        ],
     },
    
 ]
